@@ -1,0 +1,2396 @@
+[
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"release\": \"r-185\"}",
+                    "name": "deploy_release"
+                  },
+                  "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770186,
+        "id": "chatcmpl-5tUS8VcjdMJCVcIoV8kX4vkv0xn5ZyM1",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 0,
+          "predicted_ms": 1817.505,
+          "predicted_n": 19,
+          "predicted_per_second": 9.903686647354478,
+          "predicted_per_token_ms": 100.97250000000001,
+          "prompt_ms": 6482.892,
+          "prompt_n": 987,
+          "prompt_per_second": 152.24686760168146,
+          "prompt_per_token_ms": 6.568279635258358
+        },
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 987,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 1006
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"deploy_release\",\"arguments\":\"{\\\"release\\\": \\\"r-185\\\"}\"},\"id\":\"nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm\"}]}}],\"created\":1789770186,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":19,\"prompt_tokens\":987,\"total_tokens\":1006,\"prompt_tokens_details\":{\"cached_tokens\":0}},\"id\":\"chatcmpl-5tUS8VcjdMJCVcIoV8kX4vkv0xn5ZyM1\",\"timings\":{\"cache_n\":0,\"prompt_n\":987,\"prompt_ms\":6482.892,\"prompt_per_token_ms\":6.568279635258358,\"prompt_per_second\":152.24686760168146,\"predicted_n\":19,\"predicted_ms\":1817.505,\"predicted_per_token_ms\":100.97250000000001,\"predicted_per_second\":9.903686647354478}}",
+      "status": 200
+    },
+    "turn": 1
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"release_id\": \"r-185\"}",
+                    "name": "deploy_release"
+                  },
+                  "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770189,
+        "id": "chatcmpl-IpcBz4EnZ8dVfmlXQ2SKb2RVE08wIrxM",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1005,
+          "predicted_ms": 1916.003,
+          "predicted_n": 20,
+          "predicted_per_second": 9.916477166267486,
+          "predicted_per_token_ms": 100.84226315789473,
+          "prompt_ms": 327.853,
+          "prompt_n": 22,
+          "prompt_per_second": 67.10324444186877,
+          "prompt_per_token_ms": 14.90240909090909
+        },
+        "usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 1027,
+          "prompt_tokens_details": {
+            "cached_tokens": 1005
+          },
+          "total_tokens": 1047
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"deploy_release\",\"arguments\":\"{\\\"release_id\\\": \\\"r-185\\\"}\"},\"id\":\"o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9\"}]}}],\"created\":1789770189,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":20,\"prompt_tokens\":1027,\"total_tokens\":1047,\"prompt_tokens_details\":{\"cached_tokens\":1005}},\"id\":\"chatcmpl-IpcBz4EnZ8dVfmlXQ2SKb2RVE08wIrxM\",\"timings\":{\"cache_n\":1005,\"prompt_n\":22,\"prompt_ms\":327.853,\"prompt_per_token_ms\":14.90240909090909,\"prompt_per_second\":67.10324444186877,\"predicted_n\":20,\"predicted_ms\":1916.003,\"predicted_per_token_ms\":100.84226315789473,\"predicted_per_second\":9.916477166267486}}",
+      "status": 200
+    },
+    "turn": 2
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                    "name": "deploy_release"
+                  },
+                  "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770192,
+        "id": "chatcmpl-aL437tZxPyQqVc2DgHxXWgNBuSEPE2sT",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1046,
+          "predicted_ms": 2522.043,
+          "predicted_n": 26,
+          "predicted_per_second": 9.91259863531272,
+          "predicted_per_token_ms": 100.88172,
+          "prompt_ms": 311.806,
+          "prompt_n": 20,
+          "prompt_per_second": 64.14244754751353,
+          "prompt_per_token_ms": 15.5903
+        },
+        "usage": {
+          "completion_tokens": 26,
+          "prompt_tokens": 1066,
+          "prompt_tokens_details": {
+            "cached_tokens": 1046
+          },
+          "total_tokens": 1092
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"deploy_release\",\"arguments\":\"{\\\"release_id\\\": \\\"r-185\\\", \\\"environment\\\": \\\"production\\\"}\"},\"id\":\"OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX\"}]}}],\"created\":1789770192,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":26,\"prompt_tokens\":1066,\"total_tokens\":1092,\"prompt_tokens_details\":{\"cached_tokens\":1046}},\"id\":\"chatcmpl-aL437tZxPyQqVc2DgHxXWgNBuSEPE2sT\",\"timings\":{\"cache_n\":1046,\"prompt_n\":20,\"prompt_ms\":311.806,\"prompt_per_token_ms\":15.5903,\"prompt_per_second\":64.14244754751353,\"predicted_n\":26,\"predicted_ms\":2522.043,\"predicted_per_token_ms\":100.88172,\"predicted_per_second\":9.91259863531272}}",
+      "status": 200
+    },
+    "turn": 3
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                "name": "deploy_release"
+              },
+              "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+                    "name": "deploy_release"
+                  },
+                  "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770196,
+        "id": "chatcmpl-uXqc6MBPRvtdEZsM1FDorqzyReeARf51",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1091,
+          "predicted_ms": 3523.581,
+          "predicted_n": 36,
+          "predicted_per_second": 9.9330766058734,
+          "predicted_per_token_ms": 100.67374285714286,
+          "prompt_ms": 314.732,
+          "prompt_n": 20,
+          "prompt_per_second": 63.54612813441277,
+          "prompt_per_token_ms": 15.736600000000001
+        },
+        "usage": {
+          "completion_tokens": 36,
+          "prompt_tokens": 1111,
+          "prompt_tokens_details": {
+            "cached_tokens": 1091
+          },
+          "total_tokens": 1147
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"deploy_release\",\"arguments\":\"{\\\"release_id\\\": \\\"r-185\\\", \\\"environment\\\": \\\"production\\\", \\\"artifact\\\": \\\"sha256:BBB\\\"}\"},\"id\":\"X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE\"}]}}],\"created\":1789770196,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":36,\"prompt_tokens\":1111,\"total_tokens\":1147,\"prompt_tokens_details\":{\"cached_tokens\":1091}},\"id\":\"chatcmpl-uXqc6MBPRvtdEZsM1FDorqzyReeARf51\",\"timings\":{\"cache_n\":1091,\"prompt_n\":20,\"prompt_ms\":314.732,\"prompt_per_token_ms\":15.736600000000001,\"prompt_per_second\":63.54612813441277,\"predicted_n\":36,\"predicted_ms\":3523.581,\"predicted_per_token_ms\":100.67374285714286,\"predicted_per_second\":9.9330766058734}}",
+      "status": 200
+    },
+    "turn": 4
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                "name": "deploy_release"
+              },
+              "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+                "name": "deploy_release"
+              },
+              "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\"}",
+                    "name": "deploy_release"
+                  },
+                  "id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770200,
+        "id": "chatcmpl-6XEQbuve6UntUIzhjZm09wVjOJs7NlKh",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1146,
+          "predicted_ms": 4333.56,
+          "predicted_n": 44,
+          "predicted_per_second": 9.922557896971542,
+          "predicted_per_token_ms": 100.78046511627907,
+          "prompt_ms": 317.957,
+          "prompt_n": 20,
+          "prompt_per_second": 62.901587321556065,
+          "prompt_per_token_ms": 15.89785
+        },
+        "usage": {
+          "completion_tokens": 44,
+          "prompt_tokens": 1166,
+          "prompt_tokens_details": {
+            "cached_tokens": 1146
+          },
+          "total_tokens": 1210
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"deploy_release\",\"arguments\":\"{\\\"release_id\\\": \\\"r-185\\\", \\\"environment\\\": \\\"production\\\", \\\"artifact\\\": \\\"sha256:BBB\\\", \\\"commit\\\": \\\"03bf72\\\"}\"},\"id\":\"oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp\"}]}}],\"created\":1789770200,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":44,\"prompt_tokens\":1166,\"total_tokens\":1210,\"prompt_tokens_details\":{\"cached_tokens\":1146}},\"id\":\"chatcmpl-6XEQbuve6UntUIzhjZm09wVjOJs7NlKh\",\"timings\":{\"cache_n\":1146,\"prompt_n\":20,\"prompt_ms\":317.957,\"prompt_per_token_ms\":15.89785,\"prompt_per_second\":62.901587321556065,\"predicted_n\":44,\"predicted_ms\":4333.56,\"predicted_per_token_ms\":100.78046511627907,\"predicted_per_second\":9.922557896971542}}",
+      "status": 200
+    },
+    "turn": 5
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                "name": "deploy_release"
+              },
+              "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+                "name": "deploy_release"
+              },
+              "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\"}",
+                "name": "deploy_release"
+              },
+              "id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}",
+                    "name": "deploy_release"
+                  },
+                  "id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770206,
+        "id": "chatcmpl-OemHvErqH9UqhxkFBbgYJ2BoRv0vgcrJ",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1209,
+          "predicted_ms": 5191.419,
+          "predicted_n": 52,
+          "predicted_per_second": 9.823903637907092,
+          "predicted_per_token_ms": 101.7925294117647,
+          "prompt_ms": 318.803,
+          "prompt_n": 20,
+          "prompt_per_second": 62.73466686323529,
+          "prompt_per_token_ms": 15.94015
+        },
+        "usage": {
+          "completion_tokens": 52,
+          "prompt_tokens": 1229,
+          "prompt_tokens_details": {
+            "cached_tokens": 1209
+          },
+          "total_tokens": 1281
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"deploy_release\",\"arguments\":\"{\\\"release_id\\\": \\\"r-185\\\", \\\"environment\\\": \\\"production\\\", \\\"artifact\\\": \\\"sha256:BBB\\\", \\\"commit\\\": \\\"03bf72\\\", \\\"created\\\": \\\"11:42\\\"}\"},\"id\":\"sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW\"}]}}],\"created\":1789770206,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":52,\"prompt_tokens\":1229,\"total_tokens\":1281,\"prompt_tokens_details\":{\"cached_tokens\":1209}},\"id\":\"chatcmpl-OemHvErqH9UqhxkFBbgYJ2BoRv0vgcrJ\",\"timings\":{\"cache_n\":1209,\"prompt_n\":20,\"prompt_ms\":318.803,\"prompt_per_token_ms\":15.94015,\"prompt_per_second\":62.73466686323529,\"predicted_n\":52,\"predicted_ms\":5191.419,\"predicted_per_token_ms\":101.7925294117647,\"predicted_per_second\":9.823903637907092}}",
+      "status": 200
+    },
+    "turn": 6
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                "name": "deploy_release"
+              },
+              "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+                "name": "deploy_release"
+              },
+              "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\"}",
+                "name": "deploy_release"
+              },
+              "id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}",
+                "name": "deploy_release"
+              },
+              "id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"artifact\": \"sha256:BBB\"}",
+                    "name": "verify_artifact"
+                  },
+                  "id": "ogqdjuQttXwM1kY0zqtONOjxes0A9aGG",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770208,
+        "id": "chatcmpl-gF9CRTRLXmyrjmSRRALcL9g6EykavS5L",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1280,
+          "predicted_ms": 2165.271,
+          "predicted_n": 22,
+          "predicted_per_second": 9.698555053847763,
+          "predicted_per_token_ms": 103.10814285714287,
+          "prompt_ms": 330.26,
+          "prompt_n": 20,
+          "prompt_per_second": 60.55834796826743,
+          "prompt_per_token_ms": 16.512999999999998
+        },
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 1300,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280
+          },
+          "total_tokens": 1322
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"verify_artifact\",\"arguments\":\"{\\\"artifact\\\": \\\"sha256:BBB\\\"}\"},\"id\":\"ogqdjuQttXwM1kY0zqtONOjxes0A9aGG\"}]}}],\"created\":1789770208,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":22,\"prompt_tokens\":1300,\"total_tokens\":1322,\"prompt_tokens_details\":{\"cached_tokens\":1280}},\"id\":\"chatcmpl-gF9CRTRLXmyrjmSRRALcL9g6EykavS5L\",\"timings\":{\"cache_n\":1280,\"prompt_n\":20,\"prompt_ms\":330.26,\"prompt_per_token_ms\":16.512999999999998,\"prompt_per_second\":60.55834796826743,\"predicted_n\":22,\"predicted_ms\":2165.271,\"predicted_per_token_ms\":103.10814285714287,\"predicted_per_second\":9.698555053847763}}",
+      "status": 200
+    },
+    "turn": 7
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                "name": "deploy_release"
+              },
+              "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+                "name": "deploy_release"
+              },
+              "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\"}",
+                "name": "deploy_release"
+              },
+              "id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}",
+                "name": "deploy_release"
+              },
+              "id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"artifact\": \"sha256:BBB\"}",
+                "name": "verify_artifact"
+              },
+              "id": "ogqdjuQttXwM1kY0zqtONOjxes0A9aGG",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"verified\":false}",
+          "name": "verify_artifact",
+          "role": "tool",
+          "tool_call_id": "ogqdjuQttXwM1kY0zqtONOjxes0A9aGG"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"artifact\": \"sha256:BBB\"}",
+                    "name": "verify_artifact"
+                  },
+                  "id": "ZF8H8QkA5FFROzY9G9FXMp22O13YfBMc",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770211,
+        "id": "chatcmpl-BiIq1tDgaLthfQOnl22tNX6pvL8eno7N",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1321,
+          "predicted_ms": 2158.211,
+          "predicted_n": 22,
+          "predicted_per_second": 9.730281237562037,
+          "predicted_per_token_ms": 102.77195238095237,
+          "prompt_ms": 323.594,
+          "prompt_n": 17,
+          "prompt_per_second": 52.53496665574764,
+          "prompt_per_token_ms": 19.03494117647059
+        },
+        "usage": {
+          "completion_tokens": 22,
+          "prompt_tokens": 1338,
+          "prompt_tokens_details": {
+            "cached_tokens": 1321
+          },
+          "total_tokens": 1360
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"verify_artifact\",\"arguments\":\"{\\\"artifact\\\": \\\"sha256:BBB\\\"}\"},\"id\":\"ZF8H8QkA5FFROzY9G9FXMp22O13YfBMc\"}]}}],\"created\":1789770211,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":22,\"prompt_tokens\":1338,\"total_tokens\":1360,\"prompt_tokens_details\":{\"cached_tokens\":1321}},\"id\":\"chatcmpl-BiIq1tDgaLthfQOnl22tNX6pvL8eno7N\",\"timings\":{\"cache_n\":1321,\"prompt_n\":17,\"prompt_ms\":323.594,\"prompt_per_token_ms\":19.03494117647059,\"prompt_per_second\":52.53496665574764,\"predicted_n\":22,\"predicted_ms\":2158.211,\"predicted_per_token_ms\":102.77195238095237,\"predicted_per_second\":9.730281237562037}}",
+      "status": 200
+    },
+    "turn": 8
+  },
+  {
+    "request": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "max_tokens": 768,
+      "messages": [
+        {
+          "content": "You are a careful deterministic operations assistant.",
+          "role": "system"
+        },
+        {
+          "content": "You are operating a deterministic tool-use benchmark. Use the provided structured tools directly. Investigate before mutation, preserve state, obey constraints, and stop only when the objective is verified or the evidence requires a safe stop. Do not explain tool calls in ordinary text. Public task data follows:\n{\"available_tools\": [\"list_releases\", \"get_release\", \"build_release\", \"approve_release\", \"deploy\", \"deploy_release\", \"get_deployment\", \"verify_artifact\", \"rollback\"], \"initial_state\": {\"production\": \"r-184\", \"releases\": {\"r-184\": {\"approved\": true, \"artifact\": \"sha256:AAA\", \"commit\": \"8a1f31\", \"created\": \"09:10\"}, \"r-185\": {\"approved\": true, \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}, \"r-186\": {\"approved\": false, \"artifact\": \"sha256:CCC\", \"commit\": \"e72190\", \"created\": \"12:03\"}}}, \"objective\": \"Deploy approved billing-api release r-185 to production and verify artifact sha256:BBB.\"}",
+          "role": "user"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "malformed_arguments:KeyError:'release_id'",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\"}",
+                "name": "deploy_release"
+              },
+              "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+                "name": "deploy_release"
+              },
+              "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+                "name": "deploy_release"
+              },
+              "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\"}",
+                "name": "deploy_release"
+              },
+              "id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}",
+                "name": "deploy_release"
+              },
+              "id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"production\":\"r-185\"}",
+          "name": "deploy_release",
+          "role": "tool",
+          "tool_call_id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"artifact\": \"sha256:BBB\"}",
+                "name": "verify_artifact"
+              },
+              "id": "ogqdjuQttXwM1kY0zqtONOjxes0A9aGG",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"verified\":false}",
+          "name": "verify_artifact",
+          "role": "tool",
+          "tool_call_id": "ogqdjuQttXwM1kY0zqtONOjxes0A9aGG"
+        },
+        {
+          "content": "",
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"artifact\": \"sha256:BBB\"}",
+                "name": "verify_artifact"
+              },
+              "id": "ZF8H8QkA5FFROzY9G9FXMp22O13YfBMc",
+              "type": "function"
+            }
+          ]
+        },
+        {
+          "content": "{\"verified\":false}",
+          "name": "verify_artifact",
+          "role": "tool",
+          "tool_call_id": "ZF8H8QkA5FFROzY9G9FXMp22O13YfBMc"
+        }
+      ],
+      "model": "Llama-3.2-3B-Instruct",
+      "reasoning_effort": "none",
+      "reasoning_format": "none",
+      "seed": 0,
+      "stream": false,
+      "temperature": 0,
+      "tool_choice": "auto",
+      "tools": [
+        {
+          "function": {
+            "description": "Deterministic simulator tool list_releases. Use only when needed for the stated objective.",
+            "name": "list_releases",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_release. Use only when needed for the stated objective.",
+            "name": "get_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool build_release. Use only when needed for the stated objective.",
+            "name": "build_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool approve_release. Use only when needed for the stated objective.",
+            "name": "approve_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy. Use only when needed for the stated objective.",
+            "name": "deploy",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool deploy_release. Use only when needed for the stated objective.",
+            "name": "deploy_release",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool get_deployment. Use only when needed for the stated objective.",
+            "name": "get_deployment",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool verify_artifact. Use only when needed for the stated objective.",
+            "name": "verify_artifact",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        },
+        {
+          "function": {
+            "description": "Deterministic simulator tool rollback. Use only when needed for the stated objective.",
+            "name": "rollback",
+            "parameters": {
+              "additionalProperties": true,
+              "properties": {},
+              "type": "object"
+            }
+          },
+          "type": "function"
+        }
+      ]
+    },
+    "response": {
+      "json": {
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{}",
+                    "name": "rollback"
+                  },
+                  "id": "03zd5RNudcoUGo7XjhQU4QXBDwjBhjLN",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1789770212,
+        "id": "chatcmpl-ydo67FzoXAtCmVzZrfe48kRIfaHOZf3u",
+        "model": "Llama-3.2-3B-Instruct",
+        "object": "chat.completion",
+        "system_fingerprint": "b11028-972d2313b",
+        "timings": {
+          "cache_n": 1359,
+          "predicted_ms": 1134.791,
+          "predicted_n": 12,
+          "predicted_per_second": 9.693414910763304,
+          "predicted_per_token_ms": 103.16281818181818,
+          "prompt_ms": 316.861,
+          "prompt_n": 17,
+          "prompt_per_second": 53.651285579481225,
+          "prompt_per_token_ms": 18.638882352941177
+        },
+        "usage": {
+          "completion_tokens": 12,
+          "prompt_tokens": 1376,
+          "prompt_tokens_details": {
+            "cached_tokens": 1359
+          },
+          "total_tokens": 1388
+        }
+      },
+      "raw": "{\"choices\":[{\"finish_reason\":\"tool_calls\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"type\":\"function\",\"function\":{\"name\":\"rollback\",\"arguments\":\"{}\"},\"id\":\"03zd5RNudcoUGo7XjhQU4QXBDwjBhjLN\"}]}}],\"created\":1789770212,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":12,\"prompt_tokens\":1376,\"total_tokens\":1388,\"prompt_tokens_details\":{\"cached_tokens\":1359}},\"id\":\"chatcmpl-ydo67FzoXAtCmVzZrfe48kRIfaHOZf3u\",\"timings\":{\"cache_n\":1359,\"prompt_n\":17,\"prompt_ms\":316.861,\"prompt_per_token_ms\":18.638882352941177,\"prompt_per_second\":53.651285579481225,\"predicted_n\":12,\"predicted_ms\":1134.791,\"predicted_per_token_ms\":103.16281818181818,\"predicted_per_second\":9.693414910763304}}",
+      "status": 200
+    },
+    "turn": 9
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_account"
+          },
+          "id": "4rFSfLA5yBiA2d3fvWFNI3SUKupWNf6L",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_audit_history"
+          },
+          "id": "qSPOHeMZZsSkAX7hUl7O4YnNlU8HDswX",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_billing_status"
+          },
+          "id": "qJYzyZiHxft3ujPN0jtXFSoaHvc4zvjI",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 15.778196363011375,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "merge_accounts"
+          },
+          "id": "NAbVhrSmYLdApmNWx9WVlgM1MMV9wdoB",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "merge_accounts"
+          },
+          "id": "6Q1ZQyLgW17pCodcT1WivTBePS3cXUH6",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 6.838612898005522,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  }
+]

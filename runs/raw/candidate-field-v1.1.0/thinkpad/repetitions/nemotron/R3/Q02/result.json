@@ -1,0 +1,3315 @@
+{
+  "attempt_id": "Q02-attempt-001",
+  "elapsed_s": 243.1895357119938,
+  "errors": [
+    "model_malformed_arguments",
+    "server_transport_error"
+  ],
+  "events": [
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "secret_id": null,
+        "valid": true
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_secret_metadata",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "get_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "credential": "secret/warehouse-prod",
+        "database": "inventory",
+        "host": "warehouse-prod-01.internal",
+        "labels": {
+          "owner": "ops"
+        },
+        "name": "inventory-sync",
+        "port": 5432,
+        "retries": 3,
+        "schedule": "0 */2 * * *",
+        "timeout": 120
+      },
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "tool": "update_job",
+      "type": "tool_call"
+    },
+    {
+      "reason": "transport_invalid",
+      "state": {
+        "environment": {
+          "credential": "secret/warehouse-prod-v2",
+          "database": "inventory_v2",
+          "host": "warehouse-prod-02.internal",
+          "name": "PRODUCTION_WAREHOUSE",
+          "port": 6432,
+          "updated_at": "2026-09-14"
+        },
+        "job": {
+          "credential": "secret/warehouse-prod",
+          "database": "inventory",
+          "host": "warehouse-prod-01.internal",
+          "labels": {
+            "owner": "ops"
+          },
+          "name": "inventory-sync",
+          "port": 5432,
+          "retries": 3,
+          "schedule": "0 */2 * * *",
+          "timeout": 120
+        }
+      },
+      "type": "termination"
+    }
+  ],
+  "model": "Nemotron-3-Nano-4B",
+  "raw_response_count": 4,
+  "resource_samples": [
+    {
+      "epoch": 1789772470.5143592,
+      "mem": {
+        "MemAvailable": 8360386560,
+        "SwapFree": 17546129408,
+        "SwapTotal": 19812306944
+      },
+      "phase": "before_request",
+      "pid": 102757,
+      "rss_bytes": 166957056
+    },
+    {
+      "epoch": 1789772588.8113077,
+      "mem": {
+        "MemAvailable": 8036950016,
+        "SwapFree": 17546186752,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_1",
+      "pid": 102757,
+      "rss_bytes": 451538944
+    },
+    {
+      "epoch": 1789772588.849292,
+      "mem": {
+        "MemAvailable": 8037281792,
+        "SwapFree": 17546186752,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_tools_1",
+      "pid": 102757,
+      "rss_bytes": 451538944
+    },
+    {
+      "epoch": 1789772602.2725468,
+      "mem": {
+        "MemAvailable": 7879991296,
+        "SwapFree": 17546203136,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_2",
+      "pid": 102757,
+      "rss_bytes": 622551040
+    },
+    {
+      "epoch": 1789772602.3068604,
+      "mem": {
+        "MemAvailable": 7878995968,
+        "SwapFree": 17546203136,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_tools_2",
+      "pid": 102757,
+      "rss_bytes": 622551040
+    },
+    {
+      "epoch": 1789772713.6346102,
+      "mem": {
+        "MemAvailable": 7624601600,
+        "SwapFree": 17546260480,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_3",
+      "pid": 102757,
+      "rss_bytes": 797188096
+    },
+    {
+      "epoch": 1789772713.6706893,
+      "mem": {
+        "MemAvailable": 7625596928,
+        "SwapFree": 17546260480,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_tools_3",
+      "pid": 102757,
+      "rss_bytes": 797188096
+    },
+    {
+      "epoch": 1789772713.7045414,
+      "mem": {
+        "MemAvailable": 7626080256,
+        "SwapFree": 17546260480,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_4",
+      "pid": 102757,
+      "rss_bytes": 798543872
+    }
+  ],
+  "status": "transport_invalid",
+  "task": "Q02",
+  "turns": 3
+}

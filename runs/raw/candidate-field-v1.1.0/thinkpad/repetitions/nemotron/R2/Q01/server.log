@@ -1,0 +1,57 @@
+0.00.054.352 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.054.563 I srv          init: The UI is disabled
+0.00.054.566 I srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.054.646 W srv  llama_server: -----------------
+0.00.054.648 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.054.649 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.054.649 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.054.649 W srv  llama_server: -----------------
+0.00.056.070 I srv    load_model: loading model '/home/dippo/research-inference/models/mm-agent/NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf'
+0.02.375.010 I cmn          init: llama threadpool init, n_threads = 8
+0.02.910.502 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 16384, kv_unified = 'true'
+0.02.916.005 W srv          init: chat template supports preserving reasoning, it is enabled by default (may use more tokens, disable via --no-reasoning-preserve)
+0.02.916.075 I srv  llama_server: model loaded
+0.02.916.081 I srv  llama_server: listening on http://127.0.0.1:18081
+0.03.246.620 I slot get_availabl: id  3 | task -1 | selected slot by LRU, t_last = -1
+0.03.246.949 I slot launch_slot_: id  3 | task 0 | processing task, is_child = 0
+0.07.989.552 I slot print_timing: id  3 | task 0 | prompt processing, n_tokens =    444, progress = 0.46, t =   4.74 s / 93.62 tokens per second
+0.09.736.307 I slot print_timing: id  3 | task 0 | prompt processing, n_tokens =    667, progress = 0.69, t =   6.49 s / 102.79 tokens per second
+0.12.394.987 I slot print_timing: id  3 | task 0 | prompt processing, n_tokens =    956, progress = 1.00, t =   9.15 s / 104.51 tokens per second
+0.28.258.753 I slot print_timing: id  3 | task 0 | n_gen =    100, tg =   6.79 t/s, tg_3s =   6.86 t/s
+0.31.276.621 I slot print_timing: id  3 | task 0 | n_gen =    119, tg =   6.71 t/s, tg_3s =   6.30 t/s
+0.34.284.027 I slot print_timing: id  3 | task 0 | n_gen =    140, tg =   6.75 t/s, tg_3s =   6.98 t/s
+0.37.303.710 I slot print_timing: id  3 | task 0 | n_gen =    161, tg =   6.78 t/s, tg_3s =   6.95 t/s
+0.40.307.756 I slot print_timing: id  3 | task 0 | n_gen =    182, tg =   6.80 t/s, tg_3s =   6.99 t/s
+0.43.308.333 I slot print_timing: id  3 | task 0 | n_gen =    203, tg =   6.82 t/s, tg_3s =   7.00 t/s
+0.46.314.100 I slot print_timing: id  3 | task 0 | n_gen =    224, tg =   6.84 t/s, tg_3s =   6.99 t/s
+0.49.328.127 I slot print_timing: id  3 | task 0 | n_gen =    245, tg =   6.85 t/s, tg_3s =   6.97 t/s
+0.52.344.626 I slot print_timing: id  3 | task 0 | n_gen =    266, tg =   6.86 t/s, tg_3s =   6.96 t/s
+0.55.348.231 I slot print_timing: id  3 | task 0 | n_gen =    287, tg =   6.87 t/s, tg_3s =   6.99 t/s
+0.58.378.062 I slot print_timing: id  3 | task 0 | n_gen =    308, tg =   6.87 t/s, tg_3s =   6.93 t/s
+1.01.392.474 I slot print_timing: id  3 | task 0 | n_gen =    329, tg =   6.88 t/s, tg_3s =   6.97 t/s
+1.04.403.996 I slot print_timing: id  3 | task 0 | n_gen =    350, tg =   6.88 t/s, tg_3s =   6.97 t/s
+1.07.533.450 I slot print_timing: id  3 | task 0 | n_gen =    372, tg =   6.89 t/s, tg_3s =   7.03 t/s
+1.10.544.128 I slot print_timing: id  3 | task 0 | n_gen =    393, tg =   6.89 t/s, tg_3s =   6.98 t/s
+1.13.670.437 I slot print_timing: id  3 | task 0 | n_gen =    415, tg =   6.90 t/s, tg_3s =   7.04 t/s
+1.16.800.785 I slot print_timing: id  3 | task 0 | n_gen =    437, tg =   6.91 t/s, tg_3s =   7.03 t/s
+1.19.936.253 I slot print_timing: id  3 | task 0 | n_gen =    459, tg =   6.91 t/s, tg_3s =   7.02 t/s
+1.23.068.234 I slot print_timing: id  3 | task 0 | n_gen =    481, tg =   6.92 t/s, tg_3s =   7.02 t/s
+1.26.195.419 I slot print_timing: id  3 | task 0 | n_gen =    503, tg =   6.92 t/s, tg_3s =   7.04 t/s
+1.29.329.904 I slot print_timing: id  3 | task 0 | n_gen =    525, tg =   6.93 t/s, tg_3s =   7.02 t/s
+1.32.466.521 I slot print_timing: id  3 | task 0 | n_gen =    547, tg =   6.93 t/s, tg_3s =   7.01 t/s
+1.35.598.944 I slot print_timing: id  3 | task 0 | n_gen =    569, tg =   6.93 t/s, tg_3s =   7.02 t/s
+1.38.712.755 I slot print_timing: id  3 | task 0 | n_gen =    591, tg =   6.94 t/s, tg_3s =   7.07 t/s
+1.41.815.227 I slot print_timing: id  3 | task 0 | n_gen =    613, tg =   6.94 t/s, tg_3s =   7.09 t/s
+1.44.911.820 I slot print_timing: id  3 | task 0 | n_gen =    635, tg =   6.95 t/s, tg_3s =   7.10 t/s
+1.48.021.568 I slot print_timing: id  3 | task 0 | n_gen =    657, tg =   6.95 t/s, tg_3s =   7.07 t/s
+1.51.134.058 I slot print_timing: id  3 | task 0 | n_gen =    679, tg =   6.96 t/s, tg_3s =   7.07 t/s
+1.54.238.295 I slot print_timing: id  3 | task 0 | n_gen =    701, tg =   6.96 t/s, tg_3s =   7.09 t/s
+1.57.354.541 I slot print_timing: id  3 | task 0 | n_gen =    723, tg =   6.96 t/s, tg_3s =   7.06 t/s
+2.00.476.624 I slot print_timing: id  3 | task 0 | n_gen =    745, tg =   6.97 t/s, tg_3s =   7.05 t/s
+2.03.581.427 I slot print_timing: id  3 | task 0 | n_gen =    767, tg =   6.97 t/s, tg_3s =   7.09 t/s
+2.03.721.687 I slot print_timing: id  3 | task 0 | prompt eval time =   10441.17 ms /   960 tokens (   10.88 ms per token,    91.94 tokens per second)
+2.03.721.697 I slot print_timing: id  3 | task 0 |        eval time =  110033.46 ms /   768 tokens (  143.46 ms per token,     6.97 tokens per second)
+2.03.721.699 I slot print_timing: id  3 | task 0 |       total time =  120474.63 ms /  1728 tokens
+2.03.721.708 I slot print_timing: id  3 | task 0 |    graphs reused =        764
+2.03.721.904 I slot      release: id  3 | task 0 | stop processing: n_tokens = 1727, truncated = 0
+2.03.778.859 W srv    operator(): got exception: {"error":{"code":500,"message":"Failed to parse tool call arguments as JSON: [json.exception.parse_error.101] parse error at line 1, column 2: syntax error while parsing object key - unexpected end of input; expected string literal","type":"server_error"}}

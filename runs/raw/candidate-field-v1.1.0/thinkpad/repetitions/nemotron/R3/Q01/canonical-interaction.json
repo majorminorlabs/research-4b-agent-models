@@ -1,0 +1,325 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_release"
+          },
+          "id": "S37EMyjYbr8n9XN8HkKADAbsMFnyHpob",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_release"
+          },
+          "id": "wrb0V6UAs6PpmeC53DqrzsX974bdTgdb",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "b9r0FJMnhf7O86tqZG19ltAzw2IsI5h6",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "SkaQz57pvav0auUk6XSbcueRWt0zMaF4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "bUGnjY5TeV0HX5cxtO0ELF5JjXnjevEh",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "BiSdDlYo04NIiRt46B40m3Y84q2sRaKm",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "TI7qvk7cYi95fiaGxwSdWmnTNCCj04WM",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "uW8hG9R6QiY6EB4bQEtHAeQN6UvUW8qc",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "kPuxmkiyTkrhzdMDXk1qJbvgOYqlpuom",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "ZHxixw807zlmBIUPPtz0tPsBWG1l3SJ7",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "cPW5fcJcVYot52DavSHF7YtVvpRqVSFs",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "zaHfoE7mMkz8D4BDHlLm0nq499A6eSLP",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "zYDs9dMs9qBLYyhmt4qcEI5SqZHQgYYM",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "cAYS3iLEEiUweqY1JpLDkJejha9KqeR9",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "e61Ai3o67GOsTJeQ8ONJ4b6uNSdOzgYs",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "HUbB18CD1ko2Mv5W9XjQGy74FlMX76YG",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "SE5bqTbIgPFVupGTZKhJQhpZHcLO0A75",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "GYEoNmjsxcz0lXoYQMZd1KkGdB1kM7m5",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "cuEytsASIOTaHntPMXh7V57BJ2kg3JaX",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "9Xf4KFd7JPxUWMvuGzs46pixmgi3e4I1",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "rekrtgwF8tkXVD3nAqFotNpna5wRtgms",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "j9LfKUcnOjS0GAy4wdtUQi5zfWtb86vv",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "yJ7VlsH9jwUHRZ7BrrD6mldlSK2hclWM",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "8aJ71pGZwrkcLTkgU5Bjtwpqq93jpcWr",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "ixhQYylSbNNNyyHwmSL3LRoELDzrghuy",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "TrFHACAH8mBcivu6VWixix5MLSQOqctU",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "Ay2wj0g6kxCjfCtUf5hdiw8KPCcA81Ny",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "tASZOsfpLmliiVzEA1xwjpJUGdjYHiGS",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "vGMswDtuItYuJXMZOfiXYxZaAFP6UFGO",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "twKGtoOGNfugnXPJHjTVWivBPjefUvEj",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "VVPsZmmD7Ssg3P2c9tljya7uurxkl83e",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "EjCTi6fRJWqimu9szm73dIg7UA9IuQ5q",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "agWymj5GpqhJ0tiZHWArDodar5NTzkCf",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "WGA8RqVvIuoSiKGQnCRGbOG9br6jDoM1",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "b7ITv0IBc69yHqzdeEGVWtRGg1x4NvVC",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "r61HcLUiDymQFnec9rogTQMHpdPI7Vyd",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "E4T3pdGrldkZ2UNC3TqamkpTUjAJRKvZ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "z4GJsvy7cPA8aqA6NSsQUiRN3RYAG5BU",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{",
+            "name": "verify_artifact"
+          },
+          "id": "eMW8oAqVnj2pTnSnoRegtMAGBfLsq0ld",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 120.47397746700153,
+    "finish_reason": "length",
+    "turn": 1
+  }
+]

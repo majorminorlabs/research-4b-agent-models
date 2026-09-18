@@ -1,0 +1,55 @@
+{
+  "attempt_id": "Q01-attempt-001",
+  "elapsed_s": 119.5993962759967,
+  "errors": [
+    "model_malformed_arguments",
+    "server_transport_error"
+  ],
+  "events": [
+    {
+      "reason": "transport_invalid",
+      "state": {},
+      "type": "termination"
+    }
+  ],
+  "model": "Nemotron-3-Nano-4B",
+  "raw_response_count": 1,
+  "resource_samples": [
+    {
+      "epoch": 1789769974.630604,
+      "mem": {
+        "MemAvailable": 8383832064,
+        "SwapFree": 17518989312,
+        "SwapTotal": 19812306944
+      },
+      "phase": "before_request",
+      "pid": 100246,
+      "rss_bytes": 167112704
+    },
+    {
+      "epoch": 1789770094.1871607,
+      "mem": {
+        "MemAvailable": 8045641728,
+        "SwapFree": 17524604928,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_1",
+      "pid": 100246,
+      "rss_bytes": 444682240
+    },
+    {
+      "epoch": 1789770094.2226462,
+      "mem": {
+        "MemAvailable": 8044756992,
+        "SwapFree": 17524604928,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_tools_1",
+      "pid": 100246,
+      "rss_bytes": 444682240
+    }
+  ],
+  "status": "transport_invalid",
+  "task": "Q01",
+  "turns": 1
+}

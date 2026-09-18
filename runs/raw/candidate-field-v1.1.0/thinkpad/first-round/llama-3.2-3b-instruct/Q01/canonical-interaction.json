@@ -1,0 +1,173 @@
+[
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"release\": \"r-185\"}",
+            "name": "deploy_release"
+          },
+          "id": "nTD7pxVZz5cvR4fYRXWkySBWHM8xSFjm",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 8.32910789399466,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"release_id\": \"r-185\"}",
+            "name": "deploy_release"
+          },
+          "id": "o7YHWAJ8owHPiwgVYmoXKal18ieX6hF9",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.2553983139951015,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\"}",
+            "name": "deploy_release"
+          },
+          "id": "OOB2BKsZzKxxq9MEEdedVBAs0n8gPMMX",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.846010731009301,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\"}",
+            "name": "deploy_release"
+          },
+          "id": "X6NWfRrt3v39XTzCYLi3x6Lr62KNuZeE",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 3.851012055994943,
+    "finish_reason": "tool_calls",
+    "turn": 4
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\"}",
+            "name": "deploy_release"
+          },
+          "id": "oRzAv6vqwa4y0cZ2U41EHUgVpogjYokp",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 4.6647810750000644,
+    "finish_reason": "tool_calls",
+    "turn": 5
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"release_id\": \"r-185\", \"environment\": \"production\", \"artifact\": \"sha256:BBB\", \"commit\": \"03bf72\", \"created\": \"11:42\"}",
+            "name": "deploy_release"
+          },
+          "id": "sVrlPkQEtnHgiuKeEVttJB77CwxqGTNW",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 5.523056831996655,
+    "finish_reason": "tool_calls",
+    "turn": 6
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"artifact\": \"sha256:BBB\"}",
+            "name": "verify_artifact"
+          },
+          "id": "ogqdjuQttXwM1kY0zqtONOjxes0A9aGG",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.5095244699914474,
+    "finish_reason": "tool_calls",
+    "turn": 7
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"artifact\": \"sha256:BBB\"}",
+            "name": "verify_artifact"
+          },
+          "id": "ZF8H8QkA5FFROzY9G9FXMp22O13YfBMc",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.494940228003543,
+    "finish_reason": "tool_calls",
+    "turn": 8
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "rollback"
+          },
+          "id": "03zd5RNudcoUGo7XjhQU4QXBDwjBhjLN",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 1.465471957999398,
+    "finish_reason": "tool_calls",
+    "turn": 9
+  }
+]

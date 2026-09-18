@@ -1,0 +1,519 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_queue"
+          },
+          "id": "gcu4zdUH5tbMjcBq1vR7kg143oTn38Be",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 15.911126985010924,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "ZpzkFx4myKk1Qxc1vTXVRJnaEM5rYr7A",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "5AgiONepKGUogSt52qrliJ05zlRSjZ9H",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "jTFOL3WalkQXjAS4S5FbRkOOqenbqsaw",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "YWaWKKXLsSKmM9Tz47R7xT7k83B4IRF2",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "Qp3NsDO51AoQvsocLOruvYCsfQa2e0Iz",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "Eqxch4DXh9dRJslVJZXwIQkNJLZGvCrS",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "UAbq45sa1CD0dUHRqMXyNOUlGAAqguee",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "PMV146CCQo381NoOa3sHJSOaZeGU4hMC",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "1rxaB7LqSU5Xgc2xZFLgNHsPJ2ImUcna",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "Y2gtOuf3MyRThPA39U9DtNfArLQQlgkS",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "9pfMcbyh8ECNDsPDNqiNxbVB7GH03S8q",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "CT0cril7C4b27opcvdAxIHogBijFMC43",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "ywgYNXgDbd5ytqkgOZZAQ0wbh6VChkJJ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "sPcRoy8Wc4uHv7WwywKTi4cCDGdBwKNY",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "uw6XZCoPqR2GeKtCtPr7t9CUsjZtBbY9",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "DB79v86O3RGKhYMHPXKYhRnhIy6KrrE7",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "B8pceclFDSgDt6dWzmfJQ1bgzSbzMLSy",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "aSoMcP9S2K9sKJlrY3LbyJlaCVm8lqMY",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "NARHPmgtWmCckCFqHEZ3n8C6Xp9U68up",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "N2XrA5G0fl14aDUfjCNthTbQ0KRyGRHP",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "1ax8M6cA8jV5dL8X7Hyl0U6YtG26Dlw5",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "mjyyrI1iRFnGp587ZopDAc0fAG8NjFyL",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "qW7F8oLrf1GIBgdGw1Df59GoCxnzfCnQ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "VSt0vwSjfz5UQJHlfXhsgHl5GQZBkb3j",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "8zxjb1X42SgT1KeFbx9EZrlMlMzGtcpU",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "kgUmgGoOK7QQWhwm7Tu0J6Nldv7sT8Nx",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "49II4fTVevAxGgICf3LviLwjwmsmWcOy",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "Iya1OXWzUKWn9fDseJLCCYKXOpVbTBPk",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "J6gVIVpSntVK8xDjBnPiz56thmYRVI1J",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "QhCkH3ctpG0Oj86el28HV8i8n0HaZgKQ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "PgC5Xmc3Mi96GJfQqGrWBq1GLYtNTnau",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "vGm67uyMkDWFEpfglAruDGDgSkkZV0uQ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "y95RqCtCYkhaBqDWWrEedegfbub9sKnS",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "4KioEqkTCZnLOnPVGjpD0hyKxRKMrgfD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "5kpBJJyK03F6tu2YABuAbROZiQyyE8vC",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "4sMihVLnyXeJLbhnLjWPPNHYAsgFn9y0",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "rmS5jnAN8Dn4lui5lI85BvnlFk1d5Bar",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "8vprK8fs6BKiRVEy5cGggq47hAxeVEf3",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "B1dfh6syQAjP7rudqTvlzEljzXMX1urD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "neURYjKTP4AfQvvlWWoCfO5f6bzXybzw",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "UrGkuPHUJpb2NA9HUkprIA0vSPRQTmxW",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "FM8C6oBnbGbvpu7AqIr3F1Oh5CfWwFMI",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "MOHSD8sqSG0aczrNKXslITamL8id63iE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "p9dNsZr0VoGO2z34dVzNN9XKzYB8CR2s",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "bQ6zUuWQrOPcE4PaBgsZqXbWaHadpmbj",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "avKO6AcQKWTj8Ot33WF4VBaizCXKL7le",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "JH9AaADrjVWFHom83ACD0VKnFAgy2VTz",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "J7v259VnWfpqBITRwQWQuCbNPJFsYRCd",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 110.01239789700776,
+    "finish_reason": "length",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_database_record"
+          },
+          "id": "CkNhY1eQaSLjceeeuQ1m6XlGyBRyXc3Z",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 10.715464435008471,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "Va6vDl2IfRfHrN5h6nt4W6lDlUctDRJm",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.6714387350075413,
+    "finish_reason": "tool_calls",
+    "turn": 4
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "restart_service"
+          },
+          "id": "rd2Fs8Pt02Al1714SGl7ovhZDCbSeZXo",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.793819837999763,
+    "finish_reason": "tool_calls",
+    "turn": 5
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "ujM8xSHdPMbsuGfotbLZuqX11f3Wm9jt",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.689033451009891,
+    "finish_reason": "tool_calls",
+    "turn": 6
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "update_config"
+          },
+          "id": "BD8BggpF0mt4RnRa5AelNdZVSLdbkBFs",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "update_config"
+          },
+          "id": "nXIpR9xGEc1M7ozsYLD4aK7J01p5v7Kv",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 5.920622689998709,
+    "finish_reason": "tool_calls",
+    "turn": 7
+  }
+]

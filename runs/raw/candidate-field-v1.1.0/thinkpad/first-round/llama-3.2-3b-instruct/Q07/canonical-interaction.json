@@ -1,0 +1,192 @@
+[
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "list_services"
+          },
+          "id": "PrtMogGxgJ4Okq4Dl2KhC3D8NwbUdgQO",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 12.883891951001715,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"path\": \"/data/archive\"}",
+            "name": "list_directory"
+          },
+          "id": "azrHZlNO17UsYduzDShnGDX9kbF50lfD",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.118559422000544,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"name\": \"document-worker\"}",
+            "name": "get_service"
+          },
+          "id": "6dKFVjaHYYbUEkQQs6ZUk9nrdChioynN",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.128035756002646,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"log_type\": \"storage read timeout\"}",
+            "name": "query_logs"
+          },
+          "id": "0DQkWyUR2r8YyW7MIbKDf5KSlZHbXFMs",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.3337201880058274,
+    "finish_reason": "tool_calls",
+    "turn": 4
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"name\": \"documents\"}",
+            "name": "get_queue"
+          },
+          "id": "FNOqWKjJhlLq7wcLs1gWz4ya4c8toXOI",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.022719094005879,
+    "finish_reason": "tool_calls",
+    "turn": 5
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"job_id\": \"j1\"}",
+            "name": "get_job"
+          },
+          "id": "XhLRSqZ7b7M1Fo61fHTS48H3H9SqYN4r",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.2538334549899446,
+    "finish_reason": "tool_calls",
+    "turn": 6
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"name\": \"documents\"}",
+            "name": "pause_queue"
+          },
+          "id": "Q2voaoAnFsmNv8eFZG0AnYC9pA6LcRqv",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 1.9990815499913879,
+    "finish_reason": "tool_calls",
+    "turn": 7
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"job_id\": \"j3\"}",
+            "name": "get_database_record"
+          },
+          "id": "S8LTZRRezQ0fUf2XRco1is9t3zPK7SKg",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.3465603310032748,
+    "finish_reason": "tool_calls",
+    "turn": 8
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"job_id\": \"j3\"}",
+            "name": "retry_job"
+          },
+          "id": "tu590BaYGzZai90HsNIdDgwfwIRq0qNh",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.259528695998597,
+    "finish_reason": "tool_calls",
+    "turn": 9
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"job_id\": \"j3\"}",
+            "name": "cancel_job"
+          },
+          "id": "MDuH0qzVaRmG5JAgof2W2gH31Lyy6ADM",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.38793182799418,
+    "finish_reason": "tool_calls",
+    "turn": 10
+  }
+]

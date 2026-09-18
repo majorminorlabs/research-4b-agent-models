@@ -1,0 +1,59 @@
+[
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"customer_id\": \"8814\"}",
+            "name": "search_customer"
+          },
+          "id": "QArpRFZ9ju2stNBMLODoukwFTAFY89Bo",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 8.347089190996485,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"customer_id\": \"9921\"}",
+            "name": "search_customer"
+          },
+          "id": "VLZxoWxNXtrzTSrf5BMcR6QdrPlVOQpO",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.234444582994911,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"account_ids\": \"[\\\"8814\\\", \\\"9921\\\"]\"}",
+            "name": "merge_accounts"
+          },
+          "id": "rNkAoLfNpHQe3i0l56EyucsIlkWa1myG",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.872491346002789,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  }
+]

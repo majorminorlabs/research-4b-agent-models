@@ -1,0 +1,423 @@
+[
+  {
+    "arguments": {},
+    "ok": true,
+    "response": {
+      "schema": 17
+    },
+    "state": {
+      "application": "4.7",
+      "backup": null,
+      "compatible_schemas": [
+        17,
+        18
+      ],
+      "database_schema": 17,
+      "healthy": true
+    },
+    "tool": "inspect_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "ok": true,
+    "response": {
+      "application": "4.7",
+      "healthy": true
+    },
+    "state": {
+      "application": "4.7",
+      "backup": null,
+      "compatible_schemas": [
+        17,
+        18
+      ],
+      "database_schema": 17,
+      "healthy": true
+    },
+    "tool": "inspect_service",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "arguments": {},
+    "invalid": true,
+    "ok": false,
+    "response": "malformed_arguments:KeyError:'target'",
+    "tool": "migrate_database",
+    "type": "tool_call"
+  },
+  {
+    "reason": "transport_invalid",
+    "state": {
+      "application": "4.7",
+      "backup": null,
+      "compatible_schemas": [
+        17,
+        18
+      ],
+      "database_schema": 17,
+      "healthy": true
+    },
+    "type": "termination"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\"}",
+            "name": "move_jobs"
+          },
+          "id": "zJ5YBMabJmgS0cANyw71PkJrDTuxNZEG",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 9.586069030992803,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\"}",
+            "name": "move_jobs"
+          },
+          "id": "uHnsIiPEmqcyQZFyI1IE7k0D4GoCn1pS",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 5.732954826991772,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-b\"}",
+            "name": "move_jobs"
+          },
+          "id": "80L9GY623ZHWJxwZ7n5jQqmrL3KEKazJ",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 6.354049646004569,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-b\", \"affinity\": \"gpu\"}",
+            "name": "move_jobs"
+          },
+          "id": "uuXXEzsZexEcRrdXJAta7ZoHfWpNZVD8",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.0679316589958034,
+    "finish_reason": "tool_calls",
+    "turn": 4
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-b\", \"affinity\": \"gpu\", \"load\": 31}",
+            "name": "move_jobs"
+          },
+          "id": "u1OOT696262aeHNdeKyfyiz1hSXGjiyq",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.730098211992299,
+    "finish_reason": "tool_calls",
+    "turn": 5
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-b\", \"affinity\": \"gpu\", \"load\": 31}",
+            "name": "move_jobs"
+          },
+          "id": "dHf9xJckusVW4LbF330oxFUZcD5Gtbi7",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.754732678004075,
+    "finish_reason": "tool_calls",
+    "turn": 6
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-c\", \"affinity\": \"gpu\", \"load\": 42}",
+            "name": "move_jobs"
+          },
+          "id": "1JLAWMYkV9xYj6KO1la5uEDkLJyBy57C",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.908412437987863,
+    "finish_reason": "tool_calls",
+    "turn": 7
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-b\", \"affinity\": \"gpu\", \"load\": 31}",
+            "name": "move_jobs"
+          },
+          "id": "IA06LEgJHyfG4p4dNtWLVfCaZ0cM8Rg6",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.819390493998071,
+    "finish_reason": "tool_calls",
+    "turn": 8
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'gpu', 'id': 'j-gpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-c\", \"affinity\": \"gpu\", \"load\": 42}",
+            "name": "move_jobs"
+          },
+          "id": "ikethMVvCxQ88t07pVpnZrIE018WAqcY",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.843093600997236,
+    "finish_reason": "tool_calls",
+    "turn": 9
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'cpu', 'id': 'j-cpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-b\", \"affinity\": \"cpu\", \"load\": 31}",
+            "name": "move_jobs"
+          },
+          "id": "dFRi91olKk7PxaxCZXJKAPeAHmGJY6lX",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.8895359029993415,
+    "finish_reason": "tool_calls",
+    "turn": 10
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'cpu', 'id': 'j-cpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-c\", \"affinity\": \"cpu\", \"load\": 42}",
+            "name": "move_jobs"
+          },
+          "id": "9Vwb0RviyjFBUJyTq7oixYbUYeMWuiOR",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.957252316002268,
+    "finish_reason": "tool_calls",
+    "turn": 11
+  },
+  {
+    "assistant": {
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"queues\": \"{'node-a': [{'affinity': 'cpu', 'id': 'j-cpu'}\", \"workers\": \"{'node-a': {'gpu': False, 'load': 96}\", \"destination\": \"node-a\", \"affinity\": \"cpu\", \"load\": 96}",
+            "name": "move_jobs"
+          },
+          "id": "Dh2zHIl2PoKrlCot3rrcQCsX7Wcyt9h2",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.97439699700044,
+    "finish_reason": "tool_calls",
+    "turn": 12
+  }
+]

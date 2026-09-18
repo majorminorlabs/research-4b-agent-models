@@ -1,0 +1,550 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_queue"
+          },
+          "id": "36KC1hTDGil5dz1fbKZIDY3ReqLYgJxG",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 10.542485439000302,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_job"
+          },
+          "id": "oCdSnrQ5Gj1hR0yFnA91FedJxUtYAsWD",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.7903839770006016,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "get_workers"
+          },
+          "id": "qHg1sRI0KXywNtMbILyAXmX54FxEwF9p",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.5934244800009765,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "Nc6J4VoFIZxpYElvQNGBTJq2LkMjzxX8",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "kjLOifAxXbELIsEc4OWmdgDbVrUUZv5F",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 6.53054492600495,
+    "finish_reason": "tool_calls",
+    "turn": 4
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "rUNxq6qlsvVberoMDidDXsFwbjuHCf59",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "MhLHaUy7yvsgSH1u28vAFevt9zJzpTni",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "75oHodwQeH3NeQhU3X2MkWTG6MlTvILQ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "YFOpZODWGiBU39fUl4IF8fjOQKiCZezb",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "y5to12IeJcS0P2NyrVbCY5yrsY1KpxaE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "qIC9CsCqrKSEfi3BwLWoQ3ySli60cmQe",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "sb6SR43ROO0ZCBHDkzSnkHs6lguUjubG",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "1j72pMbKaUYmMMBMovhDFvZlIwGjOCse",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "PjfeZgPIFCMC7amTLFKHUenlEyKrAoef",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "d9VN5Ehn9IADOm6FNfbswVUcYtsJ3dkE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "PlAnx6Vv9K9gLajBol6wYSj94VfgPpcz",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "mjkOGc4Q3Kp8PLcN6GzzX4kxt8rBiXC9",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "uunIg9hu5H33AgOa3RnvRS26q8go8mLr",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "BB1zUjc6mqy0t3LBHO474zSLfNtrC53g",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "qeSJM3Y1n7Ex8B9qOxUOJ6jYRBqF0m9c",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "7cA5BZhFIXSOaeEusuXFQrYGgqZok823",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "2iYim5asZrnfYNcKbmvvuwo2eFzRNdfR",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "1fRIlNyJDjvOxOk4mnPOndwI2sK7d85a",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "5KyQfv3coWyd1AKR5lCgig45RykdXW3C",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "kRdsMU5yTW3iPKggFqQVSU3j0RlgvccZ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "TModFAfkdGwo0hchLD1EAmnHt2d41SX8",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "CVN5TGT3WFNBFjYb08Jyn6g7485lr9Vv",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "OBmsqbuCm24HZQHzYthSHRDJrVdhvKmh",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "hwcBX7vD7XLx2XyR751cnrMBlkBDT9eq",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "6CyBfg2cOK8dYiFaDpXQ7svRrcaBtm9x",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "m253hkRfV7dTvzypmn6nIUpqk2VBHazD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "0iDevIwltSMlYozL86xNOHyt4Dc5PHDo",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "4RPBuiS6M2OOWz2jVPBfhtWdpHweMV7V",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "PqKGcQafSXPbkLBvRi7JwsMfHnKZiE7N",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "ZBN3bQZP6zvt7V1sly44xszDr8uJihKR",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "ODcAyWFrGQGtu3q8OIc1NUDTyO3mb8n4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "aoRzcJKbgKPQ7p49QM0wMsks48cNnuh3",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "ldqoUKUCGBlLeVYiLTRMhVixujT9FmMV",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "m0ox3K4kJcif7RH5KcZ8nhkA4eZR5Uuv",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "bAVP9BEddrwKx79sdhcwqMzFjOGcxcPP",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "v3jok1yESY7D5MNjSDezCMQYkFsN6WH0",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "sPahMKWVEmEGQ1EGxzYMSWMGAyONZd2L",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "yAgmdkn3fAzxw6w7j7Q6cF15wB5WnodN",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "MiwfOhtwBz7j1hW2RiMsHLvmV2QL78DB",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "MAfcZKzEEX63QiI4pjw2LuD3dgKiwSsr",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 110.10290740699566,
+    "finish_reason": "length",
+    "turn": 5
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "OJ2Eo32zgbT3DqxlKAC2avOTbqrlfCMq",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 13.224746122999932,
+    "finish_reason": "tool_calls",
+    "turn": 6
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "MwaoaFMUNhECbcvcUSrBI0Yyc6rzT064",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.8129990880115656,
+    "finish_reason": "tool_calls",
+    "turn": 7
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "qMksEDlF8EiwAv5hNwvuqvU7ej06yvwJ",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.831370907006203,
+    "finish_reason": "tool_calls",
+    "turn": 8
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "tCh7fwS4eT1pv02pG4aee1OnZYOXvCvZ",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.8310732410027413,
+    "finish_reason": "tool_calls",
+    "turn": 9
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "f18KZLue3f3NkRFQh9ZtgZc9YVDsK1Zj",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.840301265998278,
+    "finish_reason": "tool_calls",
+    "turn": 10
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "N0Gl9obQqki6j2of5nwHhyiGYy5QcfpN",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.832071017997805,
+    "finish_reason": "tool_calls",
+    "turn": 11
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "move_jobs"
+          },
+          "id": "jblIZVmHevgtOw0Hn86JnBOBA6DQsCtu",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.824833688995568,
+    "finish_reason": "tool_calls",
+    "turn": 12
+  }
+]

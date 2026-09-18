@@ -1,0 +1,430 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "ZUrwZkfUqzwkhtjSwNlpoTxc8iFypu6S",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 10.48237988598703,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "YItY1AyDS0oxFbHYszszorBOvdoMurS7",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.7588160860032076,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "UzNkFtKAlXbPciqKOWicF6w29tGyr6Rl",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "tgZ2ufRyJ3zgy2iBZGs30fNrrrs72p27",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "53dsXu5kqs0b8C1Gqd1XPGD59tLYv1nI",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.997123779001413,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "pyfAwwqoIgfhEjerQOcKFD0cTk1NU09Y",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "QBDHtHiFXrIslkZb6S7YFjH42wMCuW5x",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "Fb6G046ljEEKaMvbp6cT7EwMJ7Wwq0Sd",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "ToP3AJeNQJCouAUtsrknmZ35VeVdUKzn",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "suhLwj15nv5wsntcLocUFCOghUEss13I",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "pssBt5ZHRCCdC1ZunaaWTOLSKJq72rtz",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "q8gr8Ybr62LKZNUAkw433o002DYb53ad",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "SyC9AonF7ikXigaEFwa5JphCu6M0F6fe",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "HIw1Lm0W56PsIyZnBOvecEnLmZQUbMXB",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "cjuYYqCl9cQkvMJoPcMgLJ1MURlrkLbB",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "MUf2QFt2ePsKHvsjFUgUr3fxrBDxCyx7",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "PI4r43j1JQ22zqolWJhEo38UUumYiHl3",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "FZZN0ZRazKDWGYHleeQ3BVwdlZtvvbSd",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "jjW6YlqQdpiXIwmhkxOI8eMV6UpwZzgo",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "Gxt4oro3UB5D8se61kMS4hnAA2pdte0u",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "VKJ7UxicYRg7GDA2JtADGcj4w1rN6GkQ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "Cg4N2brwvQloUY7ap1JuCdUAglOgXPNz",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "CpsuMGOlsiRdRP6xps90U8y55342URB6",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "BS0hWNjAAglUhrzaH96DyaC8WHwO79cX",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "B6Ju5FCSKdtlxHNRArcb2rqTBkGaG9jG",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "e4QOTpvTqLbUo6DYsOGOR2P3UdZSYwA1",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "DHQFRIfhmys126VBoqHh5cTyhkDpLtFU",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "AlxFojSjLXf3wo2yl6izvBWDPRP5yVur",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "rwOrP25VA4YYiCcO7a4V8kGg2tRbPznx",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "zj7s3RZSE6pJBNVi9vEdTw7eFU33Cey1",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "ID2JCEGsHBhRDnHtPZ0ejkYRz69C96TE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "eLgrG9ugdKtwcZRGPhRoLEwhbK8Gux7t",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "rO3RkOFc26ITe4629iYr7ZzHQ4s0FeRb",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "pHXAS8ECHLkWtk1qAK4nwO4oTsIUh2A4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "1ltHLSjWbHz107qYwXSu9ns56nAf8ocl",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "mdPCk6Pyab1CBXYOVDdww05CgbxZ8uCG",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "Ayby9iaO1GvT5OxdpYg0BUB38I3EC9HM",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "ZWBhsU2xtKCab2Oiefx2sWIPq7yZpNQy",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "TyWNF7kJitvPUUfsCPtuXePhOsr4b6hP",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "P3ccrtTrmlwYp5ojQrLVnBB4TbFI0Tex",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "TM0SYYWDeXLxdH0dLacrmpcPEGfhE2kz",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "pRR8bMOPuvNoLPfSB04uo1tQg67seY8H",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "Grkw26J7tPiM19tuHjUce0lnTzodqBy3",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "iNNDUosoP1hqwAITiPDglzOy0Ust62yl",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "MVq0VDVR8y14oPC6yNgRxq1K4htQQRJK",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "cENbW85kNRea7qDveLNY5P26341T12hw",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "5OsNS8xW2is094u7r9saeUv6KgsLG2EE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{",
+            "name": "migrate_database"
+          },
+          "id": "zNJ1NKgoTanI28JkTcSmtwcyaLeaCTzq",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 110.06959430700226,
+    "finish_reason": "length",
+    "turn": 4
+  }
+]

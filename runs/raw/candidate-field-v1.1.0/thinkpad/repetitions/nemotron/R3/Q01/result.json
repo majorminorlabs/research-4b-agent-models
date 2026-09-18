@@ -1,0 +1,1288 @@
+{
+  "attempt_id": "Q01-attempt-001",
+  "elapsed_s": 120.54648076299054,
+  "errors": [
+    "model_malformed_arguments",
+    "server_transport_error"
+  ],
+  "events": [
+    {
+      "arguments": {},
+      "invalid": true,
+      "ok": false,
+      "response": "malformed_arguments:KeyError:'release_id'",
+      "tool": "deploy_release",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "invalid": true,
+      "ok": false,
+      "response": "malformed_arguments:KeyError:'release_id'",
+      "tool": "deploy_release",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "arguments": {},
+      "ok": true,
+      "response": {
+        "verified": false
+      },
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "tool": "verify_artifact",
+      "type": "tool_call"
+    },
+    {
+      "reason": "transport_invalid",
+      "state": {
+        "production": "r-184",
+        "releases": {
+          "r-184": {
+            "approved": true,
+            "artifact": "sha256:AAA",
+            "commit": "8a1f31",
+            "created": "09:10"
+          },
+          "r-185": {
+            "approved": true,
+            "artifact": "sha256:BBB",
+            "commit": "03bf72",
+            "created": "11:42"
+          },
+          "r-186": {
+            "approved": false,
+            "artifact": "sha256:CCC",
+            "commit": "e72190",
+            "created": "12:03"
+          }
+        }
+      },
+      "type": "termination"
+    }
+  ],
+  "model": "Nemotron-3-Nano-4B",
+  "raw_response_count": 2,
+  "resource_samples": [
+    {
+      "epoch": 1789772344.6433084,
+      "mem": {
+        "MemAvailable": 8287186944,
+        "SwapFree": 17547988992,
+        "SwapTotal": 19812306944
+      },
+      "phase": "before_request",
+      "pid": 102681,
+      "rss_bytes": 167006208
+    },
+    {
+      "epoch": 1789772465.1398232,
+      "mem": {
+        "MemAvailable": 7954857984,
+        "SwapFree": 17548234752,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_1",
+      "pid": 102681,
+      "rss_bytes": 444575744
+    },
+    {
+      "epoch": 1789772465.1708474,
+      "mem": {
+        "MemAvailable": 7954857984,
+        "SwapFree": 17548234752,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_tools_1",
+      "pid": 102681,
+      "rss_bytes": 444575744
+    },
+    {
+      "epoch": 1789772465.192481,
+      "mem": {
+        "MemAvailable": 7954194432,
+        "SwapFree": 17548234752,
+        "SwapTotal": 19812306944
+      },
+      "phase": "after_request_2",
+      "pid": 102681,
+      "rss_bytes": 445628416
+    }
+  ],
+  "status": "transport_invalid",
+  "task": "Q01",
+  "turns": 1
+}
