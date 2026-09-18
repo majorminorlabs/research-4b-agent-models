@@ -1,0 +1,41 @@
+{
+  "http_status": 200,
+  "json": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "The weather for test-city is 21\u00b0C.",
+          "reasoning_content": "The user asked to use get_weather for test-city. I called the function and got a response: temperature_c is 21. I should present this information to the user. The response is straightforward: test-city has temperature 21\u00b0C. I'll output that.\n",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1789769608,
+    "id": "chatcmpl-IGRa00hA3ipYAwnon4P3vHxQ5om8LTMU",
+    "model": "Nemotron-3-Nano-4B",
+    "object": "chat.completion",
+    "system_fingerprint": "b11028-972d2313b",
+    "timings": {
+      "cache_n": 301,
+      "predicted_ms": 9861.472,
+      "predicted_n": 70,
+      "predicted_per_second": 6.996927030771877,
+      "predicted_per_token_ms": 142.91988405797102,
+      "prompt_ms": 1034.874,
+      "prompt_n": 58,
+      "prompt_per_second": 56.04547026981062,
+      "prompt_per_token_ms": 17.842655172413792
+    },
+    "usage": {
+      "completion_tokens": 70,
+      "prompt_tokens": 359,
+      "prompt_tokens_details": {
+        "cached_tokens": 301
+      },
+      "total_tokens": 429
+    }
+  },
+  "raw": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"The weather for test-city is 21\u00b0C.\",\"reasoning_content\":\"The user asked to use get_weather for test-city. I called the function and got a response: temperature_c is 21. I should present this information to the user. The response is straightforward: test-city has temperature 21\u00b0C. I'll output that.\\n\"}}],\"created\":1789769608,\"model\":\"Nemotron-3-Nano-4B\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":70,\"prompt_tokens\":359,\"total_tokens\":429,\"prompt_tokens_details\":{\"cached_tokens\":301}},\"id\":\"chatcmpl-IGRa00hA3ipYAwnon4P3vHxQ5om8LTMU\",\"timings\":{\"cache_n\":301,\"prompt_n\":58,\"prompt_ms\":1034.874,\"prompt_per_token_ms\":17.842655172413792,\"prompt_per_second\":56.04547026981062,\"predicted_n\":70,\"predicted_ms\":9861.472,\"predicted_per_token_ms\":142.91988405797102,\"predicted_per_second\":6.996927030771877}}"
+}

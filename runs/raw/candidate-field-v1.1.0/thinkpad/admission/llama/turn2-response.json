@@ -1,0 +1,40 @@
+{
+  "http_status": 200,
+  "json": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"name\": \"get_weather\", \"parameters\": {\"city\": \"test-city\"}}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1789769660,
+    "id": "chatcmpl-Vx1yPsLHBqRY3SFW7Th3hhewJ49fnlMp",
+    "model": "Llama-3.2-3B-Instruct",
+    "object": "chat.completion",
+    "system_fingerprint": "b11028-972d2313b",
+    "timings": {
+      "cache_n": 221,
+      "predicted_ms": 1751.131,
+      "predicted_n": 19,
+      "predicted_per_second": 10.27907106892631,
+      "predicted_per_token_ms": 97.28505555555556,
+      "prompt_ms": 298.53,
+      "prompt_n": 23,
+      "prompt_per_second": 77.04418316417112,
+      "prompt_per_token_ms": 12.979565217391302
+    },
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 244,
+      "prompt_tokens_details": {
+        "cached_tokens": 221
+      },
+      "total_tokens": 263
+    }
+  },
+  "raw": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"name\\\": \\\"get_weather\\\", \\\"parameters\\\": {\\\"city\\\": \\\"test-city\\\"}}\"}}],\"created\":1789769660,\"model\":\"Llama-3.2-3B-Instruct\",\"system_fingerprint\":\"b11028-972d2313b\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":19,\"prompt_tokens\":244,\"total_tokens\":263,\"prompt_tokens_details\":{\"cached_tokens\":221}},\"id\":\"chatcmpl-Vx1yPsLHBqRY3SFW7Th3hhewJ49fnlMp\",\"timings\":{\"cache_n\":221,\"prompt_n\":23,\"prompt_ms\":298.53,\"prompt_per_token_ms\":12.979565217391302,\"prompt_per_second\":77.04418316417112,\"predicted_n\":19,\"predicted_ms\":1751.131,\"predicted_per_token_ms\":97.28505555555556,\"predicted_per_second\":10.27907106892631}}"
+}

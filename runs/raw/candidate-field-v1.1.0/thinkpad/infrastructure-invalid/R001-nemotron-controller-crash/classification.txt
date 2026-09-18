@@ -1,0 +1,2 @@
+controller_exception=Simulator._apply KeyError for malformed model arguments
+classification=infrastructure-invalid

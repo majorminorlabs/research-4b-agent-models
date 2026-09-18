@@ -1,0 +1,60 @@
+{
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "You are a neutral tool-routing test assistant.",
+      "role": "system"
+    },
+    {
+      "content": "Use get_weather for test-city.",
+      "role": "user"
+    },
+    {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"city\":\"test-city\"}",
+            "name": "get_weather"
+          },
+          "id": "kQcdMnPGJsksSfisetwJMg8Hw0mNYpBP",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "content": "{\"city\":\"test-city\",\"temperature_c\":21}",
+      "name": "get_weather",
+      "role": "tool",
+      "tool_call_id": "kQcdMnPGJsksSfisetwJMg8Hw0mNYpBP"
+    }
+  ],
+  "model": "Nemotron-3-Nano-4B",
+  "seed": 0,
+  "stream": false,
+  "temperature": 0,
+  "tool_choice": "none",
+  "tools": [
+    {
+      "function": {
+        "description": "Retrieve weather for a city.",
+        "name": "get_weather",
+        "parameters": {
+          "additionalProperties": false,
+          "properties": {
+            "city": {
+              "description": "Test city name",
+              "type": "string"
+            }
+          },
+          "required": [
+            "city"
+          ],
+          "type": "object"
+        }
+      },
+      "type": "function"
+    }
+  ]
+}

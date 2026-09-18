@@ -1,0 +1,22 @@
+{
+  "failure": null,
+  "model": "Nemotron-3-Nano-4B",
+  "status": "pass",
+  "turn1_http_status": 200,
+  "turn1_tool_calls": [
+    {
+      "function": {
+        "arguments": "{\"city\":\"test-city\"}",
+        "name": "get_weather"
+      },
+      "id": "kQcdMnPGJsksSfisetwJMg8Hw0mNYpBP",
+      "type": "function"
+    }
+  ],
+  "turn2_http_status": 200,
+  "turn2_message": {
+    "content": "The weather for test-city is 21\u00b0C.",
+    "reasoning_content": "The user asked to use get_weather for test-city. I called the function and got a response: temperature_c is 21. I should present this information to the user. The response is straightforward: test-city has temperature 21\u00b0C. I'll output that.\n",
+    "role": "assistant"
+  }
+}

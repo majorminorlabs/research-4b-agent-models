@@ -1,0 +1,20 @@
+{
+  "amendment": "candidate-field-v1.1.0",
+  "controller_host": "Mac Studio",
+  "execution_host": "pop-os; Lenovo ThinkPad T14 Gen 2a",
+  "ssh_alias": "thinkpad",
+  "remote_user": "dippo",
+  "llama_cpp_commit": "972d2313bc0bf0a45f634f77d95c9fb03aeab12c",
+  "llama_cpp_path": "/home/dippo/research-inference/llama.cpp",
+  "vulkan": {"backend": "Vulkan/RADV", "device": "AMD Radeon Graphics (RADV RENOIR)", "vendor_device": "1002:1638", "llvmpipe_selected": false, "device_select": "1002:1638!"},
+  "namespace": "mmagent-offline",
+  "infrastructure_restoration": false,
+  "models": [
+    {"benchmark_model_id": "nemotron-3-nano-4b", "path": "/home/dippo/research-inference/models/mm-agent/NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf", "sha256": "be5d9a656a51922f24f1f09a759cebb694e1f5d9728bf0ef9f8c972c5a0b5ef2", "bytes": 2837072864, "admission": "PASS", "evidence": "runs/raw/candidate-field-v1.1.0/thinkpad/admission/nemotron"},
+    {"benchmark_model_id": "llama-3.2-3b-instruct", "path": "/home/dippo/research-inference/models/mm-agent/Llama-3.2-3B-Instruct-Q4_K_M.gguf", "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff", "bytes": 2019377696, "admission": "PASS", "evidence": "runs/raw/candidate-field-v1.1.0/thinkpad/admission/llama"}
+  ],
+  "gate": {"protocol": "neutral_structured_integration_v1", "native_template": true, "structured_tool_call": true, "canonical_arguments": true, "tool_role_result": true, "second_turn": true, "offline": true, "compatibility_shim": false, "source_patch": false, "template_rewrite": false},
+  "first_round": {"scheduled": 14, "valid_observations": 14, "infrastructure_invalid_attempts": 1},
+  "repetitions": {"candidate": "nemotron-3-nano-4b", "observations": 2, "runs": 14},
+  "evidence_root": "runs/raw/candidate-field-v1.1.0/thinkpad"
+}
