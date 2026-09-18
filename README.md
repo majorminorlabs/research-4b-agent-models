@@ -6,7 +6,7 @@ This standalone benchmark asks: how capable are small local language models at t
 
 ## Status
 
-The model-comparison study is complete and locally reproducible. It is not yet published. The benchmark contains four valid scored candidates and a separately documented admission history for candidates that failed the structured interface gate before scored exposure.
+The model-comparison study is complete and locally reproducible. It is not yet published. The intended field contains six candidates and the admitted/scored field contains six candidates after the `candidate-field-v1.1.0` expansion.
 
 ## Results
 
@@ -16,8 +16,12 @@ The model-comparison study is complete and locally reproducible. It is not yet p
 | Qwen3 4B | 17/80 | 17, 17, 17 | Finalist set failed the 5.0 GiB minimum-available-RAM floor |
 | Qwen2.5 3B | 14/80 | — | Pass in first round |
 | Granite 4.1 3B | 12/80 | — | Pass in first round |
+| NVIDIA Nemotron 3 Nano 4B | 17/80 | 17, 17 | Pass; tie for second |
+| Meta Llama 3.2 3B Instruct | 12/80 | — | Pass |
 
 Scores are deterministic benchmark results, not general intelligence estimates. Absolute autonomous-agent readiness was weak even for the selected reference model.
+
+Nemotron’s three observations were identical per task: Q01–Q07 = 2, 3, 2, 3, 5, 2, 0, totaling 17/80 each. Llama’s first round was Q01–Q07 = 2, 0, 0, 1, 1, 0, 8, totaling 12/80. Nemotron tied the expanded field’s second-place score and therefore received the two required repetitions; Llama did not.
 
 ## Method
 
@@ -33,6 +37,7 @@ The execution host was a ThinkPad T14 Gen 2a with Ryzen 7 PRO 5850U and approxim
 - Malformed model arguments were preserved as model behavior, never repaired or retried.
 - Repetitions measure stability under this frozen setting; they do not establish broad stochastic uncertainty.
 - The seven-task fixture set is narrow, and the resource floor affected finalist eligibility.
+- Both authorized candidates passed the pre-exposure structured-tool admission gate. Nemotron produced repeated malformed tool-call JSON during scored exposure; frozen server transport errors were preserved as behavioral evidence and not retried.
 
 ## Evidence and reproduction
 
