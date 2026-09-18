@@ -1,0 +1,22 @@
+Preflight timestamp: 2026-09-18
+Repository: /Volumes/Research/tests/mm-4b-benchmark
+Amendment: candidate-field-v1.1.0, commit fdf04cf
+
+This preflight was performed from the available execution environment only.
+
+hostname: dippos-Mac-Studio.local
+kernel: Darwin 25.6.0 arm64 host (reported uname machine field x86_64 under translation)
+expected ThinkPad host: unavailable
+frozen executable /tmp/mm-agent-llama-build/bin/llama-completion: MISSING
+expected model directory /home/dippo/research-inference/models/mm-agent: MISSING
+Vulkan/RADV verification: NOT PERFORMED; required ThinkPad runtime unavailable
+mmagent-offline namespace verification: NOT PERFORMED; required ThinkPad runtime unavailable
+ThinkPad RAM/swap/resource preflight: NOT PERFORMED
+candidate acquisition: NOT STARTED
+candidate exposure: NOT STARTED
+Q01-Q07 scored runs: 0
+infrastructure-invalid attempts: 0
+
+Stop reason: the frozen ThinkPad llama.cpp checkout/executable and expected model
+directory are unavailable from this host. No alternate rebuild, download, or
+candidate substitution was performed.
