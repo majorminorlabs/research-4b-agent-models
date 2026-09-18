@@ -1,0 +1,10 @@
+{
+  "schedule_version": "candidate-field-v1.1.0",
+  "status": "frozen_pre_exposure",
+  "candidates": ["nemotron-3-nano-4b", "llama-3.2-3b-instruct"],
+  "both_admitted_first_round": ["N-Q01", "L-Q01", "N-Q02", "L-Q02", "N-Q03", "L-Q03", "N-Q04", "L-Q04", "N-Q05", "L-Q05", "N-Q06", "L-Q06", "N-Q07", "L-Q07"],
+  "nemotron_only_first_round": ["N-Q01", "N-Q02", "N-Q03", "N-Q04", "N-Q05", "N-Q06", "N-Q07"],
+  "llama_only_first_round": ["L-Q01", "L-Q02", "L-Q03", "L-Q04", "L-Q05", "L-Q06", "L-Q07"],
+  "repetition_rule": "New candidate qualifies at or above expanded-field second-place first-round score; ties qualify; two additional complete Q01-Q07 observations; existing finalists are not rerun.",
+  "max_new_valid_observations": 14
+}
