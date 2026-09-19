@@ -2,7 +2,7 @@
 
 `manifest.json` is the frozen Stage 1 provenance record; `manifest.schema.json`
 defines its required fields. GGUF weights are stored outside Git on the
-ThinkPad at `/home/dippo/research-inference/models/mm-agent/`.
+ThinkPad at `/home/<user>/research-inference/models/mm-agent/`.
 
 The four frozen IDs are:
 

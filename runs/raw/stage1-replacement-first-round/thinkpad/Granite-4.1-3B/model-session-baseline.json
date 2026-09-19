@@ -1,6 +1,6 @@
 {
   "model": "Granite-4.1-3B",
-  "path": "/home/dippo/research-inference/models/mm-agent/granite-4.1-3b-Q4_K_M.gguf",
+  "path": "/home/<user>/research-inference/models/mm-agent/granite-4.1-3b-Q4_K_M.gguf",
   "before_load": {
     "phase": "before_model_load",
     "epoch": 1789761435.2228553,

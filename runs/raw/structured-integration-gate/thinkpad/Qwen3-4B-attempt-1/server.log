@@ -7,7 +7,7 @@
 0.00.045.825 W srv  llama_server: this can be a security risk (cross-origin attacks)
 0.00.045.825 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
 0.00.045.825 W srv  llama_server: -----------------
-0.00.047.072 I srv    load_model: loading model '/home/dippo/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf'
+0.00.047.072 I srv    load_model: loading model '/home/<user>/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf'
 0.00.376.155 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
 0.02.953.935 I cmn          init: llama threadpool init, n_threads = 8
 0.04.058.714 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 16384, kv_unified = 'true'

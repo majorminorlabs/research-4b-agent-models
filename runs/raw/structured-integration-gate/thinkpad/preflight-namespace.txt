@@ -14,7 +14,7 @@ curl: (7) Failed to connect to 1.1.1.1 port 80 after 0 ms: Couldn't connect to s
 == namespace localhost ==
 localhost_bind_listen_ok 48391
 == host internet ==
-HTTP/2 200 
+HTTP/2 200
 date: Fri, 18 Sep 2026 18:03:57 GMT
 content-type: text/html
 == Vulkan namespace ==
@@ -89,10 +89,10 @@ GPU1:
 	deviceUUID         = 6d657361-3235-2e32-2e38-2d3075627500
 	driverUUID         = 6c6c766d-7069-7065-5555-494400000000
 == model access ==
-/home/dippo/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf 2497280960 2026-09-17 23:19:35.759801535 -0500
-/home/dippo/research-inference/models/mm-agent/google_gemma-3-4b-it-Q4_K_M.gguf 2489758112 2026-09-17 23:22:23.110042033 -0500
-/home/dippo/research-inference/models/mm-agent/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf 2491874688 2026-09-17 23:20:59.340595634 -0500
-/home/dippo/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf 2146498528 2026-09-17 23:17:52.913288019 -0500
+/home/<user>/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf 2497280960 2026-09-17 23:19:35.759801535 -0500
+/home/<user>/research-inference/models/mm-agent/google_gemma-3-4b-it-Q4_K_M.gguf 2489758112 2026-09-17 23:22:23.110042033 -0500
+/home/<user>/research-inference/models/mm-agent/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf 2491874688 2026-09-17 23:20:59.340595634 -0500
+/home/<user>/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf 2146498528 2026-09-17 23:17:52.913288019 -0500
 == source commit ==
 972d2313bc0bf0a45f634f77d95c9fb03aeab12c
 == resource monitor ==

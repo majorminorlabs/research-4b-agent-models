@@ -15,7 +15,7 @@ The frozen llama.cpp commit `972d2313bc0bf0a45f634f77d95c9fb03aeab12` already co
 - File: `granite-4.1-3b-Q4_K_M.gguf`.
 - Size: 2,099,501,664 bytes.
 - SHA-256: `662b0626cd58f443baea23559b469df6576a81d349649c59413b36a9fb32eb29`.
-- ThinkPad path: `/home/dippo/research-inference/models/mm-agent/granite-4.1-3b-Q4_K_M.gguf`.
+- ThinkPad path: `/home/<user>/research-inference/models/mm-agent/granite-4.1-3b-Q4_K_M.gguf`.
 - Runtime: frozen llama.cpp, Vulkan/RADV, `mmagent-offline` namespace.
 
 The embedded template supports tools, structured assistant tool calls, object arguments, tool-role messages, and continuation. The unchanged neutral two-turn gate passed: one structured `message.tool_calls` call was returned, the dummy tool result was supplied in a tool-role message, and the second assistant response completed successfully. No model-specific prompt, parser workaround, or textual-call acceptance was used.

@@ -28,7 +28,7 @@
     "upstream_lfs_oid": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
     "xet_hash": "777b1c9982e98ca62b4a6a16914bb6bfb7d07585714aea681276e96c90aa0f04",
     "sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
-    "filesystem_path": "/home/dippo/research-inference/models/mm-agent/SmolLM3-3B-Q4_K_M.gguf",
+    "filesystem_path": "/home/<user>/research-inference/models/mm-agent/SmolLM3-3B-Q4_K_M.gguf",
     "download_timestamp": "2026-09-18T14:15:54-05:00",
     "source_lineage": "Official ggml-org GGUF repository; model card identifies HuggingFaceTB/SmolLM3-3B as the original model.",
     "quantizer_provenance": "Official ggml-org GGUF artifact; converter details not separately advertised in repository metadata.",

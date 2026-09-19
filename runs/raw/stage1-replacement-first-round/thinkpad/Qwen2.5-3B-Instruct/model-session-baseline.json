@@ -1,6 +1,6 @@
 {
   "model": "Qwen2.5-3B-Instruct",
-  "path": "/home/dippo/research-inference/models/mm-agent/Qwen_Qwen2.5-3B-Instruct-Q4_K_M.gguf",
+  "path": "/home/<user>/research-inference/models/mm-agent/Qwen_Qwen2.5-3B-Instruct-Q4_K_M.gguf",
   "before_load": {
     "phase": "before_model_load",
     "epoch": 1789761275.2789755,

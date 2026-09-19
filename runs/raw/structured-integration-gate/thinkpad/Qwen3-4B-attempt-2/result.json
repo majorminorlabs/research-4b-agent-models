@@ -90,7 +90,7 @@
     },
     "model_alias": "Qwen3-4B",
     "model_ftype": "Q4_K - Medium",
-    "model_path": "/home/dippo/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf",
+    "model_path": "/home/<user>/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf",
     "total_slots": 4,
     "ui": false,
     "ui_settings": {}

@@ -4,11 +4,11 @@ Amendment: candidate-field-v1.1.0, commit fdf04cf
 
 This preflight was performed from the available execution environment only.
 
-hostname: dippos-Mac-Studio.local
+hostname: <controller-host>
 kernel: Darwin 25.6.0 arm64 host (reported uname machine field x86_64 under translation)
 expected ThinkPad host: unavailable
 frozen executable /tmp/mm-agent-llama-build/bin/llama-completion: MISSING
-expected model directory /home/dippo/research-inference/models/mm-agent: MISSING
+expected model directory /home/<user>/research-inference/models/mm-agent: MISSING
 Vulkan/RADV verification: NOT PERFORMED; required ThinkPad runtime unavailable
 mmagent-offline namespace verification: NOT PERFORMED; required ThinkPad runtime unavailable
 ThinkPad RAM/swap/resource preflight: NOT PERFORMED

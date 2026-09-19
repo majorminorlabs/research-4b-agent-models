@@ -1,6 +1,6 @@
 # Candidate-field v1.1.0 results
 
-Inference was orchestrated from the Mac Studio and executed on the ThinkPad T14 Gen 2a inside `mmagent-offline`, using the frozen llama.cpp/Vulkan/RADV runtime. Existing four-model observations were not rerun.
+Inference was orchestrated from the <controller-host> and executed on the ThinkPad T14 Gen 2a inside `mmagent-offline`, using the frozen llama.cpp/Vulkan/RADV runtime. Existing four-model observations were not rerun.
 
 ## Scored field
 

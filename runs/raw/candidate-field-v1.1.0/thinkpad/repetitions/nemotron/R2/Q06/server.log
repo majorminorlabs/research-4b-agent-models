@@ -6,7 +6,7 @@
 0.00.070.641 W srv  llama_server: this can be a security risk (cross-origin attacks)
 0.00.070.642 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
 0.00.070.642 W srv  llama_server: -----------------
-0.00.072.049 I srv    load_model: loading model '/home/dippo/research-inference/models/mm-agent/NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf'
+0.00.072.049 I srv    load_model: loading model '/home/<user>/research-inference/models/mm-agent/NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf'
 0.02.332.774 I cmn          init: llama threadpool init, n_threads = 8
 0.02.879.285 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 16384, kv_unified = 'true'
 0.02.884.750 W srv          init: chat template supports preserving reasoning, it is enabled by default (may use more tokens, disable via --no-reasoning-preserve)

@@ -1,6 +1,6 @@
-controller_host: Mac Studio
-execution_host: pop-os / Lenovo ThinkPad T14 Gen 2a
-ssh_alias: thinkpad
+controller_host: <controller-host>
+execution_host: <remote-host> / Lenovo ThinkPad T14 Gen 2a
+ssh_alias: <remote-host>
 llama_cpp_commit: 972d2313bc0bf0a45f634f77d95c9fb03aeab12c
 model_sha256: be5d9a656a51922f24f1f09a759cebb694e1f5d9728bf0ef9f8c972c5a0b5ef2
 vulkan_selection: MESA_VK_DEVICE_SELECT=1002:1638!

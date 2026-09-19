@@ -92,7 +92,7 @@
     },
     "model_alias": "Granite-3.3-2B-Instruct",
     "model_ftype": "Q4_K - Medium",
-    "model_path": "/home/dippo/research-inference/models/mm-agent/ibm-granite_granite-3.3-2b-instruct-Q4_K_M.gguf",
+    "model_path": "/home/<user>/research-inference/models/mm-agent/ibm-granite_granite-3.3-2b-instruct-Q4_K_M.gguf",
     "total_slots": 4,
     "ui": false,
     "ui_settings": {}

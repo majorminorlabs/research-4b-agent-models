@@ -1,5 +1,5 @@
 UTC=2026-09-18T17:45:52Z
-HOST=pop-os
+HOST=<remote-host>
 NS_ENTRY
 uid=0(root) gid=0(root) groups=0(root)
 NS_LINKS
@@ -24,10 +24,10 @@ GPU1:
 LLAMA_COMMIT
 972d2313bc0bf0a45f634f77d95c9fb03aeab12c
 MODELS
-fbe1d5edd4ce802ae3ae7c7e4ab7d09789d697fdac1fc7929f8df4ca3c41bae3  /home/dippo/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf
-4996030242583a40aa151ff93f49ed787ac8c25e4120c3ae4588b2e2a7d1ae94  /home/dippo/research-inference/models/mm-agent/google_gemma-3-4b-it-Q4_K_M.gguf
-01999f17c39cc3074afae5e9c539bc82d45f2dd7faa3917c66cbef76fce8c0c2  /home/dippo/research-inference/models/mm-agent/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf
-fec9d28c7f8dab7c6857d54b56c8264cce57d6f6d9003bd4110f6457f071c65a  /home/dippo/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf
+fbe1d5edd4ce802ae3ae7c7e4ab7d09789d697fdac1fc7929f8df4ca3c41bae3  /home/<user>/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf
+4996030242583a40aa151ff93f49ed787ac8c25e4120c3ae4588b2e2a7d1ae94  /home/<user>/research-inference/models/mm-agent/google_gemma-3-4b-it-Q4_K_M.gguf
+01999f17c39cc3074afae5e9c539bc82d45f2dd7faa3917c66cbef76fce8c0c2  /home/<user>/research-inference/models/mm-agent/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf
+fec9d28c7f8dab7c6857d54b56c8264cce57d6f6d9003bd4110f6457f071c65a  /home/<user>/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf
 RESOURCES
                total        used        free      shared  buff/cache   available
 Mem:            14Gi       3.5Gi       2.2Gi        18Mi       9.7Gi        10Gi

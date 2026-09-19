@@ -1,9 +1,9 @@
 Stage 1 replacement first-round preflight; ThinkPad via ssh thinkpad
 Timestamp: 2026-09-18 (controller)
 
-Host: pop-os
+Host: <remote-host>
 Kernel: Linux 7.0.11-76070011-generic x86_64
-User: dippo (uid 1000)
+User: <user> (uid 1000)
 Frozen llama.cpp: 972d2313bc0bf0a45f634f77d95c9fb03aeab12
 Server build: b11028-972d2313b
 

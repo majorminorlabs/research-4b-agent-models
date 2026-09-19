@@ -53,7 +53,7 @@ gmake[4]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rul
 [  5%] Linking CXX static library libllama-common-base.a
 [  5%] Built target llama-common-base
 [  5%] Provisioning UI assets
-CMake Warning at /home/dippo/research-inference/llama.cpp/scripts/ui-assets.cmake:584 (message):
+CMake Warning at /home/<user>/research-inference/llama.cpp/scripts/ui-assets.cmake:584 (message):
   UI: no assets available - building without an embedded UI.  In a
   disconnected environment, download the pre-built UI from a llama.cpp
   release at https://github.com/ggml-org/llama.cpp/releases and extract to

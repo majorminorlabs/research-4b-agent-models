@@ -6,7 +6,7 @@
 0.00.036.256 W srv  llama_server: this can be a security risk (cross-origin attacks)
 0.00.036.256 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
 0.00.036.256 W srv  llama_server: -----------------
-0.00.037.513 I srv    load_model: loading model '/home/dippo/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf'
+0.00.037.513 I srv    load_model: loading model '/home/<user>/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf'
 0.02.005.757 W llama_context: setting new yarn_attn_factor = 1.0000 (mscale == 1.0, mscale_all_dim = 1.0)
 0.02.692.773 I cmn          init: llama threadpool init, n_threads = 8
 0.03.646.649 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 16384, kv_unified = 'true'

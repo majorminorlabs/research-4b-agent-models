@@ -55,5 +55,4 @@ Start with V1.0_SCIENTIFIC_FREEZE.md, protocol/, tasks/fixtures.json, models/, s
 
 ## Conclusion
 
-Small local models can produce isolated correct tool-use sequences, but the benchmark exposes substantial failures in verification, restraint, malformed-call control, and long-horizon reliability. Nemotron’s configuration resolution materially changed its observed behavior; its corrected evidence is stronger than the original 17/80 but resource-ineligible and still failure-prone. The repository remains a release candidate pending privacy/redaction review and explicit publication authorization.
-
+Small local models can produce isolated correct tool-use sequences, but the benchmark exposes substantial failures in verification, restraint, malformed-call control, and long-horizon reliability. Nemotron’s configuration resolution materially changed its observed behavior; its corrected evidence is stronger than the original 17/80 but resource-ineligible and still failure-prone. The release tree is ready to publish after the completed privacy/redaction review; external publication still requires explicit human authorization.

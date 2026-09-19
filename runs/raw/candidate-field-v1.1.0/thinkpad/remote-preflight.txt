@@ -1,16 +1,16 @@
-controller_host: Mac Studio
-execution_host: pop-os / Lenovo ThinkPad T14 Gen 2a
-ssh_alias: thinkpad
-remote_user: dippo
+controller_host: <controller-host>
+execution_host: <remote-host> / Lenovo ThinkPad T14 Gen 2a
+ssh_alias: <remote-host>
+remote_user: <user>
 cpu: AMD Ryzen 7 PRO 5850U with Radeon Graphics
 memory: 14 GiB visible; 9.7 GiB available at preflight
 swap: 18 GiB total; approximately 12 KiB used at preflight
-llama_cpp_path: /home/dippo/research-inference/llama.cpp
+llama_cpp_path: /home/<user>/research-inference/llama.cpp
 llama_cpp_commit: 972d2313bc0bf0a45f634f77d95c9fb03aeab12c
 vulkan_device: AMD Radeon Graphics (RADV RENOIR), vendor/device 1002:1638
 vulkan_driver: radv; llvmpipe enumerated but not selected
 device_selection: MESA_VK_DEVICE_SELECT=1002:1638!
 namespace: mmagent-offline
 infrastructure_restoration: false
-model_storage: /home/dippo/research-inference/models/mm-agent/
-execution_semantics: all inference remote on ThinkPad; Mac Studio orchestrated and collected evidence
+model_storage: /home/<user>/research-inference/models/mm-agent/
+execution_semantics: all inference remote on ThinkPad; <controller-host> orchestrated and collected evidence

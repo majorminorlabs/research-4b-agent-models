@@ -5,7 +5,7 @@ Benchmark commit: 33eb4a377829dec4e9b4618f06304cb77b93a4a7
 Model manifest commit: e2c3a26080b1dd4b70c9f9af1ca58f1b13bc38dd
 
 Host identity:
-  hostname: pop-os
+  hostname: <remote-host>
   kernel: Linux 7.0.11-76070011-generic
   cpu: AMD Ryzen 7 PRO 5850U with Radeon Graphics
   expected host: ThinkPad T14 Gen 2a

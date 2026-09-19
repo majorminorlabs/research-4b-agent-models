@@ -4,7 +4,7 @@
 
 How reliably can approximately 3B–4B local language models reason, use tools, preserve state, exercise restraint, recover from misleading evidence, and verify outcomes in deterministic simulated operations tasks on consumer hardware?
 
-This is a bounded behavioral benchmark, not a general intelligence test. The final v1.0 scientific record is frozen in V1.0_SCIENTIFIC_FREEZE.md; publication remains blocked pending release hygiene and authorization.
+This is a bounded behavioral benchmark, not a general intelligence test. The final v1.0 scientific record is frozen in V1.0_SCIENTIFIC_FREEZE.md; the release tree is ready to publish after the documented privacy pass, subject to explicit human authorization.
 
 ## Final results
 

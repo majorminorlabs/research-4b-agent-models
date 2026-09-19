@@ -11,11 +11,12 @@ from runner.adapter import AdapterError, parse_tool_plan
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURES = {x["id"]: x for x in json.loads((ROOT / "tasks/fixtures.json").read_text())["tasks"]}
 MANIFEST = json.loads((ROOT / "models/manifest.json").read_text())
+MODEL_ROOT = Path(os.environ.get("MM_AGENT_MODEL_ROOT", Path.home() / "research-inference/models/mm-agent"))
 MODEL_FILES = {
-    "Ministral-3-3B-Instruct-2512": "/home/dippo/research-inference/models/mm-agent/mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf",
-    "Qwen3-4B": "/home/dippo/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf",
-    "Phi-4-mini-instruct": "/home/dippo/research-inference/models/mm-agent/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
-    "Gemma-3-4B-IT": "/home/dippo/research-inference/models/mm-agent/google_gemma-3-4b-it-Q4_K_M.gguf",
+    "Ministral-3-3B-Instruct-2512": str(MODEL_ROOT / "mistralai_Ministral-3-3B-Instruct-2512-Q4_K_M.gguf"),
+    "Qwen3-4B": str(MODEL_ROOT / "Qwen_Qwen3-4B-Q4_K_M.gguf"),
+    "Phi-4-mini-instruct": str(MODEL_ROOT / "microsoft_Phi-4-mini-instruct-Q4_K_M.gguf"),
+    "Gemma-3-4B-IT": str(MODEL_ROOT / "google_gemma-3-4b-it-Q4_K_M.gguf"),
 }
 
 def prompt_for(fixture):

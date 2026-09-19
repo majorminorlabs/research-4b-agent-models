@@ -2,7 +2,7 @@
   "argv": [
     "/tmp/mm-agent-llama-build/bin/llama-completion",
     "-m",
-    "/home/dippo/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf",
+    "/home/<user>/research-inference/models/mm-agent/Qwen_Qwen3-4B-Q4_K_M.gguf",
     "-ngl",
     "99",
     "-c",
