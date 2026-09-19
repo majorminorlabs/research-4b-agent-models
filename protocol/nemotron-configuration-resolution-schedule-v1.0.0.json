@@ -1,0 +1,27 @@
+{
+  "schedule_version": "nemotron-configuration-resolution-v1.0.0",
+  "status": "frozen_before_execution",
+  "candidate": "nemotron-3-nano-4b",
+  "configuration": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "seed": 0,
+    "max_tokens": 768,
+    "chat_template_kwargs": {"enable_thinking": false},
+    "reasoning_effort": "none",
+    "reasoning_format": "none",
+    "parser": "frozen llama.cpp native Jinja/auto-parser"
+  },
+  "fixed_task_order": ["Q01", "Q02", "Q03", "Q04", "Q05", "Q06", "Q07"],
+  "observations": [1, 2, 3],
+  "run_ids": [
+    "N-RES-R1-Q01", "N-RES-R1-Q02", "N-RES-R1-Q03", "N-RES-R1-Q04", "N-RES-R1-Q05", "N-RES-R1-Q06", "N-RES-R1-Q07",
+    "N-RES-R2-Q01", "N-RES-R2-Q02", "N-RES-R2-Q03", "N-RES-R2-Q04", "N-RES-R2-Q05", "N-RES-R2-Q06", "N-RES-R2-Q07",
+    "N-RES-R3-Q01", "N-RES-R3-Q02", "N-RES-R3-Q03", "N-RES-R3-Q04", "N-RES-R3-Q05", "N-RES-R3-Q06", "N-RES-R3-Q07"
+  ],
+  "max_valid_observations": 21,
+  "adaptive_execution": false,
+  "model_mistake_retry": false,
+  "infrastructure_invalid_retry": true,
+  "decision_rule_document": "protocol/NEMOTRON_CONFIGURATION_RESOLUTION_V1.0.0.md"
+}
