@@ -1,0 +1,159 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "mZJ1xGUQYwF57jzAZMwnc5Z8rxpc5Dtp",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "F1auaP7pWvlNWZW4GNYKdgvHUjUt9Dk4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "gJHJ0tFAiAym2hY3JEsrB54rLxArrse9",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_application"
+          },
+          "id": "WeYLGbptdmp1UBItVCfkU1SMsIbnwXXT",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "9oymA4SmGqRE0Wp8AAsj5QgLstRm8SMw",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "NbS8P3BgrB9MjWTYzO8Mw2KDiunFgdn5",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "ioiwv1ZIn34VvWfoXwJihHDlVP6O7yw0",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 32.77059810500941,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "OAS5PF5y0lJP7SfzEucwBc4gTmyG63Nn",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_application"
+          },
+          "id": "passC4jtXz1SjT2kLiBnohRbdJVeIbGA",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "LDphpcqEf6nSDIdlhZvbzgQiLxAFdrar",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "lqSs8KOgu1P9dB8K5VlfQS23Vku6XQGq",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 10.304885454999749,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "GATKNxtVTSAROiQKJlffRdnr6mDdgsoZ",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 3.021404276994872,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "fOgjJ6mwaeXGbE3FcXL352skz7n56uej",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 2.774182558991015,
+    "finish_reason": "tool_calls",
+    "turn": 4
+  },
+  {
+    "assistant": {
+      "content": "<think></think>The database remains at schema\u202f17 and the service is still running application\u202f4.7 healthy.  \nThe migration and deployment commands could not be completed because the required arguments (target version) were not supplied, and the system could not perform the upgrade to schema\u202f19.  \nNo further action can safely be taken without the missing parameters.",
+      "role": "assistant"
+    },
+    "elapsed_s": 10.855357249994995,
+    "finish_reason": "stop",
+    "turn": 5
+  }
+]

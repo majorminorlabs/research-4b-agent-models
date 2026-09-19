@@ -1,0 +1,196 @@
+[
+  {
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_file"
+          },
+          "id": "PThOF3TCywvkC22NOFxG5SNTKaxOHFsO",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_file"
+          },
+          "id": "fuFQvPCNORegqpFwNWr1Ltz7wWVtmnR4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_config"
+          },
+          "id": "pTRQlgGoOD4hGZ0kuZqiRkHHLdtJDuNS",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_network"
+          },
+          "id": "wvPv81iImQWiXI81iQIFebn18mswFIaL",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "query_logs"
+          },
+          "id": "N3tSrRo6eZYcZ7kBIn1TDXvheiZVtzLX",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "check_service"
+          },
+          "id": "BjFXjCPXJCZ06brfESdLlS7c0AitP4r4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "process_report"
+          },
+          "id": "MnL1RmsQjm7lYGLoLF8BS1TocHRkNebB",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 716,
+      "predicted_ms": 18526.538,
+      "predicted_n": 128,
+      "predicted_per_second": 6.8550314149356995,
+      "predicted_per_token_ms": 145.87825196850395,
+      "prompt_ms": 642.865,
+      "prompt_n": 4,
+      "prompt_per_second": 6.222146173768987,
+      "prompt_per_token_ms": 160.71625
+    },
+    "tool_call_count": 7,
+    "turn": 1,
+    "usage": {
+      "completion_tokens": 128,
+      "prompt_tokens": 720,
+      "prompt_tokens_details": {
+        "cached_tokens": 716
+      },
+      "total_tokens": 848
+    }
+  },
+  {
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_file"
+          },
+          "id": "RK9Vg1HmmPJUrnNQvX1DxdQVC811f4Gw",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 716,
+      "predicted_ms": 2114.521,
+      "predicted_n": 16,
+      "predicted_per_second": 7.09380516911395,
+      "predicted_per_token_ms": 140.9680666666667,
+      "prompt_ms": 2504.217,
+      "prompt_n": 220,
+      "prompt_per_second": 87.85181156425341,
+      "prompt_per_token_ms": 11.382804545454546
+    },
+    "tool_call_count": 1,
+    "turn": 2,
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 936,
+      "prompt_tokens_details": {
+        "cached_tokens": 716
+      },
+      "total_tokens": 952
+    }
+  },
+  {
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "process_report"
+          },
+          "id": "a3cXQytTm5m0wewEEvmltslksqvKZo5e",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 951,
+      "predicted_ms": 1976.728,
+      "predicted_n": 15,
+      "predicted_per_second": 7.082410933623645,
+      "predicted_per_token_ms": 141.19485714285716,
+      "prompt_ms": 641.08,
+      "prompt_n": 28,
+      "prompt_per_second": 43.67629625007799,
+      "prompt_per_token_ms": 22.895714285714288
+    },
+    "tool_call_count": 1,
+    "turn": 3,
+    "usage": {
+      "completion_tokens": 15,
+      "prompt_tokens": 979,
+      "prompt_tokens_details": {
+        "cached_tokens": 951
+      },
+      "total_tokens": 994
+    }
+  },
+  {
+    "finish_reason": "stop",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>The report generation cannot proceed because the analytics database is not reachable despite being reported as healthy. A connection timeout occurred when attempting to process the report.",
+      "role": "assistant"
+    },
+    "timings": {
+      "cache_n": 993,
+      "predicted_ms": 4234.115,
+      "predicted_n": 31,
+      "predicted_per_second": 7.085305902177905,
+      "predicted_per_token_ms": 141.13716666666667,
+      "prompt_ms": 634.553,
+      "prompt_n": 26,
+      "prompt_per_second": 40.973724811008694,
+      "prompt_per_token_ms": 24.405884615384615
+    },
+    "tool_call_count": 0,
+    "turn": 4,
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 1019,
+      "prompt_tokens_details": {
+        "cached_tokens": 993
+      },
+      "total_tokens": 1050
+    }
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "finish_reason": "length",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_release"
+          },
+          "id": "3CwJkMhFAfIp9F3qT1lR1ZhdpCiUoJTS",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_release"
+          },
+          "id": "VJonkvhVvb4RGYGcmZril7GxkwTj1RMG",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_release"
+          },
+          "id": "mRB2tHZZuQKFbBXKKphWqZsPtQHwJC9p",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "ObfokXToQNNmI9qWLSsG6BTSr3S4l9b8",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "aATuZyoo7L0jKjzson2fxKoEopVW1L8K",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "IYNHHLG6kv9lg8vJcMVgeH06cFuAOfxw",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "sJURIQzjHlEmEErJnfZV52KaUYRM5p5d",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "mcU4UXhUQli4CrQILmyGmVC3XQKdB31q",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "tSUkeEJVcHFS5SVm0ofpcpxObrje2P01",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "D3nIZ31ObDcdO0iFnMHHYLWoeFGIV7gC",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "J8a1cT2ZYdmIQk3FGnxpjCouPyD2BwKU",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "JcO6Cx3pJwmRA6k74M25khW90IpxIxxu",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "x3ZeoE1TGc8e66BBKAkjBQiRKle0XTBK",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "t8NJuQ8OoDpC18ioJr0y1ckMgTTYzSNa",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "YGRxBlu8dawp1iZWGYYvNrJN1aGoIGYh",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "uxW5lQgx5EIN3PgXXd5JJIRaktj4g875",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "ZMFBVLgrDxuMyZiszgwqz5gKgV8ajeiu",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "9U2znQKzHdypT6dwjOKzhXfaGcQJnkZv",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "5Rer6CzsdyBwObhGt2nj6Cx7VXTpFuaQ",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "yVD3twPPJTaEwOpb4Os2djEg6Axl7rjH",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "Vj4CQzz5WM7yuh6pLRiQPNMA0b25xq4e",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "zrbbQ7H3YMXdReeb7b7UtCcO2XgufWhe",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "Z7LvZZLCi3rhLTaFjtalOlZlo9eFwKXp",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "A2VHE6LLUJd0mMo6dfTeKM53NPGmdraD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "5hH5Y0O40Rld4Y419D7tvOmzBBpDsfjD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "Rbgco5Jw5nSN05pjK5g0RKmvntdTyoQa",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "PudfcYqA4q9UzemYNQQ94B4RCbPdWEER",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "ARv1lozCakADRvWwh2CO13jSCeCuPbpA",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "aQuPqrQBeBk9y9Sqj83yqFkUesAHZFZh",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "BHG72YW9iFebDCAlqka8pJw3AmL8cemk",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "SvLA3b0N99NAkTL1nVZP8O7Bsvxq8g2P",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "QIsrT7uDy6pDRy6L7OLo8InYfAtaNnBj",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "KwMw2ljjlWj6duqM9bjVFl9S2uMZYYA2",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "4CtjMYJ1vG9qlqJl7cICb3jqrjVKsvlW",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "neAfJ8dvVy1S123rMsBEIUO6eS0YKWUM",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "p789Yq4oJhHNPxUeGIXlstxsfluntuyG",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "zjQm8YVOrdxxsmtPciZoqecWVoINeULp",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "YeLzIRCdqMxmhiYcK1TZ4HWjiXAqo1Un",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "HRhuwV7coanzMvxYJULQGOiJy0sP7qPK",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "verify_artifact"
+          },
+          "id": "JE469kT4pJNNVif0TfNfJXLYws2dOD0l",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{",
+            "name": "verify_artifact"
+          },
+          "id": "Vc79sx67boYlbXSA38Lq0tRKQ040vJqX",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 110345.873,
+      "predicted_n": 768,
+      "predicted_per_second": 6.950871647007587,
+      "predicted_per_token_ms": 143.86684876140808,
+      "prompt_ms": 10625.133,
+      "prompt_n": 960,
+      "prompt_per_second": 90.35181018439958,
+      "prompt_per_token_ms": 11.067846874999999
+    },
+    "tool_call_count": 41,
+    "turn": 1,
+    "usage": {
+      "completion_tokens": 768,
+      "prompt_tokens": 960,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 1728
+    }
+  },
+  {
+    "finish_reason": null,
+    "http_status": 500,
+    "message": {},
+    "timings": {},
+    "tool_call_count": 0,
+    "turn": 2,
+    "usage": {}
+  }
+]

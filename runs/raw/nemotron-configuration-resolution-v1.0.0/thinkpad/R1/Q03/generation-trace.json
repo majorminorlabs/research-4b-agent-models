@@ -1,0 +1,228 @@
+[
+  {
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "cPXvjMLkXS8eIll744jTQmnSCN5JOWyd",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "2lW7YP5Glu03xrF7wfwEdyzhwkHUx2da",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "fz6jDFxfJjTyElL3tkN160PFEi1k3ftT",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_application"
+          },
+          "id": "qS8TlfsSXyXNHxfNfskHXP9lKrpnRXOL",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "NG4XwNq7FZVNfdPJ9xtUGkxveHVk9mWA",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "7yXqo8ZpmKLenewDO1F4GzTkMrUnuXKc",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "o6zr5x53JKrRE7UtukWEnZ1mVB547PQ1",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 16133.445,
+      "predicted_n": 111,
+      "predicted_per_second": 6.818134626547523,
+      "predicted_per_token_ms": 146.66768181818182,
+      "prompt_ms": 8671.213,
+      "prompt_n": 752,
+      "prompt_per_second": 86.72373749785642,
+      "prompt_per_token_ms": 11.530868351063829
+    },
+    "tool_call_count": 7,
+    "turn": 1,
+    "usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 752,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 863
+    }
+  },
+  {
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "k3RpoFu9LQdnIZFiH3oBHk4D0QOfKtUV",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "LyATquHIA6EJa169OS2C2IY7aayMa1iE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "KJ5sN9aS09XIYbHhFLogGvsMY0SafZH3",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 748,
+      "predicted_ms": 5944.756,
+      "predicted_n": 43,
+      "predicted_per_second": 7.065050272879156,
+      "predicted_per_token_ms": 141.54180952380952,
+      "prompt_ms": 2470.156,
+      "prompt_n": 211,
+      "prompt_per_second": 85.41970628575685,
+      "prompt_per_token_ms": 11.706900473933649
+    },
+    "tool_call_count": 3,
+    "turn": 2,
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 959,
+      "prompt_tokens_details": {
+        "cached_tokens": 748
+      },
+      "total_tokens": 1002
+    }
+  },
+  {
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "PC5Hdu33ZWtllEm7tFO74bEgGCvMam1R",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "s2dlNBybwXMPxgbhvR2XDtM82LXYxybD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "e9LxUWkYoMZ6GVSQbIa66P201Kbpxzov",
+          "type": "function"
+        }
+      ]
+    },
+    "timings": {
+      "cache_n": 1001,
+      "predicted_ms": 6186.267,
+      "predicted_n": 43,
+      "predicted_per_second": 6.789231696595055,
+      "predicted_per_token_ms": 147.29207142857143,
+      "prompt_ms": 837.866,
+      "prompt_n": 58,
+      "prompt_per_second": 69.22347964949049,
+      "prompt_per_token_ms": 14.44596551724138
+    },
+    "tool_call_count": 3,
+    "turn": 3,
+    "usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 1059,
+      "prompt_tokens_details": {
+        "cached_tokens": 1001
+      },
+      "total_tokens": 1102
+    }
+  },
+  {
+    "finish_reason": "stop",
+    "http_status": 200,
+    "message": {
+      "content": "<think></think>\nThe database remains at schema 17 and the service is still healthy with application 4.7. No upgrade to schema 19 or application 5.0 has been performed. The objective has not been met.",
+      "role": "assistant"
+    },
+    "timings": {
+      "cache_n": 1101,
+      "predicted_ms": 6535.825,
+      "predicted_n": 47,
+      "predicted_per_second": 7.038132140930946,
+      "predicted_per_token_ms": 142.08315217391305,
+      "prompt_ms": 843.411,
+      "prompt_n": 58,
+      "prompt_per_second": 68.76837034375886,
+      "prompt_per_token_ms": 14.541568965517241
+    },
+    "tool_call_count": 0,
+    "turn": 4,
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 1159,
+      "prompt_tokens_details": {
+        "cached_tokens": 1101
+      },
+      "total_tokens": 1206
+    }
+  }
+]

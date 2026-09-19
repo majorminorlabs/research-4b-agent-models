@@ -1,0 +1,148 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "cPXvjMLkXS8eIll744jTQmnSCN5JOWyd",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "2lW7YP5Glu03xrF7wfwEdyzhwkHUx2da",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "migrate_database"
+          },
+          "id": "fz6jDFxfJjTyElL3tkN160PFEi1k3ftT",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "deploy_application"
+          },
+          "id": "qS8TlfsSXyXNHxfNfskHXP9lKrpnRXOL",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "NG4XwNq7FZVNfdPJ9xtUGkxveHVk9mWA",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "7yXqo8ZpmKLenewDO1F4GzTkMrUnuXKc",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "o6zr5x53JKrRE7UtukWEnZ1mVB547PQ1",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 27.813782311000978,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "k3RpoFu9LQdnIZFiH3oBHk4D0QOfKtUV",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "LyATquHIA6EJa169OS2C2IY7aayMa1iE",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "KJ5sN9aS09XIYbHhFLogGvsMY0SafZH3",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 8.432319646002725,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_database"
+          },
+          "id": "PC5Hdu33ZWtllEm7tFO74bEgGCvMam1R",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_service"
+          },
+          "id": "s2dlNBybwXMPxgbhvR2XDtM82LXYxybD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "health_check"
+          },
+          "id": "e9LxUWkYoMZ6GVSQbIa66P201Kbpxzov",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 7.044906701994478,
+    "finish_reason": "tool_calls",
+    "turn": 3
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\nThe database remains at schema 17 and the service is still healthy with application 4.7. No upgrade to schema 19 or application 5.0 has been performed. The objective has not been met.",
+      "role": "assistant"
+    },
+    "elapsed_s": 7.401915516005829,
+    "finish_reason": "stop",
+    "turn": 4
+  }
+]

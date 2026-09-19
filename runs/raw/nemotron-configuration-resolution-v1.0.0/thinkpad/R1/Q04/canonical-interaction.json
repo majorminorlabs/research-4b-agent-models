@@ -1,0 +1,105 @@
+[
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_file"
+          },
+          "id": "P8DoDCtsY4Vm98lRdyMH1LEsU3odovpq",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_file"
+          },
+          "id": "oWHjKIflgC7uauDvHULvJq6giXvwCzO3",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_config"
+          },
+          "id": "Wij4nJ6weRS2Z8nfqeq6ZqJP7RaB4it4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_network"
+          },
+          "id": "sNwsTB8zYq1lP5qF7kKcaH0QKUQrtLCy",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "query_logs"
+          },
+          "id": "7jui0TIdw2luOff0T0UDwqQBoVSWymrt",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "check_service"
+          },
+          "id": "1uhgp5ymi7YWTHML12ErB65aDtWFtgyD",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "process_report"
+          },
+          "id": "vJnY0MlYr5Nwb3OjblnTolcdw34XONQx",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 26.915153362991987,
+    "finish_reason": "tool_calls",
+    "turn": 1
+  },
+  {
+    "assistant": {
+      "content": "<think></think>\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "inspect_file"
+          },
+          "id": "HMi4dLTmvpgJTTpTfEz2KkwgadBnVGDx",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "process_report"
+          },
+          "id": "CVRF35w2J4EWjK0yaR22QeZ0akw0NaKd",
+          "type": "function"
+        }
+      ]
+    },
+    "elapsed_s": 6.457458581993706,
+    "finish_reason": "tool_calls",
+    "turn": 2
+  },
+  {
+    "assistant": {
+      "content": "<think></think>The dataset cannot be processed because the analytics database is experiencing a connection timeout. The expected header is \"account_id\" but the file contains \"account-id\", causing a fallback handler to be invoked and a reporter dependency timeout. The database is healthy, but the service remains unreachable.\n\nSafe stop.",
+      "role": "assistant"
+    },
+    "elapsed_s": 9.124630692997016,
+    "finish_reason": "stop",
+    "turn": 3
+  }
+]
