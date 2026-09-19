@@ -1,50 +1,43 @@
 # ~4B Agent Model Benchmark
 
-Evaluating approximately 3B–4B local models as autonomous-agent reasoning engines.
+## Research question
 
-This standalone benchmark asks: how capable are small local language models at the reasoning, planning, tool-use, restraint, and verification behaviors required for autonomous agent work?
+How reliably can approximately 3B–4B local language models reason, use tools, preserve state, exercise restraint, recover from misleading evidence, and verify outcomes in deterministic simulated operations tasks on consumer hardware?
 
-## Status
+This is a bounded behavioral benchmark, not a general intelligence test. The final v1.0 scientific record is frozen in V1.0_SCIENTIFIC_FREEZE.md; publication remains blocked pending release hygiene and authorization.
 
-The model-comparison study is complete and locally reproducible. It is not yet published. The intended field contains six candidates and the admitted/scored field contains six candidates after the `candidate-field-v1.1.0` expansion.
+## Final results
 
-## Results
-
-| Model | First round | Finalist repetitions | Resource eligibility |
+| Model | Capability evidence | Repetitions | Resource eligibility |
 |---|---:|---:|---|
-| Ministral 3 3B | 25/80 | 25, 25, 25 | Pass; selected reference |
-| Qwen3 4B | 17/80 | 17, 17, 17 | Finalist set failed the 5.0 GiB minimum-available-RAM floor |
-| Qwen2.5 3B | 14/80 | — | Pass in first round |
-| Granite 4.1 3B | 12/80 | — | Pass in first round |
-| NVIDIA Nemotron 3 Nano 4B | 17/80 | 17, 17 | Pass; tie for second |
-| Meta Llama 3.2 3B Instruct | 12/80 | — | Pass |
+| Ministral 3 3B | 25/80 | 25, 25, 25 | PASS |
+| NVIDIA Nemotron 3 Nano 4B | 20, 18, 18; mean 18.67 | 3 | FAIL in resolution set |
+| Qwen3 4B | 17/80 | 17, 17, 17 | FAIL in finalist set |
+| Qwen2.5 3B | 14/80 | — | PASS |
+| Granite 4.1 3B | 12/80 | — | PASS |
+| Meta Llama 3.2 3B Instruct | 12/80 | — | PASS |
 
-Scores are deterministic benchmark results, not general intelligence estimates. Absolute autonomous-agent readiness was weak even for the selected reference model.
+Nemotron’s earlier 17, 17, 17 common-configuration observations remain preserved but are labeled superseded and attribution-limited. The corrected resolution used NVIDIA-documented tool-calling settings and materially changed the result.
 
-Nemotron’s three observations were identical per task: Q01–Q07 = 2, 3, 2, 3, 5, 2, 0, totaling 17/80 each. Llama’s first round was Q01–Q07 = 2, 0, 0, 1, 1, 0, 8, totaling 12/80. Nemotron tied the expanded field’s second-place score and therefore received the two required repetitions; Llama did not.
+## Design
 
-## Method
+Seven deterministic tasks, Q01–Q07, exercise tool discrimination, precise updates, dependency planning, hypothesis revision, dynamic state tracking, restraint, and long-horizon recovery. Each task has explicit simulator semantics, scoring atoms, and catastrophic caps. A neutral structured-tool admission gate precedes scored exposure.
 
-The frozen `qualification-v1.0.0` protocol evaluates seven deterministic behavioral tasks, Q01–Q07, using a fixed simulator and deterministic scorer. A candidate must first pass a neutral structured tool-interface and runtime compatibility gate. The scorer uses explicit observable atoms and catastrophic-action rules; it does not use an LLM judge. Model runs use Q4_K_M GGUF weights, temperature 0, fixed seed 0, llama.cpp Vulkan/RADV execution, a 16,384-token ceiling, and no external network access.
+Inference used Q4_K_M GGUF weights, frozen llama.cpp 972d2313bc0bf0a45f634f77d95c9fb03aeab12c, Vulkan/RADV, a 16,384-token context ceiling, and a 768-token generation ceiling on a ThinkPad T14 Gen 2a with Ryzen 7 PRO 5850U. Model weights remain external.
 
-The execution host was a ThinkPad T14 Gen 2a with Ryzen 7 PRO 5850U and approximately 16 GiB consumer-local hardware. Model weights remain external to this repository; their exact upstream identities, revisions, filenames, hashes, licenses, and paths are recorded in `models/`.
+## Major findings and limitations
 
-## Findings and limitations
+- The highest result, 25/80, is weak relative to the 80-point ceiling and is not strong autonomous-agent capability.
+- Malformed calls, catastrophic actions, low verified completion, and transport failures are prominent failure modes.
+- Nemotron’s corrected run had 295 malformed-argument events, 3 catastrophic actions, 3 verified completions, and repeated Q01 transport failures.
+- Resource eligibility is separate from capability score; Nemotron and Qwen3 failed the frozen memory/swap rule in their relevant finalist/resolution sets.
+- The field is narrow, repetitions measure stability only under this exact runtime, and the raw pre-parser token stream was not available from frozen llama.cpp.
+- The original invalid shared-runner batch and pre-exposure compatibility exclusions remain preserved and do not contribute scores.
 
-- Q06 restraint failed catastrophically for both finalists in all three observations.
-- Q07 separated the finalists consistently: Ministral scored 12/20 in every observation; Qwen3 scored 0/20.
-- Verified completion was low: Ministral 0/21 and Qwen3 3/21.
-- Malformed model arguments were preserved as model behavior, never repaired or retried.
-- Repetitions measure stability under this frozen setting; they do not establish broad stochastic uncertainty.
-- The seven-task fixture set is narrow, and the resource floor affected finalist eligibility.
-- Both authorized candidates passed the pre-exposure structured-tool admission gate. Nemotron produced repeated malformed tool-call JSON during scored exposure; frozen server transport errors were preserved as behavioral evidence and not retried.
+## Reproduce and inspect
 
-## Evidence and reproduction
+Start with V1.0_SCIENTIFIC_FREEZE.md, docs/REPORT.md, protocol/, tasks/, models/, simulator/, scoring/, and runs/processed/. The Nemotron forensic audit is analysis/NEMOTRON_TOOL_CALL_FORENSIC_AUDIT.md. The resolution derivation is python analysis/score_nemotron_resolution.py.
 
-Raw attempts are under `runs/raw/`; processed results are under `runs/processed/`. The deterministic simulator, scoring code, runner utilities, tests, frozen schedules, execution configuration, model manifests, and analyses are retained in their corresponding directories. Start with `analysis/STAGE1_CLOSURE.md`, `protocol/`, `models/`, and `provenance/`.
+## License and citation
 
-This repository contains only the completed small-model comparison. The separate MM-Agent harness study remains paused in its source repository and is not part of this benchmark.
-
-## License and publication
-
-This is a research extraction prepared for review, not a published release. See `LICENSE` and `docs/PUBLIC_RELEASE_CHECKLIST.md` before any public distribution.
+Model terms and source links are summarized in NOTICE.md. No weights are redistributed. Cite this repository as “~4B Agent Model Benchmark, v1.0 scientific freeze,” with the release commit and model manifest revisions.

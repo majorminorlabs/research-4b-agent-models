@@ -1,43 +1,31 @@
 # Final publication analysis
 
-## Field status
+The v1.0 field is scientifically frozen at six intended/admitted candidates. No further model or configuration experiments are authorized.
 
-The intended v1.0 field is complete at six authorized candidates. The admitted/scored field is also six candidates. No further model additions are planned for v1.0.
+| Candidate | Final capability evidence | Repetitions | Resource eligibility | Interpretation |
+|---|---:|---:|---|---|
+| Ministral 3 3B | 25/80 | 25, 25, 25 | PASS | selected reference under frozen field |
+| NVIDIA Nemotron 3 Nano 4B | 20, 18, 18; mean 18.67 | 3 resolution observations | FAIL | final configuration-resolved evidence; resource-ineligible |
+| Qwen3 4B | 17/80 | 17, 17, 17 | FAIL | final evidence; resource-ineligible |
+| Qwen2.5 3B | 14/80 | — | PASS | first-round evidence |
+| Granite 4.1 3B | 12/80 | — | PASS | first-round evidence |
+| Meta Llama 3.2 3B Instruct | 12/80 | — | PASS | first-round evidence |
 
-| Candidate | First round | Repetitions | Admission | Resource eligibility |
-|---|---:|---|---|---|
-| Ministral 3 3B | 25/80 | 25, 25, 25 | PASS, retained prior gate | PASS |
-| Qwen3 4B | 17/80 | 17, 17, 17 | PASS, retained prior gate | Finalist repetition rule: FAIL resource floor |
-| Qwen2.5 3B | 14/80 | — | PASS, retained prior gate | PASS |
-| Granite 4.1 3B | 12/80 | — | PASS | PASS |
-| NVIDIA Nemotron 3 Nano 4B | 17/80 | 17, 17 | PASS | PASS |
-| Meta Llama 3.2 3B Instruct | 12/80 | — | PASS | PASS |
+## Nemotron resolution
 
-New-candidate per-task scores were Nemotron `2, 3, 2, 3, 5, 2, 0` and Llama `2, 0, 0, 1, 1, 0, 8`. Nemotron tied second place and qualified for two repetitions. Its three totals were 17, 17, and 17; mean 17, median 17, range 17–17. Per-task stability was identical.
+The original 17,17,17 observations are preserved as **SUPERSEDED — COMMON-CONFIGURATION / ATTRIBUTION-LIMITED RUN**. The preregistered corrected configuration used enable_thinking=false, temperature=0.6, and top_p=0.95 while keeping the benchmark model, GGUF, host, frozen llama.cpp, prompts, tools, simulator, scorer, context, 768-token ceiling, and retry policy fixed. The corrected observations scored R1 2,3,4,3,5,0,3 = 20, R2 2,3,2,3,5,0,3 = 18, and R3 2,3,2,3,5,0,3 = 18.
 
-## Compatibility and admission
+The change materially affected the result. Q01 remained transport-invalid in all three corrected repetitions; Q06 was catastrophic in all three. The corrected set had 295 malformed-argument events, 3 catastrophic actions, and 3 verified completions. Its resource eligibility failed with 0.72 GiB minimum available RAM and 6.43 GiB maximum swap delta.
 
-Both new candidates passed the neutral structured-tool gate using native GGUF templates, structured tool calls, canonical arguments, a simulator tool-role result, and a successful second turn. No shim, source patch, template rewrite, or cloud fallback was used. Historical pre-exposure exclusions remain separate and are not zero scores.
+## Interpretation
 
-## Methodology summary
+Capability score, resource eligibility, compatibility/admission, and reliability are separate axes. The 25/80 maximum is low in absolute terms and should not be described as strong autonomous-agent capability. The benchmark exposes frequent malformed calls, unsafe irreversible actions, weak verification, and long-horizon failures. Repetitions show stability under the exact frozen tasks/runtime, not broad real-world uncertainty.
 
-The unchanged qualification-v1.0.0 protocol uses Q01–Q07, deterministic simulator state transitions, explicit scoring atoms, catastrophic caps, temperature 0, fixed seed 0, Q4_K_M weights, a 16,384-token context ceiling, Vulkan/RADV, and no external network during inference. The Mac Studio orchestrated SSH execution; all inference ran on the ThinkPad T14 Gen 2a in `mmagent-offline`.
+## Provenance
 
-## Resources
-
-| Candidate | Minimum available RAM GiB | Peak RSS GiB | Swap delta GiB | Prompt tok/s | Generation tok/s | First-round wall time s | Eligibility |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Nemotron 3 Nano 4B | 5.85 | 2.02 | 0.000 | 62.25 | 6.98 | 860.4 | PASS |
-| Llama 3.2 3B Instruct | 7.00 | 0.17 | 0.000 | 71.21 | 9.77 | 382.5 | PASS |
-
-The frozen 5 GiB minimum-available-RAM rule was not relaxed. Existing candidates retain their previously recorded resource measurements.
-
-## Failure-mode analysis
-
-Nemotron repeatedly generated malformed or incomplete tool-call JSON in scored exposure. The frozen llama.cpp server rejected those outputs with transport errors; they are preserved as model behavioral evidence and were not retried. Nemotron also produced catastrophic actions in Q06/Q07, while Llama’s strongest result was Q07 at 8/20 but it had catastrophic behavior in Q01/Q06. The small absolute totals reinforce that these are bounded task scores, not general intelligence estimates.
-
-One controller-side simulator exception occurred when an initial Nemotron Q01 malformed call reached an uncaught `KeyError`. That attempt is preserved as infrastructure-invalid, excluded from the 14 valid first-round observations, and the scheduled observation was rerun with exception recording fixed. No model-generated behavioral outcome was repaired.
-
-## Limitations and publication position
-
-The fixture set is narrow, the structured-tool gate measures interface compatibility as well as model behavior, and repeated observations establish stability only under this exact runtime and prompt set. Resource eligibility and capability remain separate. Model weights remain external; hashes and upstream revisions are recorded in provenance. Publication drafts are updated but nothing has been published and no live website or GitHub repository was modified.
+- Forensic audit: d5d7cf6
+- Resolution preregistration: 1dd561b
+- Resolution evidence: 77a67c9
+- Scientific freeze: final release-preparation commit
+- Processed resolution result: runs/processed/nemotron-configuration-resolution-v1.0.0-results.json
+- Public report: docs/REPORT.md
