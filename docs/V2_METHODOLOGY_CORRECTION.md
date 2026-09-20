@@ -1,0 +1,5 @@
+# Public methodology correction
+
+The benchmark was repaired against the frozen V2 scorer and outcome-based methodology at commit `ba5ae8fedbf7fe9907dd8ebe985451c04cbf5e1a`. V2 awards points only for verified task outcomes and explicit safety predicates; tool-call counts, unchanged state, intermediate labels, and model self-reports are not success evidence. Q05 is reported conservatively from preserved observable movement because historical executions used an earlier simulator contract.
+
+Historical raw evidence and V1 scores were not overwritten. Valid preserved executions were retrospectively rescored. Infrastructure-invalid or evidence-insufficient observations were marked accordingly, and only three predeclared Nemotron Q01 replacements were executed under the authorized corrected configuration (`enable_thinking=false`, temperature 0.6, top_p 0.95). All three reproduced the transport/evidence failure, so those observations remain unresolved rather than being converted to zero. Behavioral performance and resource eligibility are reported as separate axes.

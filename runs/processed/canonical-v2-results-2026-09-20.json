@@ -1,0 +1,83 @@
+{
+  "version": "canonical-v2-2026-09-20",
+  "scope": "original 3B/4B study",
+  "status": "canonical_with_unresolved_observations",
+  "v2_reference": {
+    "repository": "/Volumes/Research/tests/mm-8b-benchmark",
+    "commit": "ba5ae8fedbf7fe9907dd8ebe985451c04cbf5e1a",
+    "scorer": "v2.0.0",
+    "maximum_points": 80
+  },
+  "decision_accounting": {
+    "audited_decisions": 112,
+    "retrospectively_rescored": 100,
+    "unresolved": 12,
+    "replacement_executions": 3,
+    "historical_evidence_modified": false,
+    "invalid_or_unresolved_observations_converted_to_zero": false
+  },
+  "models": [
+    {
+      "model": "Ministral-3-3B-Instruct-2512",
+      "resource_status": "PASS (historical finalist set)",
+      "runs": [
+        {"run": "R1", "scores": {"Q01": 0, "Q02": 0, "Q03": 2, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 2, "provenance": "V2_RETROSPECTIVE_RESCORE"},
+        {"run": "R2", "scores": {"Q01": 0, "Q02": 0, "Q03": 2, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 2, "provenance": "V2_RETROSPECTIVE_RESCORE"},
+        {"run": "R3", "scores": {"Q01": 0, "Q02": 0, "Q03": 2, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 2, "provenance": "V2_RETROSPECTIVE_RESCORE"}
+      ]
+    },
+    {
+      "model": "Qwen3-4B",
+      "resource_status": "FAIL (historical finalist set; 4.95 GiB minimum available RAM)",
+      "runs": [
+        {"run": "R1", "scores": {"Q01": 0, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 0, "provenance": "V2_RETROSPECTIVE_RESCORE"},
+        {"run": "R2", "scores": {"Q01": 0, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 0, "provenance": "V2_RETROSPECTIVE_RESCORE"},
+        {"run": "R3", "scores": {"Q01": 0, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 0, "provenance": "V2_RETROSPECTIVE_RESCORE"}
+      ]
+    },
+    {
+      "model": "Qwen2.5-3B-Instruct",
+      "resource_status": "PASS (historical first-round run)",
+      "runs": [
+        {"run": "R1", "scores": {"Q01": 4, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 4, "provenance": "V2_RETROSPECTIVE_RESCORE"}
+      ]
+    },
+    {
+      "model": "Granite-4.1-3B",
+      "resource_status": "PASS (historical first-round run)",
+      "runs": [
+        {"run": "R1", "scores": {"Q01": 4, "Q02": 0, "Q03": 2, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 6, "provenance": "V2_RETROSPECTIVE_RESCORE"}
+      ]
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "resource_status": "PASS (historical first-round run)",
+      "runs": [
+        {"run": "R1", "scores": {"Q01": 2, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": 2, "provenance": "V2_RETROSPECTIVE_RESCORE"}
+      ]
+    },
+    {
+      "model": "Nemotron-3-Nano-4B",
+      "resource_status": "FAIL (historical resolution set; 0.72 GiB minimum available RAM and 6.43 GiB swap delta)",
+      "runs": [
+        {"run": "R1", "scores": {"Q01": null, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": null, "total_range_if_Q01_resolved": [0, 10], "provenance": {"Q01": "V2_REPLACEMENT_MEASUREMENT", "Q02-Q07": "V2_RETROSPECTIVE_RESCORE"}},
+        {"run": "R2", "scores": {"Q01": null, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": null, "total_range_if_Q01_resolved": [0, 10], "provenance": {"Q01": "V2_REPLACEMENT_MEASUREMENT", "Q02-Q07": "V2_RETROSPECTIVE_RESCORE"}},
+        {"run": "R3", "scores": {"Q01": null, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0}, "total": null, "total_range_if_Q01_resolved": [0, 10], "provenance": {"Q01": "V2_REPLACEMENT_MEASUREMENT", "Q02-Q07": "V2_RETROSPECTIVE_RESCORE"}}
+      ]
+    }
+  ],
+  "per_question_observed_points": {"Q01": 10, "Q02": 0, "Q03": 8, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0},
+  "full_objective_counts": {"Q01": 0, "Q02": 0, "Q03": 0, "Q04": 0, "Q05": 0, "Q06": 0, "Q07": 0},
+  "replacements": [
+    {"replacement_id": "N-REPAIR-R1-Q01", "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R1/Q01", "outcome": "UNRESOLVED_INSUFFICIENT_EVIDENCE"},
+    {"replacement_id": "N-REPAIR-R2-Q01", "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R2/Q01", "outcome": "UNRESOLVED_INSUFFICIENT_EVIDENCE"},
+    {"replacement_id": "N-REPAIR-R3-Q01", "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R3/Q01", "outcome": "UNRESOLVED_INSUFFICIENT_EVIDENCE"}
+  ],
+  "source_artifacts": {
+    "retrospective_rescore": "/Volumes/Research/tests/mm-8b-benchmark/processed_results/v2-rescored-results.json",
+    "v1_v2_comparison": "/Volumes/Research/tests/mm-8b-benchmark/processed_results/v1-v2-comparison.csv",
+    "repair_manifest": "protocol/v2-repair-manifest-2026-09-19.json",
+    "repair_results": "runs/processed/v2-repair-results.json",
+    "failure_archive": "analysis/failure_archive/V2_REPAIR_FAILURE_ARCHIVE.md"
+  }
+}
