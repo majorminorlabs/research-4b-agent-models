@@ -1,4 +1,6 @@
-# Final publication analysis
+# Final publication analysis (superseded V1 record)
+
+> This file preserves the original V1 publication analysis. It is historical evidence, not the current benchmark result. The canonical result is V2; consult the repository README, `docs/REPORT.md`, the methodology correction, and the canonical JSON.
 
 The v1.0 field is scientifically frozen at six intended/admitted candidates. No further model or configuration experiments are authorized.
 

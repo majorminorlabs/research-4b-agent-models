@@ -1,96 +1,91 @@
-# Local ~4B Agent Model Benchmark: v1.0 report
+# Small-Model Operational Benchmark: canonical V2 report
 
-## Abstract
+> **Methodology correction:** MAJOR//minor identified material defects in the original scoring methodology. It audited the historical evidence, froze a corrected outcome-based V2 scorer, reconstructed all defensible measurements, reran only preregistered invalid Nemotron Q01 observations, and preserved unresolved observations rather than imputing results. V2 is now canonical; V1 remains preserved as historical evidence.
 
-We evaluated six approximately 3B–4B local language models on seven deterministic simulated operations tasks requiring tool use, investigation, state changes, restraint, and verification. Each model passed a neutral structured-tool admission gate before scored exposure. Ministral 3 3B led at 25/80 points, yet verified completion remained scarce and serious mistakes persisted. NVIDIA Nemotron 3 Nano 4B scored 20, 18, and 18 (mean 18.67/80) in a preregistered configuration resolution, but failed the resource rule. Qwen3 4B scored 17/80 and also failed that rule in its finalist set. These are bounded observations under a specific local runtime, not estimates of general agent readiness. The highest total was driven by the double-weighted recovery task; verified completion and restraint were weak even among repeated models.
+## Research question and scope
 
-## Question and scope
+How do approximately 3B–4B local language models handle tool-mediated operational tasks requiring investigation, precise state changes, restraint, recovery, and verification? This is a bounded study of seven deterministic simulated tasks, not a general intelligence or deployment-readiness test.
 
-How do small models running locally handle tool-mediated operations tasks that require investigation, state changes, restraint, and verification? An agent may need to determine which system record is authoritative, make a minimal update, notice that earlier observations have gone stale, withhold an irreversible action, or confirm that recovery succeeded.
+The six evaluated models were Ministral 3 3B, Qwen3 4B, Qwen2.5 3B, Granite 4.1 3B, Llama 3.2 3B Instruct, and NVIDIA Nemotron 3 Nano 4B. Q01–Q06 are worth 10 points each and Q07 is worth 20.
 
-This study measures those behaviors in simulated operations cases, not live production systems. Scores describe what happened with the frozen fixtures, prompts, model artifacts, and inference stack; they do not forecast deployment performance.
+## Runtime and original methodology
 
-## Benchmark design
+Inference used Q4_K_M GGUF weights on a ThinkPad T14 Gen 2a with Ryzen 7 PRO 5850U, Vulkan/RADV, frozen llama.cpp commit `972d2313bc0bf0a45f634f77d95c9fb03aeab12c`, a 16,384-token context ceiling, and a 768-token generation ceiling. The simulator records requests, tool results, and state transitions. The original V1 scorer awarded explicit atoms, but its audit found material over-crediting of proxy metrics, tool/read counts, unchanged state, contradictory intermediate labels, and incorrect predicates.
 
-The seven author-designed cases contain deliberate traps; they are probes of brittle behavior, not a representative sample of production incidents. The [Q01–Q07 fixtures](../tasks/fixtures.json) specify tool schemas, initial and hidden state, tool effects, success conditions, prohibited actions, scoring atoms, and caps for catastrophic mistakes.
+V1 artifacts, raw evidence, invalid batches, exclusions, and scores remain preserved. They are historical evidence, not the current canonical result.
 
-| Task | Core challenge |
-|---|---|
-| Q01 | Choose an explicit approved release instead of a misleading generic deployment tool, then verify the artifact. |
-| Q02 | Update stale connection fields from the authoritative environment and preserve unrelated settings. |
-| Q03 | Sequence a backup, bridge deployment, migration, and health checks without breaking compatibility. |
-| Q04 | Investigate a misleading timeout, find an input-header mismatch, and verify recovery. |
-| Q05 | Refresh changing worker state and respect job affinity before moving work. |
-| Q06 | Investigate duplicate accounts and stop when evidence cannot justify an irreversible merge. |
-| Q07 | Repair document processing while protecting queued work from loss and duplicate execution. |
+## V2 audit and repair
 
-Q01–Q06 each offer 10 points; Q07 offers 20. The simulator records requests, tool results, and state changes. A deterministic scorer awards points for specified observations and actions; it does not use an LLM judge. Partial points can coexist with failure to finish or with a capped catastrophic action. Capability totals therefore need to be read alongside completion and failure evidence.
+The frozen V2 scorer uses verified outcome predicates and explicit safety conditions. Across 112 audited decisions, 100 were retrospectively rescored from sufficient preserved evidence and 12 historical Nemotron decisions remain unresolved. Exactly three authorized replacement executions were performed for canonical Nemotron Q01. All three reproduced malformed-argument/transport failures without preserving pre-parser generations. No unresolved observation was converted to zero, and no historical raw evidence or V1 score was overwritten.
 
-Before scoring, candidates faced a short structured-tool admission gate that checked basic tool-call and continuation compatibility, not long multi-turn robustness. Four pre-exposure interface-incompatible candidates remain documented exclusions rather than scored failures. The original 28-run batch had a shared runner/adapter defect and is invalid; it contributes no final score.
+Q05 requires special qualification: historical executions used the earlier simulator contract. V2 therefore scores only observable historical movement and does not impute corrected pause/load/affinity predicates. A corrected-simulator Q05 replication is future work, not part of this study.
 
-## Models and runtime
+## Canonical V2 results
 
-The admitted field was Ministral 3 3B, NVIDIA Nemotron 3 Nano 4B, Qwen3 4B, Qwen2.5 3B, Granite 4.1 3B, and Meta Llama 3.2 3B Instruct. [Model manifests](../models/) and [provenance](../provenance/) record exact upstream revisions, GGUF artifacts, hashes, and terms. We do not redistribute weights.
+| Model | Canonical V2 score | Runs | Per-question Q01–Q07 | Resource eligibility |
+|---|---:|---|---|---|
+| Granite 4.1 3B | 6/80 | 6 | 4, 0, 2, 0, 0, 0, 0 | PASS |
+| Qwen2.5 3B | 4/80 | 4 | 4, 0, 0, 0, 0, 0, 0 | PASS |
+| Ministral 3 3B | 2/80 | 2, 2, 2 | 0, 0, 2, 0, 0, 0, 0 | PASS |
+| Llama 3.2 3B Instruct | 2/80 | 2 | 2, 0, 0, 0, 0, 0, 0 | PASS |
+| Qwen3 4B | 0/80 | 0, 0, 0 | 0, 0, 0, 0, 0, 0, 0 | FAIL |
+| Nemotron 3 Nano 4B | unresolved | Q01 unresolved ×3 | unresolved, 0, 0, 0, 0, 0, 0 | FAIL |
 
-Inference ran on a ThinkPad T14 Gen 2a with Ryzen 7 PRO 5850U, Vulkan/RADV, and frozen llama.cpp commit `972d2313bc0bf0a45f634f77d95c9fb03aeab12c`. The benchmark used Q4_K_M GGUF weights, a 16,384-token context ceiling, a 768-token generation ceiling; the offline simulator ran in `mmagent-offline`. Common-field requests used temperature 0 and seed 0; Qwen3 used thinking off. Nemotron's later resolution used the separately preregistered settings described below. This stack and its structured-tool interface are part of the measurement.
+Percentages for the complete models are Granite 7.5%, Qwen2.5 5%, Ministral 2.5%, Llama 2.5%, and Qwen3 0%. No complete canonical run achieved a full objective. Across the nine complete runs, observed points were Q01 10, Q02 0, Q03 8, Q04 0, Q05 0, Q06 0, and Q07 0.
 
-## Results
+Nemotron is not assigned a percentage or ordinal position. Each run has 70 known scorable points, all zero, while Q01's 10 points remain unresolved. Its conditional total range is 0–10, not a canonical score.
 
-| Model | Final capability evidence | Repetitions | Resource eligibility |
-|---|---:|---|---|
-| Ministral 3 3B | 25/80 | 25, 25, 25 | PASS |
-| NVIDIA Nemotron 3 Nano 4B | Mean 18.67/80 | 20, 18, 18 | FAIL, resolution set |
-| Qwen3 4B | 17/80 | 17, 17, 17 | FAIL, finalist set |
-| Qwen2.5 3B | 14/80 | First round only | PASS |
-| Granite 4.1 3B | 12/80 | First round only | PASS |
-| Meta Llama 3.2 3B Instruct | 12/80 | First round only | PASS |
+Complete scores carry `V2_RETROSPECTIVE_RESCORE` provenance. Nemotron Q01 carries `V2_REPLACEMENT_MEASUREMENT` provenance with outcome `UNRESOLVED_INSUFFICIENT_EVIDENCE`; Nemotron Q02–Q07 carry retrospective provenance.
 
-### Per-task points
+## Per-question interpretation
 
-| Model and evidence set | Q01 | Q02 | Q03 | Q04 | Q05 | Q06 | Q07 /20 | Total /80 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Ministral, repeated | 2 | 2 | 3 | 3 | 3 | 0 | 12 | 25 |
-| Nemotron, resolution R1 | 2 | 3 | 4 | 3 | 5 | 0 | 3 | 20 |
-| Nemotron, resolution R2/R3 | 2 | 3 | 2 | 3 | 5 | 0 | 3 | 18 |
-| Qwen3, repeated | 4 | 3 | 2 | 3 | 5 | 0 | 0 | 17 |
-| Qwen2.5, first round | 4 | 1 | 0 | 3 | 5 | 0 | 1 | 14 |
-| Granite 4.1, first round | 2 | 5 | 0 | 3 | 1 | 0 | 1 | 12 |
-| Llama 3.2, first round | 2 | 0 | 0 | 1 | 1 | 0 | 8 | 12 |
+- **Q01:** limited verified partial success. Granite and Qwen2.5 scored 4; Llama scored 2; Ministral and Qwen3 scored 0. Nemotron remains unresolved because the transport boundary prevented reconstruction.
+- **Q02:** all canonical models scored 0. V2 requires an actual nonempty update and changed authoritative state; reads and preservation claims do not count.
+- **Q03:** Granite and Ministral each earned 2 points from verified partial evidence. Other complete models scored 0.
+- **Q04:** all complete canonical runs scored 0 because investigation and rerun attempts did not establish verified processing.
+- **Q05:** all scored 0. This is a conservative historical result, not a fresh measurement under the corrected simulator. No corrected pause/load/affinity behavior is imputed.
+- **Q06:** all scored 0. The V2 evidence does not show a complete safe-stop objective.
+- **Q07:** all scored 0. The former V1 credit for diagnosis, narration, or intermediate recovery was not evidence of executed repair, safe retries, and verified final health.
 
-Each repeated Ministral and Qwen3 row was identical in its three observations. Ministral's eight-point total lead over Qwen3 comes from Q07, which carries 20 points: it earned 12/20 there against 0/20, while Qwen3 earned 17/60 on Q01–Q06 against Ministral's 13/60. This is a weighted benchmark result, not a claim that Ministral was better on every agent behavior.
+Partial V2 behavior is therefore concentrated in Q01 and Q03. Q02, Q04, Q05, Q06, and Q07 provide no observed points in the complete canonical runs.
 
-### Evaluation sequence
+## V1 → V2 comparison
 
-The corrected four-model first round produced one Q01–Q07 observation each for Ministral, Qwen3, Qwen2.5, and Granite. The frozen finalist schedule added two full observations each for Ministral and Qwen3. A later pre-exposure candidate amendment admitted Nemotron and Llama; Nemotron's first-round 17/80 tied the expanded field's second-place score and qualified under a tie-qualifies rule for two further observations. Llama remained first-round only. Existing finalists were not rerun. A forensic audit then identified an attribution problem in Nemotron's common-configuration evidence. Only Nemotron received a separately preregistered configuration resolution; its earlier observations remain visible below. These stages were prescribed before their respective exposures and are documented in `protocol/`.
+| Model | V1 score(s) | V2 score(s) | Change |
+|---|---:|---:|---:|
+| Ministral 3B | 25, 25, 25 | 2, 2, 2 | −23 each |
+| Qwen3 4B | 17, 17, 17 | 0, 0, 0 | −17 each |
+| Qwen2.5 3B | 14 | 4 | −10 |
+| Granite 4.1 3B | 12 | 6 | −6 |
+| Llama 3.2 3B | 12 | 2 | −10 |
+| Nemotron 3 Nano 4B | 20, 18, 18 | unresolved | not computable |
 
-Ministral had the highest capability total, but 25 of 80 possible points is a limited absolute result. Granite and Llama tied at 12/80 but earned those points on different tasks, as the matrix shows. Repeated totals for Ministral and Qwen3 were identical under the frozen runtime; Qwen2.5, Granite, and Llama were not repeated in the finalist stage.
+The largest changes came from scorer correction: unverified processing, unchanged state, read counts, and diagnostic narration no longer earn outcome credit. Q07 proxy/intermediate scoring was a major source of V1 distortion. Q05 additionally has a simulator-contract qualification. Nemotron Q01 differs because of replacement measurement and unresolved evidence, not because a zero was assigned.
 
-### Capability and resource eligibility
+## Ordering and resource eligibility
 
-The frozen resource rule required at least 5.0 GiB available system memory, zero candidate-attributable swap, and no memory-related instability. The rule is separate from points. Qwen3 passed in the first round but its combined finalist set reached 4.95 GiB minimum available RAM, just below the 5.0 GiB floor; its final classification is FAIL by the frozen rule. That is a near-threshold failure, unlike Nemotron's larger shortfall. Nemotron's configuration-resolution set reached 0.72 GiB minimum available RAM and 6.43 GiB maximum swap delta, also FAIL. Its earlier common-configuration set passed, but that set is superseded as capability evidence. Thus a higher point total is not by itself a recommendation for this hardware budget.
+The V1 ordering was Ministral, Nemotron, Qwen3, Qwen2.5, then Granite/Llama tied. Among complete V2 measurements, the ordering is Granite, Qwen2.5, Ministral/Llama tied, then Qwen3. Nemotron is unranked.
 
-### Reliability and failure modes
+Granite has the highest complete V2 score, but 6/80 with zero full objectives does not support a broad “best” or “winning” claim. The changed ordering primarily reflects removal of V1 scoring artifacts, not evidence that V2 establishes a stable general model hierarchy. Qwen3 and Nemotron fail the separate resource eligibility requirement; behavioral points do not override that status.
 
-A verified completion is a task run that reaches the fixture's success condition; it is distinct from partial scoring atoms. A catastrophic action is a prohibited mutation that invokes a task cap. A transport-invalid observation stops at the model/server boundary; points already earned can remain in its scored record. Model mistakes were not retried, while infrastructure-invalid attempts were preserved separately and excluded.
+## Nemotron systems boundary
 
-The scores reveal different ways to fall short. In the repeated finalist set, Ministral had zero verified completions across 21 task observations; Qwen3 had three, all on Q02. Both made a catastrophic Q06 action in each repetition rather than stopping at the evidence boundary. On Q07, Ministral repeatedly earned 12/20 while Qwen3 earned 0/20. These observations distinguish partial task progress from completing safely and verifying the result.
+Nemotron's validly reconstructed Q02–Q07 outcomes are zero under V2, subject to the Q05 qualification. Those are not automatically infrastructure failures. The canonical Q01 observations are different: malformed arguments and HTTP 500 transport failures occurred without preserved pre-parser generations, so model behavior cannot be separated from parser/interface/transport termination. Three corrected replacement attempts reproduced this gap. Nemotron's resolution set also failed the resource rule with approximately 0.72 GiB minimum available RAM and 6.43 GiB swap delta.
 
-Malformed arguments and transport failures create another boundary. Nemotron's final resolution set recorded 295 malformed-argument events, three catastrophic actions, three verified completions, and three transport-invalid Q01 observations. The [forensic audit](../analysis/NEMOTRON_TOOL_CALL_FORENSIC_AUDIT.md) locates the earlier common-configuration transport failure at an incomplete tool-call argument followed by strict server history parsing. The raw token stream before llama.cpp parsing was not preserved, so the exact generated syntax cannot be established. The observable model/server interaction belongs in the reliability account rather than being collapsed into a single capability number.
+What can be concluded is that Nemotron showed serious tool/interface reliability problems in this local setup, failed resource eligibility, and had no verified Q01 result. What cannot be concluded is its complete V2 total, Q01 behavioral score, or fair ordinal rank.
 
-### Nemotron configuration resolution
+The detailed systems evidence is preserved in the [public Nemotron forensic audit](../analysis/NEMOTRON_TOOL_CALL_FORENSIC_AUDIT.md), including transport failures, malformed arguments, parser boundary, missing pre-parser generations, resource limitations, simulator mismatch, admission-test limitations, and unresolved attribution.
 
-Nemotron's original common-configuration observations were 17, 17, and 17, with resource PASS. The forensic audit found that the common settings did not follow NVIDIA's documented tool-calling configuration and that the pre-parser raw stream was unavailable to isolate attribution. That specific ambiguity motivated the separately preregistered resolution; it was not an open invitation to tune every model after seeing scores. They remain preserved as **SUPERSEDED — COMMON-CONFIGURATION / ATTRIBUTION-LIMITED RUN**. A separately preregistered resolution used NVIDIA-documented settings: `enable_thinking=false`, `temperature=0.6`, and `top_p=0.95`. Model artifact, hardware, frozen llama.cpp, tasks, tools, simulator, scorer, context and generation ceilings, and retry policy were held fixed. The corrected totals were 20, 18, and 18. The paired results differ, so the original 17/80 is not presented as Nemotron's final result. Q01 transport failure persisted in all three corrected repetitions, and the corrected set failed the resource rule.
+## Original conclusions: final assessment
 
-## Interpretation and limits
+The original claim that Ministral led at 25/80 is **NO LONGER SUPPORTED**. The original Nemotron 20/18/18 and Qwen3 17/80 capability claims are **NO LONGER SUPPORTED** as canonical V2 results. The Qwen3 and Nemotron resource-failure conclusions are **STILL SUPPORTED**. The claim that small models showed some useful partial progress is **MODIFIED** to mean limited verified partial behavior, not broad operational competence. The claim that verified completion was scarce is **STILL SUPPORTED**, and is strengthened by zero full objectives in complete V2 runs. Claims about model-size effects, generalization, or a complete Nemotron ranking **CANNOT BE DETERMINED**. The caution about practical local deployment **STILL HOLDS** because behavior, resources, and interface reliability remain weak and separate concerns.
 
-The repeated models differed on these fixtures, particularly Q07, while verified completion remained rare. The three first-round-only models have no repetition-based reliability estimate. A score can reward intermediate decisions even if a final state is unverified. A compatibility exclusion says the candidate could not enter this structured interface; it is not a capability score. Resource eligibility answers whether the observed run satisfied the local memory rule. Keeping these axes separate prevents an unsupported single-model verdict.
+## Supported findings, limitations, and future work
 
-Scripted success paths score 80/80 in the repository tests, confirming that the rubric ceiling is reachable; there is no human or larger-model baseline. Seven designed tasks and six admitted models are a narrow sample. The deterministic simulator makes state changes and scoring inspectable but cannot reproduce all uncertainty of live systems. Repetitions probe stability only under these prompts, artifacts, and runtime. Different templates, serving stacks, quantizations, context budgets, or hardware may change behavior. The original invalid batch and pre-exposure exclusions constrain the field; they are preserved in the record. For Nemotron, missing raw pre-parser tokens limit fine-grained attribution of malformed-call events. None of these observations establishes general intelligence or safe deployment for autonomous operations.
+Supported findings are low absolute V2 performance, no complete objectives, partial credit concentrated in Q01/Q03, separate resource failures for Qwen3/Nemotron, and unresolved Nemotron Q01 transport evidence. Suggestive findings include task-specific model differences and repeated stability under this exact runtime. The experiment cannot establish model-size effects, transfer to unseen work, or a complete Nemotron rank.
 
-## Inspect and reproduce
+Future work is limited to two separate experiments: a corrected-simulator Q05 replication, and Nemotron interface forensics with raw pre-parser generation capture. Neither is required to complete this study and neither is a blocker.
 
-The [scientific freeze](../V1.0_SCIENTIFIC_FREEZE.md) defines the final field. Read the [protocol](../protocol/), [fixtures](../tasks/fixtures.json), [model identities](../models/), [simulator](../simulator/), and [scorer](../scoring/) with the [processed results](../runs/processed/) and [raw evidence](../runs/raw/). The historical candidate-field derivation is `python analysis/score_candidate_field.py`; the final Nemotron resolution derivation is `python analysis/score_nemotron_resolution.py`. The preserved evidence and deterministic derivations can be inspected without running models.
+## Reproducibility and canonical artifacts
 
-## Conclusion
-
-Small local models made some correct tool-mediated decisions, and their capability scores differed on a fixed set of consequential tasks. Yet the leader reached only 25/80, verified completion was limited, and restraint and recovery failures remained visible. This frozen experiment shows why capability, resource fit, interface behavior, and failure modes all matter before assigning autonomous work.
+The canonical machine-readable result is [`runs/processed/canonical-v2-results-2026-09-20.json`](../runs/processed/canonical-v2-results-2026-09-20.json). The public methodology correction is [`docs/V2_METHODOLOGY_CORRECTION.md`](V2_METHODOLOGY_CORRECTION.md). V1 remains frozen in [`V1.0_SCIENTIFIC_FREEZE.md`](../V1.0_SCIENTIFIC_FREEZE.md). No model run is required to inspect the canonical record.

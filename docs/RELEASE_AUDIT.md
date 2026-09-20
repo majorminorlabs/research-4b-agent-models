@@ -1,6 +1,8 @@
-# Final release audit
+# Final release audit (historical V1 preparation)
 
-Status: **READY TO PUBLISH — publication still requires explicit human authorization**.
+> This document records the superseded V1 publication-preparation state. It is preserved as historical evidence. The canonical public result is now V2; see `README.md`, `docs/REPORT.md`, `docs/V2_METHODOLOGY_CORRECTION.md`, and `runs/processed/canonical-v2-results-2026-09-20.json`.
+
+Status: **SUPERSEDED — V1 preparation record retained for provenance**.
 
 ## Completed
 
@@ -33,12 +35,12 @@ Status: **READY TO PUBLISH — publication still requires explicit human authori
 - Historical processed results were not overwritten.
 - git diff --check passed after redaction.
 - `python -m unittest discover -s tests -v`: 16/16 passing after redaction.
-- Final totals and resource classifications remain 20/18/18 for Nemotron,
-  Nemotron resource FAIL, Qwen3 resource FAIL, and the six-model final table
-  is unchanged.
+- The historical V1 totals and resource classifications recorded above are
+  not the canonical V2 result. V2 supersedes the capability table while
+  preserving the V1 evidence.
 
 ## Release recommendation
 
-The repository is **READY TO PUBLISH** after the privacy pass. A human must
-still authorize the external GitHub/tag/site action. Proposed tag remains
-`v1.0.0`; no GitHub repository, tag, or site was created by this audit.
+This V1 preparation record is retained for provenance. The current public
+canonical result is the V2 publication described in the repository README and
+report.
