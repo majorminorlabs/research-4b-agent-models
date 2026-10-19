@@ -15,9 +15,11 @@ How reliably can small models running locally use tools to investigate, change s
 
 Scores are bounded points on these tasks. Nemotron is not ranked: its Q01 observations remain unresolved after three authorized replacement attempts. PASS/FAIL applies to a separate local memory and swap rule. See the [canonical V2 results](runs/processed/canonical-v2-results-2026-09-20.json) and [full report](docs/REPORT.md).
 
+Read the [MAJOR//minor write-up](https://majorminor.xyz/notebook/small-local-models-agent-tasks), which covers this benchmark and the 7B/8B sibling-scaling follow-up.
+
 ## Methodology correction
 
-MAJOR//minor audited the original scorer, froze an outcome-based V2 scorer, reconstructed defensible historical measurements, reran only preregistered invalid Nemotron Q01 observations, and preserved unresolved evidence rather than imputing scores. V2 removed credit for proxy/intermediate behavior, unchanged state, and unverified outcomes. The correction materially changed the results; [V1 remains available as historical evidence](V1.0_SCIENTIFIC_FREEZE.md), while [V2 is canonical](runs/processed/canonical-v2-results-2026-09-20.json).
+I audited the original scorer, froze an outcome-based V2 scorer, reconstructed defensible historical measurements, reran only preregistered invalid Nemotron Q01 observations, and preserved unresolved evidence rather than imputing scores. V2 removed credit for proxy/intermediate behavior, unchanged state, and unverified outcomes. The correction materially changed the results; [V1 remains available as historical evidence](V1.0_SCIENTIFIC_FREEZE.md), while [V2 is canonical](runs/processed/canonical-v2-results-2026-09-20.json).
 
 ## What the tasks test
 
