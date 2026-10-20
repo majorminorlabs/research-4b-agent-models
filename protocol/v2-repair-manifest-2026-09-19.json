@@ -1,0 +1,93 @@
+{
+  "manifest_version": "v2-repair-2026-09-19",
+  "status": "frozen_before_execution",
+  "repository": "<WORKDIR>/tests/mm-4b-benchmark",
+  "historical_repository_commit": "fed50452ffbdb4ca4d84bffd880b760925dc73c4",
+  "v2_reference_repository": "<WORKDIR>/tests/mm-8b-benchmark",
+  "v2_reference_commit": "ba5ae8fedbf7fe9907dd8ebe985451c04cbf5e1a",
+  "historical_evidence_immutable": true,
+  "protocol_change": {
+    "supersedes": "one Nemotron resolution only; no further runs",
+    "scope": "exactly three canonical Q01 replacement measurements",
+    "exploratory_retries_authorized": false
+  },
+  "retrospective_rescore": {
+    "total_decisions": 112,
+    "fully_rescored": 100,
+    "unresolved": 12,
+    "historical_q05": "score conservatively from observed no-movement traces; do not impute forward-only pause/load/affinity atoms"
+  },
+  "unresolved_noncanonical_preserved": [
+    "candidate-field-v1.1.0/thinkpad/first-round/nemotron-3-nano-4b/Q01",
+    "candidate-field-v1.1.0/thinkpad/first-round/nemotron-3-nano-4b/Q02",
+    "candidate-field-v1.1.0/thinkpad/first-round/nemotron-3-nano-4b/Q03",
+    "candidate-field-v1.1.0/thinkpad/repetitions/nemotron/R2/Q01",
+    "candidate-field-v1.1.0/thinkpad/repetitions/nemotron/R2/Q02",
+    "candidate-field-v1.1.0/thinkpad/repetitions/nemotron/R2/Q03",
+    "candidate-field-v1.1.0/thinkpad/repetitions/nemotron/R3/Q01",
+    "candidate-field-v1.1.0/thinkpad/repetitions/nemotron/R3/Q02",
+    "candidate-field-v1.1.0/thinkpad/repetitions/nemotron/R3/Q03"
+  ],
+  "replacement_measurements": [
+    {
+      "replacement_id": "N-REPAIR-R1-Q01",
+      "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R1/Q01",
+      "model": "Nemotron-3-Nano-4B",
+      "task": "Q01",
+      "provenance": "V2_REPLACEMENT_MEASUREMENT",
+      "reason": "canonical Q01 was transport-invalid and lacks pre-parser evidence",
+      "configuration": {
+        "enable_thinking": false,
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "seed": 0,
+        "max_tokens": 768,
+        "reasoning_effort": "none",
+        "reasoning_format": "none",
+        "context_tokens": 16384,
+        "slots": 1,
+        "quantization": "Q4_K_M",
+        "backend": "Vulkan/RADV",
+        "llama_cpp_commit": "972d2313bc0bf0a45f634f77d95c9fb03aeab12"
+      }
+    },
+    {
+      "replacement_id": "N-REPAIR-R2-Q01",
+      "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R2/Q01",
+      "model": "Nemotron-3-Nano-4B",
+      "task": "Q01",
+      "provenance": "V2_REPLACEMENT_MEASUREMENT",
+      "reason": "canonical Q01 was transport-invalid and lacks pre-parser evidence",
+      "configuration": "same_as_N-REPAIR-R1-Q01"
+    },
+    {
+      "replacement_id": "N-REPAIR-R3-Q01",
+      "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R3/Q01",
+      "model": "Nemotron-3-Nano-4B",
+      "task": "Q01",
+      "provenance": "V2_REPLACEMENT_MEASUREMENT",
+      "reason": "canonical Q01 was transport-invalid and lacks pre-parser evidence",
+      "configuration": "same_as_N-REPAIR-R1-Q01"
+    }
+  ],
+  "execution_order": [
+    "N-REPAIR-R1-Q01",
+    "N-REPAIR-R2-Q01",
+    "N-REPAIR-R3-Q01"
+  ],
+  "stop_conditions": [
+    "preflight failure",
+    "runtime/model hash mismatch",
+    "hardware or backend mismatch",
+    "any unplanned task or model execution",
+    "infrastructure failure requiring a new retry decision"
+  ],
+  "no_authorization": [
+    "additional Nemotron attempts",
+    "non-Nemotron reruns",
+    "Q05 reruns",
+    "model/configuration sweeps",
+    "hardware substitution",
+    "modification of V2 scoring, simulator, prompts, or resource rules"
+  ]
+}

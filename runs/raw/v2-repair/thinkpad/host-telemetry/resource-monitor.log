@@ -1,0 +1,6208 @@
+1789876378.816010535
+MemTotal:       15154220 kB
+MemFree:         4245116 kB
+MemAvailable:   10082620 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400436 kB
+Name:	llama-server
+VmSize:	 4092884 kB
+VmRSS:	  162880 kB
+RssAnon:	   83392 kB
+RssFile:	   79488 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876379.824727938
+MemTotal:       15154220 kB
+MemFree:         4245092 kB
+MemAvailable:   10082736 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4395700 kB
+Name:	llama-server
+VmSize:	 4092884 kB
+VmRSS:	  162880 kB
+RssAnon:	   83392 kB
+RssFile:	   79488 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876380.833617499
+MemTotal:       15154220 kB
+MemFree:         4245092 kB
+MemAvailable:   10082736 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4395692 kB
+Name:	llama-server
+VmSize:	 4092884 kB
+VmRSS:	  162880 kB
+RssAnon:	   83392 kB
+RssFile:	   79488 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876381.842249347
+MemTotal:       15154220 kB
+MemFree:         4243464 kB
+MemAvailable:   10081108 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400560 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876382.850832306
+MemTotal:       15154220 kB
+MemFree:         4243340 kB
+MemAvailable:   10080984 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876383.858959902
+MemTotal:       15154220 kB
+MemFree:         4243340 kB
+MemAvailable:   10080984 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876384.867665641
+MemTotal:       15154220 kB
+MemFree:         4243100 kB
+MemAvailable:   10080752 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876385.876768427
+MemTotal:       15154220 kB
+MemFree:         4243100 kB
+MemAvailable:   10080752 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876386.885147660
+MemTotal:       15154220 kB
+MemFree:         4242860 kB
+MemAvailable:   10080512 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876387.894216084
+MemTotal:       15154220 kB
+MemFree:         4242860 kB
+MemAvailable:   10080516 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876388.909839997
+MemTotal:       15154220 kB
+MemFree:         4242860 kB
+MemAvailable:   10080512 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876389.917476470
+MemTotal:       15154220 kB
+MemFree:         4242608 kB
+MemAvailable:   10080268 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876390.925488968
+MemTotal:       15154220 kB
+MemFree:         4242368 kB
+MemAvailable:   10080032 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876391.934135412
+MemTotal:       15154220 kB
+MemFree:         4242368 kB
+MemAvailable:   10080032 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876392.942958066
+MemTotal:       15154220 kB
+MemFree:         4242368 kB
+MemAvailable:   10080032 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876393.956407478
+MemTotal:       15154220 kB
+MemFree:         4242368 kB
+MemAvailable:   10080032 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876394.965545324
+MemTotal:       15154220 kB
+MemFree:         4242368 kB
+MemAvailable:   10080032 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876395.973373860
+MemTotal:       15154220 kB
+MemFree:         4242368 kB
+MemAvailable:   10080040 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876396.982412602
+MemTotal:       15154220 kB
+MemFree:         4241984 kB
+MemAvailable:   10079656 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876397.991074830
+MemTotal:       15154220 kB
+MemFree:         4241760 kB
+MemAvailable:   10079432 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876399.004948597
+MemTotal:       15154220 kB
+MemFree:         4241760 kB
+MemAvailable:   10079432 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876400.012496512
+MemTotal:       15154220 kB
+MemFree:         4241760 kB
+MemAvailable:   10079432 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876401.020382108
+MemTotal:       15154220 kB
+MemFree:         4241508 kB
+MemAvailable:   10079180 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876402.029471065
+MemTotal:       15154220 kB
+MemFree:         4241268 kB
+MemAvailable:   10078940 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876403.036715591
+MemTotal:       15154220 kB
+MemFree:         4241268 kB
+MemAvailable:   10078944 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400600 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876404.050376691
+MemTotal:       15154220 kB
+MemFree:         4241016 kB
+MemAvailable:   10078692 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876405.058882267
+MemTotal:       15154220 kB
+MemFree:         4241016 kB
+MemAvailable:   10078692 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876406.067529619
+MemTotal:       15154220 kB
+MemFree:         4241016 kB
+MemAvailable:   10078708 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4400568 kB
+Name:	llama-server
+VmSize:	 4158420 kB
+VmRSS:	  163104 kB
+RssAnon:	   83428 kB
+RssFile:	   79676 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876407.076884042
+MemTotal:       15154220 kB
+MemFree:         4241016 kB
+MemAvailable:   10078708 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4401040 kB
+Name:	llama-server
+VmSize:	 4292372 kB
+VmRSS:	  163640 kB
+RssAnon:	   83800 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876408.085084482
+MemTotal:       15154220 kB
+MemFree:         4240776 kB
+MemAvailable:   10078468 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4401040 kB
+Name:	llama-server
+VmSize:	 4294484 kB
+VmRSS:	  163640 kB
+RssAnon:	   83800 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876409.099644157
+MemTotal:       15154220 kB
+MemFree:         4240776 kB
+MemAvailable:   10078468 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4401040 kB
+Name:	llama-server
+VmSize:	 4297172 kB
+VmRSS:	  163640 kB
+RssAnon:	   83800 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876410.107665245
+MemTotal:       15154220 kB
+MemFree:         4240776 kB
+MemAvailable:   10078468 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4401040 kB
+Name:	llama-server
+VmSize:	 4299860 kB
+VmRSS:	  163640 kB
+RssAnon:	   83800 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876411.116105938
+MemTotal:       15154220 kB
+MemFree:         4240776 kB
+MemAvailable:   10078468 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4401040 kB
+Name:	llama-server
+VmSize:	 4303316 kB
+VmRSS:	  163640 kB
+RssAnon:	   83800 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876412.128371894
+MemTotal:       15154220 kB
+MemFree:         4160372 kB
+MemAvailable:    9998064 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4484076 kB
+Name:	llama-server
+VmSize:	 4389424 kB
+VmRSS:	  246676 kB
+RssAnon:	  166836 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876413.139737878
+MemTotal:       15154220 kB
+MemFree:         4160148 kB
+MemAvailable:    9997872 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4484076 kB
+Name:	llama-server
+VmSize:	 4390384 kB
+VmRSS:	  246676 kB
+RssAnon:	  166836 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876414.153201957
+MemTotal:       15154220 kB
+MemFree:         4159896 kB
+MemAvailable:    9997620 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4484076 kB
+Name:	llama-server
+VmSize:	 4390384 kB
+VmRSS:	  246676 kB
+RssAnon:	  166836 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876415.164910162
+MemTotal:       15154220 kB
+MemFree:         4072452 kB
+MemAvailable:    9910180 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4567112 kB
+Name:	llama-server
+VmSize:	 4473420 kB
+VmRSS:	  329712 kB
+RssAnon:	  249872 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876416.175955716
+MemTotal:       15154220 kB
+MemFree:         4072212 kB
+MemAvailable:    9909948 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4567112 kB
+Name:	llama-server
+VmSize:	 4473420 kB
+VmRSS:	  329712 kB
+RssAnon:	  249872 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876417.184110061
+MemTotal:       15154220 kB
+MemFree:         4072212 kB
+MemAvailable:    9909948 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4567112 kB
+Name:	llama-server
+VmSize:	 4473420 kB
+VmRSS:	  329712 kB
+RssAnon:	  249872 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876418.192554106
+MemTotal:       15154220 kB
+MemFree:         4072212 kB
+MemAvailable:    9909952 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4567112 kB
+Name:	llama-server
+VmSize:	 4473420 kB
+VmRSS:	  329712 kB
+RssAnon:	  249872 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876419.207664547
+MemTotal:       15154220 kB
+MemFree:         3992356 kB
+MemAvailable:    9830092 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4650148 kB
+Name:	llama-server
+VmSize:	 4556456 kB
+VmRSS:	  412748 kB
+RssAnon:	  332908 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876420.218303068
+MemTotal:       15154220 kB
+MemFree:         3992116 kB
+MemAvailable:    9829852 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4650148 kB
+Name:	llama-server
+VmSize:	 4556456 kB
+VmRSS:	  412748 kB
+RssAnon:	  332908 kB
+RssFile:	   79840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876421.225982214
+MemTotal:       15154220 kB
+MemFree:         3992116 kB
+MemAvailable:    9829896 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4650148 kB
+Name:	llama-server
+VmSize:	 4556968 kB
+VmRSS:	  412776 kB
+RssAnon:	  332908 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876422.233922286
+MemTotal:       15154220 kB
+MemFree:         3992368 kB
+MemAvailable:    9830148 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4650140 kB
+Name:	llama-server
+VmSize:	 4557012 kB
+VmRSS:	  412776 kB
+RssAnon:	  332908 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876423.243120894
+MemTotal:       15154220 kB
+MemFree:         3968428 kB
+MemAvailable:    9806248 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4671184 kB
+Name:	llama-server
+VmSize:	 4578056 kB
+VmRSS:	  433844 kB
+RssAnon:	  353976 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876424.257764099
+MemTotal:       15154220 kB
+MemFree:         3965404 kB
+MemAvailable:    9803224 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876425.264643356
+MemTotal:       15154220 kB
+MemFree:         3965164 kB
+MemAvailable:    9802984 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876426.274196756
+MemTotal:       15154220 kB
+MemFree:         3965164 kB
+MemAvailable:    9802988 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876427.286104497
+MemTotal:       15154220 kB
+MemFree:         3965164 kB
+MemAvailable:    9802988 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876428.298322682
+MemTotal:       15154220 kB
+MemFree:         3964924 kB
+MemAvailable:    9802764 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876429.314986667
+MemTotal:       15154220 kB
+MemFree:         3964924 kB
+MemAvailable:    9802772 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876430.327316737
+MemTotal:       15154220 kB
+MemFree:         3964924 kB
+MemAvailable:    9802772 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876431.339470319
+MemTotal:       15154220 kB
+MemFree:         3964924 kB
+MemAvailable:    9802772 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876432.351436866
+MemTotal:       15154220 kB
+MemFree:         3964924 kB
+MemAvailable:    9802772 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876433.363551896
+MemTotal:       15154220 kB
+MemFree:         3964924 kB
+MemAvailable:    9802772 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876434.380187805
+MemTotal:       15154220 kB
+MemFree:         3965292 kB
+MemAvailable:    9803144 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876435.392158194
+MemTotal:       15154220 kB
+MemFree:         3965040 kB
+MemAvailable:    9802892 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876436.403974024
+MemTotal:       15154220 kB
+MemFree:         3965040 kB
+MemAvailable:    9802896 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876437.415478713
+MemTotal:       15154220 kB
+MemFree:         3965040 kB
+MemAvailable:    9802896 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876438.427173579
+MemTotal:       15154220 kB
+MemFree:         3964800 kB
+MemAvailable:    9802660 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876439.443247407
+MemTotal:       15154220 kB
+MemFree:         3964560 kB
+MemAvailable:    9802428 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876440.454869429
+MemTotal:       15154220 kB
+MemFree:         3964560 kB
+MemAvailable:    9802428 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876441.466792675
+MemTotal:       15154220 kB
+MemFree:         3964560 kB
+MemAvailable:    9802428 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876442.478877603
+MemTotal:       15154220 kB
+MemFree:         3964560 kB
+MemAvailable:    9802428 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876443.490852391
+MemTotal:       15154220 kB
+MemFree:         3964320 kB
+MemAvailable:    9802188 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876444.507766268
+MemTotal:       15154220 kB
+MemFree:         3964320 kB
+MemAvailable:    9802188 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876445.519984871
+MemTotal:       15154220 kB
+MemFree:         3964320 kB
+MemAvailable:    9802188 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876446.531797489
+MemTotal:       15154220 kB
+MemFree:         3964320 kB
+MemAvailable:    9802200 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876447.543865795
+MemTotal:       15154220 kB
+MemFree:         3963828 kB
+MemAvailable:    9801708 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876448.555642654
+MemTotal:       15154220 kB
+MemFree:         3963828 kB
+MemAvailable:    9801708 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876449.571556966
+MemTotal:       15154220 kB
+MemFree:         3964080 kB
+MemAvailable:    9801964 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876450.583842407
+MemTotal:       15154220 kB
+MemFree:         3964080 kB
+MemAvailable:    9801964 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876451.596296375
+MemTotal:       15154220 kB
+MemFree:         3964080 kB
+MemAvailable:    9801964 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876452.608246580
+MemTotal:       15154220 kB
+MemFree:         3963828 kB
+MemAvailable:    9801712 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876453.620248397
+MemTotal:       15154220 kB
+MemFree:         3963588 kB
+MemAvailable:    9801472 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876454.635712513
+MemTotal:       15154220 kB
+MemFree:         3963588 kB
+MemAvailable:    9801472 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876455.647429449
+MemTotal:       15154220 kB
+MemFree:         3963588 kB
+MemAvailable:    9801488 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876456.659277127
+MemTotal:       15154220 kB
+MemFree:         3963904 kB
+MemAvailable:    9801804 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876457.671164405
+MemTotal:       15154220 kB
+MemFree:         3963904 kB
+MemAvailable:    9801804 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876458.683430360
+MemTotal:       15154220 kB
+MemFree:         3963904 kB
+MemAvailable:    9801804 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876459.695195416
+MemTotal:       15154220 kB
+MemFree:         3963904 kB
+MemAvailable:    9801804 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876460.707348300
+MemTotal:       15154220 kB
+MemFree:         3963904 kB
+MemAvailable:    9801812 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876461.719435672
+MemTotal:       15154220 kB
+MemFree:         3963680 kB
+MemAvailable:    9801588 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876462.731448454
+MemTotal:       15154220 kB
+MemFree:         3963680 kB
+MemAvailable:    9801588 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682360 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876463.743645477
+MemTotal:       15154220 kB
+MemFree:         3963440 kB
+MemAvailable:    9801348 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876464.755972125
+MemTotal:       15154220 kB
+MemFree:         3963188 kB
+MemAvailable:    9801100 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876465.768066132
+MemTotal:       15154220 kB
+MemFree:         3962936 kB
+MemAvailable:    9800868 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876466.779923867
+MemTotal:       15154220 kB
+MemFree:         3962936 kB
+MemAvailable:    9800868 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876467.792151620
+MemTotal:       15154220 kB
+MemFree:         3962936 kB
+MemAvailable:    9800880 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876468.804075704
+MemTotal:       15154220 kB
+MemFree:         3962696 kB
+MemAvailable:    9800640 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876469.820205126
+MemTotal:       15154220 kB
+MemFree:         3962696 kB
+MemAvailable:    9800640 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876470.832144645
+MemTotal:       15154220 kB
+MemFree:         3962696 kB
+MemAvailable:    9800640 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876471.844470874
+MemTotal:       15154220 kB
+MemFree:         3962696 kB
+MemAvailable:    9800640 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876472.856602316
+MemTotal:       15154220 kB
+MemFree:         3962444 kB
+MemAvailable:    9800388 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876473.868398870
+MemTotal:       15154220 kB
+MemFree:         3962204 kB
+MemAvailable:    9800156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876474.884912488
+MemTotal:       15154220 kB
+MemFree:         3962204 kB
+MemAvailable:    9800156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876475.896977581
+MemTotal:       15154220 kB
+MemFree:         3962204 kB
+MemAvailable:    9800156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876476.909060414
+MemTotal:       15154220 kB
+MemFree:         3961952 kB
+MemAvailable:    9799916 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876477.921421353
+MemTotal:       15154220 kB
+MemFree:         3961952 kB
+MemAvailable:    9799916 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876478.935630985
+MemTotal:       15154220 kB
+MemFree:         3961952 kB
+MemAvailable:    9799916 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876479.951240021
+MemTotal:       15154220 kB
+MemFree:         3961952 kB
+MemAvailable:    9799916 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876480.963285908
+MemTotal:       15154220 kB
+MemFree:         3961952 kB
+MemAvailable:    9799916 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876481.975120735
+MemTotal:       15154220 kB
+MemFree:         3960728 kB
+MemAvailable:    9798720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876482.987269009
+MemTotal:       15154220 kB
+MemFree:         3960728 kB
+MemAvailable:    9798720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876483.999213627
+MemTotal:       15154220 kB
+MemFree:         3960728 kB
+MemAvailable:    9798720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876485.016167522
+MemTotal:       15154220 kB
+MemFree:         3960236 kB
+MemAvailable:    9798228 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876486.027910718
+MemTotal:       15154220 kB
+MemFree:         3959984 kB
+MemAvailable:    9797976 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876487.040014293
+MemTotal:       15154220 kB
+MemFree:         3959984 kB
+MemAvailable:    9797984 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876488.052118008
+MemTotal:       15154220 kB
+MemFree:         3959984 kB
+MemAvailable:    9797984 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876489.063886975
+MemTotal:       15154220 kB
+MemFree:         3959744 kB
+MemAvailable:    9797744 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876490.079460463
+MemTotal:       15154220 kB
+MemFree:         3959492 kB
+MemAvailable:    9797492 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876491.092486988
+MemTotal:       15154220 kB
+MemFree:         3959492 kB
+MemAvailable:    9797500 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876492.104594195
+MemTotal:       15154220 kB
+MemFree:         3959492 kB
+MemAvailable:    9797500 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876493.116503123
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797264 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876494.128552293
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797264 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876495.144244440
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797268 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876496.156410803
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797268 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876497.168302620
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876498.180073403
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876499.191772180
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876500.207604847
+MemTotal:       15154220 kB
+MemFree:         3959252 kB
+MemAvailable:    9797272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876501.219656671
+MemTotal:       15154220 kB
+MemFree:         3958760 kB
+MemAvailable:    9796788 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876502.231958106
+MemTotal:       15154220 kB
+MemFree:         3958296 kB
+MemAvailable:    9796324 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876503.243858095
+MemTotal:       15154220 kB
+MemFree:         3958296 kB
+MemAvailable:    9796324 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876504.256064476
+MemTotal:       15154220 kB
+MemFree:         3958296 kB
+MemAvailable:    9796324 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876505.271896725
+MemTotal:       15154220 kB
+MemFree:         3958296 kB
+MemAvailable:    9796324 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876506.284176509
+MemTotal:       15154220 kB
+MemFree:         3958056 kB
+MemAvailable:    9796092 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876507.296019857
+MemTotal:       15154220 kB
+MemFree:         3958056 kB
+MemAvailable:    9796096 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876508.308022303
+MemTotal:       15154220 kB
+MemFree:         3957552 kB
+MemAvailable:    9795592 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876509.319963288
+MemTotal:       15154220 kB
+MemFree:         3957552 kB
+MemAvailable:    9795592 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876510.335449963
+MemTotal:       15154220 kB
+MemFree:         3957312 kB
+MemAvailable:    9795356 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876511.347307070
+MemTotal:       15154220 kB
+MemFree:         3957396 kB
+MemAvailable:    9795440 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876512.359290169
+MemTotal:       15154220 kB
+MemFree:         3956652 kB
+MemAvailable:    9794696 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876513.371315942
+MemTotal:       15154220 kB
+MemFree:         3956652 kB
+MemAvailable:    9794704 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876514.383240864
+MemTotal:       15154220 kB
+MemFree:         3956904 kB
+MemAvailable:    9794956 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876515.399925941
+MemTotal:       15154220 kB
+MemFree:         3956904 kB
+MemAvailable:    9794960 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876516.411766496
+MemTotal:       15154220 kB
+MemFree:         3956664 kB
+MemAvailable:    9794720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876517.423600694
+MemTotal:       15154220 kB
+MemFree:         3956664 kB
+MemAvailable:    9794720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876518.435149453
+MemTotal:       15154220 kB
+MemFree:         3956172 kB
+MemAvailable:    9794232 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876519.447029886
+MemTotal:       15154220 kB
+MemFree:         3956172 kB
+MemAvailable:    9794232 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876520.462691024
+MemTotal:       15154220 kB
+MemFree:         3956172 kB
+MemAvailable:    9794232 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876521.474366544
+MemTotal:       15154220 kB
+MemFree:         3956172 kB
+MemAvailable:    9794232 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876522.486676011
+MemTotal:       15154220 kB
+MemFree:         3956172 kB
+MemAvailable:    9794240 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876523.498636831
+MemTotal:       15154220 kB
+MemFree:         3956172 kB
+MemAvailable:    9794240 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876524.510711353
+MemTotal:       15154220 kB
+MemFree:         3955932 kB
+MemAvailable:    9794000 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876525.526103952
+MemTotal:       15154220 kB
+MemFree:         3955932 kB
+MemAvailable:    9794000 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876526.537870963
+MemTotal:       15154220 kB
+MemFree:         3955932 kB
+MemAvailable:    9794000 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876527.549732889
+MemTotal:       15154220 kB
+MemFree:         3955932 kB
+MemAvailable:    9794000 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876528.561757893
+MemTotal:       15154220 kB
+MemFree:         3956068 kB
+MemAvailable:    9794148 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876529.573691755
+MemTotal:       15154220 kB
+MemFree:         3956068 kB
+MemAvailable:    9794148 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876530.589416518
+MemTotal:       15154220 kB
+MemFree:         3955816 kB
+MemAvailable:    9793896 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682368 kB
+Name:	llama-server
+VmSize:	 4589232 kB
+VmRSS:	  440912 kB
+RssAnon:	  361044 kB
+RssFile:	   79868 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876531.600890756
+MemTotal:       15154220 kB
+MemFree:         3955816 kB
+MemAvailable:    9793896 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682740 kB
+Name:	llama-server
+VmSize:	 4654768 kB
+VmRSS:	  442244 kB
+RssAnon:	  361404 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876532.609047196
+MemTotal:       15154220 kB
+MemFree:         3955324 kB
+MemAvailable:    9793704 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682740 kB
+Name:	llama-server
+VmSize:	 4654768 kB
+VmRSS:	  442244 kB
+RssAnon:	  361404 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876533.617541317
+MemTotal:       15154220 kB
+MemFree:         3955324 kB
+MemAvailable:    9793700 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682740 kB
+Name:	llama-server
+VmSize:	 4654768 kB
+VmRSS:	  442244 kB
+RssAnon:	  361404 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876534.626010645
+MemTotal:       15154220 kB
+MemFree:         3955324 kB
+MemAvailable:    9793700 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682740 kB
+Name:	llama-server
+VmSize:	 4654768 kB
+VmRSS:	  442244 kB
+RssAnon:	  361404 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876535.641304070
+MemTotal:       15154220 kB
+MemFree:         3955084 kB
+MemAvailable:    9793512 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4682740 kB
+Name:	llama-server
+VmSize:	 4654768 kB
+VmRSS:	  442244 kB
+RssAnon:	  361404 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876536.648787591
+MemTotal:       15154220 kB
+MemFree:         3951844 kB
+MemAvailable:    9790272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4683068 kB
+Name:	llama-server
+VmSize:	 4720304 kB
+VmRSS:	  442596 kB
+RssAnon:	  361756 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876537.657210265
+MemTotal:       15154220 kB
+MemFree:         3951836 kB
+MemAvailable:    9790272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4683068 kB
+Name:	llama-server
+VmSize:	 4720304 kB
+VmRSS:	  442596 kB
+RssAnon:	  361756 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876538.666124899
+MemTotal:       15154220 kB
+MemFree:         3951836 kB
+MemAvailable:    9790272 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4683068 kB
+Name:	llama-server
+VmSize:	 4720304 kB
+VmRSS:	  442596 kB
+RssAnon:	  361756 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876539.673617500
+MemTotal:       15154220 kB
+MemFree:         3951344 kB
+MemAvailable:    9789780 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4683068 kB
+Name:	llama-server
+VmSize:	 4720304 kB
+VmRSS:	  442596 kB
+RssAnon:	  361756 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876540.686597511
+MemTotal:       15154220 kB
+MemFree:         3951344 kB
+MemAvailable:    9789784 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876541.695648964
+MemTotal:       15154220 kB
+MemFree:         3951344 kB
+MemAvailable:    9789788 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876542.703383983
+MemTotal:       15154220 kB
+MemFree:         3951344 kB
+MemAvailable:    9789788 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876543.713037884
+MemTotal:       15154220 kB
+MemFree:         3951092 kB
+MemAvailable:    9789540 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876544.725168069
+MemTotal:       15154220 kB
+MemFree:         3951092 kB
+MemAvailable:    9789540 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876545.740824109
+MemTotal:       15154220 kB
+MemFree:         3950852 kB
+MemAvailable:    9789300 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876546.752836542
+MemTotal:       15154220 kB
+MemFree:         3950852 kB
+MemAvailable:    9789300 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876547.765125405
+MemTotal:       15154220 kB
+MemFree:         3950852 kB
+MemAvailable:    9789300 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876548.777663602
+MemTotal:       15154220 kB
+MemFree:         3950612 kB
+MemAvailable:    9789068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876549.789843444
+MemTotal:       15154220 kB
+MemFree:         3950612 kB
+MemAvailable:    9789068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876550.805605013
+MemTotal:       15154220 kB
+MemFree:         3950612 kB
+MemAvailable:    9789068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876551.817736385
+MemTotal:       15154220 kB
+MemFree:         3950360 kB
+MemAvailable:    9788816 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876552.829587834
+MemTotal:       15154220 kB
+MemFree:         3950120 kB
+MemAvailable:    9788576 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876553.841713270
+MemTotal:       15154220 kB
+MemFree:         3950120 kB
+MemAvailable:    9788580 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876554.853827601
+MemTotal:       15154220 kB
+MemFree:         3950120 kB
+MemAvailable:    9788580 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876555.866041176
+MemTotal:       15154220 kB
+MemFree:         3949880 kB
+MemAvailable:    9788336 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876556.877984118
+MemTotal:       15154220 kB
+MemFree:         3949880 kB
+MemAvailable:    9788340 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876557.889596711
+MemTotal:       15154220 kB
+MemFree:         3949880 kB
+MemAvailable:    9788340 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876558.901704337
+MemTotal:       15154220 kB
+MemFree:         3949628 kB
+MemAvailable:    9788104 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876559.917300104
+MemTotal:       15154220 kB
+MemFree:         3948884 kB
+MemAvailable:    9787360 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876560.929443488
+MemTotal:       15154220 kB
+MemFree:         3948632 kB
+MemAvailable:    9787108 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876561.941353185
+MemTotal:       15154220 kB
+MemFree:         3948632 kB
+MemAvailable:    9787116 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876562.954264891
+MemTotal:       15154220 kB
+MemFree:         3948632 kB
+MemAvailable:    9787116 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876563.965808202
+MemTotal:       15154220 kB
+MemFree:         3948392 kB
+MemAvailable:    9786876 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876564.981133544
+MemTotal:       15154220 kB
+MemFree:         3948392 kB
+MemAvailable:    9786876 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876565.992943648
+MemTotal:       15154220 kB
+MemFree:         3948392 kB
+MemAvailable:    9786884 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876567.004671688
+MemTotal:       15154220 kB
+MemFree:         3948392 kB
+MemAvailable:    9786884 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876568.016495341
+MemTotal:       15154220 kB
+MemFree:         3948152 kB
+MemAvailable:    9786644 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876569.029389796
+MemTotal:       15154220 kB
+MemFree:         3947912 kB
+MemAvailable:    9786408 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876570.044861804
+MemTotal:       15154220 kB
+MemFree:         3947660 kB
+MemAvailable:    9786156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876571.056934999
+MemTotal:       15154220 kB
+MemFree:         3947660 kB
+MemAvailable:    9786156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876572.069114282
+MemTotal:       15154220 kB
+MemFree:         3947912 kB
+MemAvailable:    9786416 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876573.081050519
+MemTotal:       15154220 kB
+MemFree:         3947672 kB
+MemAvailable:    9786176 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876574.093036622
+MemTotal:       15154220 kB
+MemFree:         3947672 kB
+MemAvailable:    9786176 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876575.109532988
+MemTotal:       15154220 kB
+MemFree:         3947672 kB
+MemAvailable:    9786180 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876576.121853769
+MemTotal:       15154220 kB
+MemFree:         3947924 kB
+MemAvailable:    9786440 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876577.133707104
+MemTotal:       15154220 kB
+MemFree:         3947924 kB
+MemAvailable:    9786440 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876578.145619665
+MemTotal:       15154220 kB
+MemFree:         3947924 kB
+MemAvailable:    9786440 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876579.157349870
+MemTotal:       15154220 kB
+MemFree:         3947684 kB
+MemAvailable:    9786204 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876580.173252728
+MemTotal:       15154220 kB
+MemFree:         3948008 kB
+MemAvailable:    9786536 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876581.185247002
+MemTotal:       15154220 kB
+MemFree:         3948008 kB
+MemAvailable:    9786536 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876582.197154394
+MemTotal:       15154220 kB
+MemFree:         3948008 kB
+MemAvailable:    9786536 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876583.209101665
+MemTotal:       15154220 kB
+MemFree:         3948008 kB
+MemAvailable:    9786536 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876584.221214879
+MemTotal:       15154220 kB
+MemFree:         3948008 kB
+MemAvailable:    9786536 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876585.237382225
+MemTotal:       15154220 kB
+MemFree:         3947544 kB
+MemAvailable:    9786072 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876586.249266918
+MemTotal:       15154220 kB
+MemFree:         3947544 kB
+MemAvailable:    9786080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876587.261343535
+MemTotal:       15154220 kB
+MemFree:         3947544 kB
+MemAvailable:    9786080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876588.273260146
+MemTotal:       15154220 kB
+MemFree:         3947544 kB
+MemAvailable:    9786080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876589.284837819
+MemTotal:       15154220 kB
+MemFree:         3947304 kB
+MemAvailable:    9785848 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876590.300530665
+MemTotal:       15154220 kB
+MemFree:         3947304 kB
+MemAvailable:    9785848 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876591.312342654
+MemTotal:       15154220 kB
+MemFree:         3947052 kB
+MemAvailable:    9785596 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876592.324453632
+MemTotal:       15154220 kB
+MemFree:         3947052 kB
+MemAvailable:    9785596 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876593.336156320
+MemTotal:       15154220 kB
+MemFree:         3946812 kB
+MemAvailable:    9785356 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876594.347821224
+MemTotal:       15154220 kB
+MemFree:         3946812 kB
+MemAvailable:    9785356 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876595.363723104
+MemTotal:       15154220 kB
+MemFree:         3946812 kB
+MemAvailable:    9785360 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876596.376107092
+MemTotal:       15154220 kB
+MemFree:         3946812 kB
+MemAvailable:    9785368 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876597.388381987
+MemTotal:       15154220 kB
+MemFree:         3947064 kB
+MemAvailable:    9785620 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876598.400101507
+MemTotal:       15154220 kB
+MemFree:         3947064 kB
+MemAvailable:    9785620 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876599.411677713
+MemTotal:       15154220 kB
+MemFree:         3947064 kB
+MemAvailable:    9785624 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876600.427212368
+MemTotal:       15154220 kB
+MemFree:         3946824 kB
+MemAvailable:    9785384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876601.438877412
+MemTotal:       15154220 kB
+MemFree:         3946824 kB
+MemAvailable:    9785384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876602.451319018
+MemTotal:       15154220 kB
+MemFree:         3946824 kB
+MemAvailable:    9785384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876603.463147909
+MemTotal:       15154220 kB
+MemFree:         3946824 kB
+MemAvailable:    9785384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876604.475794079
+MemTotal:       15154220 kB
+MemFree:         3946824 kB
+MemAvailable:    9785384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876605.492245678
+MemTotal:       15154220 kB
+MemFree:         3946344 kB
+MemAvailable:    9784904 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876606.504030709
+MemTotal:       15154220 kB
+MemFree:         3946344 kB
+MemAvailable:    9784904 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876607.515861345
+MemTotal:       15154220 kB
+MemFree:         3946344 kB
+MemAvailable:    9784904 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876608.527882369
+MemTotal:       15154220 kB
+MemFree:         3946344 kB
+MemAvailable:    9784920 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876609.540117664
+MemTotal:       15154220 kB
+MemFree:         3946092 kB
+MemAvailable:    9784668 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876610.556569822
+MemTotal:       15154220 kB
+MemFree:         3946272 kB
+MemAvailable:    9784860 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876611.568891581
+MemTotal:       15154220 kB
+MemFree:         3945780 kB
+MemAvailable:    9784368 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876612.581088184
+MemTotal:       15154220 kB
+MemFree:         3945780 kB
+MemAvailable:    9784368 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876613.593166128
+MemTotal:       15154220 kB
+MemFree:         3945780 kB
+MemAvailable:    9784368 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876614.605184568
+MemTotal:       15154220 kB
+MemFree:         3945780 kB
+MemAvailable:    9784372 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876615.620587643
+MemTotal:       15154220 kB
+MemFree:         3945540 kB
+MemAvailable:    9784136 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876616.632513333
+MemTotal:       15154220 kB
+MemFree:         3945792 kB
+MemAvailable:    9784388 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876617.644283627
+MemTotal:       15154220 kB
+MemFree:         3945792 kB
+MemAvailable:    9784388 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876618.656041979
+MemTotal:       15154220 kB
+MemFree:         3945552 kB
+MemAvailable:    9784148 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876619.667733073
+MemTotal:       15154220 kB
+MemFree:         3945552 kB
+MemAvailable:    9784148 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876620.683206758
+MemTotal:       15154220 kB
+MemFree:         3945552 kB
+MemAvailable:    9784148 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876621.695174143
+MemTotal:       15154220 kB
+MemFree:         3945300 kB
+MemAvailable:    9783912 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684700 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876622.707116735
+MemTotal:       15154220 kB
+MemFree:         3945060 kB
+MemAvailable:    9783672 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876623.719020775
+MemTotal:       15154220 kB
+MemFree:         3945060 kB
+MemAvailable:    9783672 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876624.730931379
+MemTotal:       15154220 kB
+MemFree:         3945060 kB
+MemAvailable:    9783672 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876625.746694346
+MemTotal:       15154220 kB
+MemFree:         3944820 kB
+MemAvailable:    9783432 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876626.758791216
+MemTotal:       15154220 kB
+MemFree:         3945072 kB
+MemAvailable:    9783688 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876627.770848278
+MemTotal:       15154220 kB
+MemFree:         3945324 kB
+MemAvailable:    9783940 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876628.782883828
+MemTotal:       15154220 kB
+MemFree:         3945324 kB
+MemAvailable:    9783940 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876629.794753995
+MemTotal:       15154220 kB
+MemFree:         3945856 kB
+MemAvailable:    9784472 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876630.811640284
+MemTotal:       15154220 kB
+MemFree:         3945364 kB
+MemAvailable:    9783996 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876631.823890665
+MemTotal:       15154220 kB
+MemFree:         3945364 kB
+MemAvailable:    9783996 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876632.835915600
+MemTotal:       15154220 kB
+MemFree:         3945364 kB
+MemAvailable:    9783996 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876633.847732897
+MemTotal:       15154220 kB
+MemFree:         3945364 kB
+MemAvailable:    9783996 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876634.859593984
+MemTotal:       15154220 kB
+MemFree:         3945124 kB
+MemAvailable:    9783760 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876635.875253376
+MemTotal:       15154220 kB
+MemFree:         3945124 kB
+MemAvailable:    9783760 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876636.887342146
+MemTotal:       15154220 kB
+MemFree:         3945432 kB
+MemAvailable:    9784068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876637.899556140
+MemTotal:       15154220 kB
+MemFree:         3945432 kB
+MemAvailable:    9784068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876638.911767270
+MemTotal:       15154220 kB
+MemFree:         3945444 kB
+MemAvailable:    9784080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876639.923865817
+MemTotal:       15154220 kB
+MemFree:         3945444 kB
+MemAvailable:    9784080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876640.939670898
+MemTotal:       15154220 kB
+MemFree:         3945444 kB
+MemAvailable:    9784100 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876641.951781946
+MemTotal:       15154220 kB
+MemFree:         3945444 kB
+MemAvailable:    9784100 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876642.963602037
+MemTotal:       15154220 kB
+MemFree:         3945204 kB
+MemAvailable:    9783860 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684828 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876643.975576546
+MemTotal:       15154220 kB
+MemFree:         3945204 kB
+MemAvailable:    9783860 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876644.987675442
+MemTotal:       15154220 kB
+MemFree:         3945204 kB
+MemAvailable:    9783888 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876645.999676631
+MemTotal:       15154220 kB
+MemFree:         3945204 kB
+MemAvailable:    9783880 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876647.011422271
+MemTotal:       15154220 kB
+MemFree:         3944964 kB
+MemAvailable:    9783640 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876648.023659243
+MemTotal:       15154220 kB
+MemFree:         3944964 kB
+MemAvailable:    9783664 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4684820 kB
+Name:	llama-server
+VmSize:	 4722064 kB
+VmRSS:	  446116 kB
+RssAnon:	  365276 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876649.035951459
+MemTotal:       15154220 kB
+MemFree:         3944964 kB
+MemAvailable:    9783668 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685476 kB
+Name:	llama-server
+VmSize:	 4787600 kB
+VmRSS:	  446488 kB
+RssAnon:	  365648 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876650.043472136
+MemTotal:       15154220 kB
+MemFree:         3944964 kB
+MemAvailable:    9783672 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685476 kB
+Name:	llama-server
+VmSize:	 4787600 kB
+VmRSS:	  446488 kB
+RssAnon:	  365648 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876651.051948169
+MemTotal:       15154220 kB
+MemFree:         3944724 kB
+MemAvailable:    9783464 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685476 kB
+Name:	llama-server
+VmSize:	 4787600 kB
+VmRSS:	  446488 kB
+RssAnon:	  365648 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876652.067287898
+MemTotal:       15154220 kB
+MemFree:         3944724 kB
+MemAvailable:    9783464 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685484 kB
+Name:	llama-server
+VmSize:	 4787600 kB
+VmRSS:	  446488 kB
+RssAnon:	  365648 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876653.075091082
+MemTotal:       15154220 kB
+MemFree:         3943128 kB
+MemAvailable:    9781880 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446840 kB
+RssAnon:	  366000 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876654.083308353
+MemTotal:       15154220 kB
+MemFree:         3943128 kB
+MemAvailable:    9781880 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446840 kB
+RssAnon:	  366000 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876655.091514590
+MemTotal:       15154220 kB
+MemFree:         3942876 kB
+MemAvailable:    9781624 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446840 kB
+RssAnon:	  366000 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876656.099710770
+MemTotal:       15154220 kB
+MemFree:         3942876 kB
+MemAvailable:    9781624 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446840 kB
+RssAnon:	  366000 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876657.113710669
+MemTotal:       15154220 kB
+MemFree:         3942384 kB
+MemAvailable:    9781132 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876658.125099980
+MemTotal:       15154220 kB
+MemFree:         3942384 kB
+MemAvailable:    9781132 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876659.134341959
+MemTotal:       15154220 kB
+MemFree:         3942636 kB
+MemAvailable:    9781384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876660.144382640
+MemTotal:       15154220 kB
+MemFree:         3942636 kB
+MemAvailable:    9781384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876661.152302947
+MemTotal:       15154220 kB
+MemFree:         3942396 kB
+MemAvailable:    9781156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876662.166800394
+MemTotal:       15154220 kB
+MemFree:         3942396 kB
+MemAvailable:    9781156 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876663.178920731
+MemTotal:       15154220 kB
+MemFree:         3942396 kB
+MemAvailable:    9781164 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876664.191106649
+MemTotal:       15154220 kB
+MemFree:         3942652 kB
+MemAvailable:    9781424 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876665.202982892
+MemTotal:       15154220 kB
+MemFree:         3942652 kB
+MemAvailable:    9781420 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876666.214984221
+MemTotal:       15154220 kB
+MemFree:         3942652 kB
+MemAvailable:    9781420 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876667.230837840
+MemTotal:       15154220 kB
+MemFree:         3942412 kB
+MemAvailable:    9781188 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876668.242776801
+MemTotal:       15154220 kB
+MemFree:         3942412 kB
+MemAvailable:    9781188 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876669.254464612
+MemTotal:       15154220 kB
+MemFree:         3942412 kB
+MemAvailable:    9781188 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876670.266951755
+MemTotal:       15154220 kB
+MemFree:         3942664 kB
+MemAvailable:    9781440 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876671.278718627
+MemTotal:       15154220 kB
+MemFree:         3942676 kB
+MemAvailable:    9781456 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876672.295858788
+MemTotal:       15154220 kB
+MemFree:         3942676 kB
+MemAvailable:    9781456 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876673.308164693
+MemTotal:       15154220 kB
+MemFree:         3942676 kB
+MemAvailable:    9781452 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876674.320146117
+MemTotal:       15154220 kB
+MemFree:         3942436 kB
+MemAvailable:    9781212 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876675.332198708
+MemTotal:       15154220 kB
+MemFree:         3942436 kB
+MemAvailable:    9781220 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876676.344159529
+MemTotal:       15154220 kB
+MemFree:         3942436 kB
+MemAvailable:    9781220 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876677.359951060
+MemTotal:       15154220 kB
+MemFree:         3942308 kB
+MemAvailable:    9781092 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876678.371702567
+MemTotal:       15154220 kB
+MemFree:         3942308 kB
+MemAvailable:    9781092 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876679.383712066
+MemTotal:       15154220 kB
+MemFree:         3942308 kB
+MemAvailable:    9781096 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876680.395814035
+MemTotal:       15154220 kB
+MemFree:         3942308 kB
+MemAvailable:    9781096 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876681.407645231
+MemTotal:       15154220 kB
+MemFree:         3942068 kB
+MemAvailable:    9780856 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876682.423677853
+MemTotal:       15154220 kB
+MemFree:         3942068 kB
+MemAvailable:    9780856 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876683.435609061
+MemTotal:       15154220 kB
+MemFree:         3942068 kB
+MemAvailable:    9780864 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876684.447251686
+MemTotal:       15154220 kB
+MemFree:         3942068 kB
+MemAvailable:    9780864 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876685.459492848
+MemTotal:       15154220 kB
+MemFree:         3941588 kB
+MemAvailable:    9780384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876686.471176819
+MemTotal:       15154220 kB
+MemFree:         3941588 kB
+MemAvailable:    9780384 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876687.483291429
+MemTotal:       15154220 kB
+MemFree:         3941888 kB
+MemAvailable:    9780684 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876688.495199380
+MemTotal:       15154220 kB
+MemFree:         3941888 kB
+MemAvailable:    9780684 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876689.507664592
+MemTotal:       15154220 kB
+MemFree:         3941964 kB
+MemAvailable:    9780760 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876690.519495788
+MemTotal:       15154220 kB
+MemFree:         3941964 kB
+MemAvailable:    9780760 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876691.531714182
+MemTotal:       15154220 kB
+MemFree:         3941460 kB
+MemAvailable:    9780256 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876692.547651471
+MemTotal:       15154220 kB
+MemFree:         3941760 kB
+MemAvailable:    9780584 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876693.559422324
+MemTotal:       15154220 kB
+MemFree:         3941520 kB
+MemAvailable:    9780344 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876694.571639531
+MemTotal:       15154220 kB
+MemFree:         3941520 kB
+MemAvailable:    9780344 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876695.583819373
+MemTotal:       15154220 kB
+MemFree:         3941520 kB
+MemAvailable:    9780344 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876696.595857926
+MemTotal:       15154220 kB
+MemFree:         3941520 kB
+MemAvailable:    9780348 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876697.612680520
+MemTotal:       15154220 kB
+MemFree:         3941280 kB
+MemAvailable:    9780108 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876698.624740585
+MemTotal:       15154220 kB
+MemFree:         3941532 kB
+MemAvailable:    9780360 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876699.636790104
+MemTotal:       15154220 kB
+MemFree:         3941532 kB
+MemAvailable:    9780360 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876700.649118497
+MemTotal:       15154220 kB
+MemFree:         3941532 kB
+MemAvailable:    9780360 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876701.660787941
+MemTotal:       15154220 kB
+MemFree:         3941532 kB
+MemAvailable:    9780360 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876702.676481834
+MemTotal:       15154220 kB
+MemFree:         3941532 kB
+MemAvailable:    9780364 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876703.688194789
+MemTotal:       15154220 kB
+MemFree:         3941292 kB
+MemAvailable:    9780136 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876704.700138638
+MemTotal:       15154220 kB
+MemFree:         3941292 kB
+MemAvailable:    9780136 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876705.712299064
+MemTotal:       15154220 kB
+MemFree:         3941096 kB
+MemAvailable:    9779940 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876706.724129072
+MemTotal:       15154220 kB
+MemFree:         3940844 kB
+MemAvailable:    9779688 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876707.739762972
+MemTotal:       15154220 kB
+MemFree:         3940844 kB
+MemAvailable:    9779688 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876708.751683494
+MemTotal:       15154220 kB
+MemFree:         3940844 kB
+MemAvailable:    9779692 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876709.763703680
+MemTotal:       15154220 kB
+MemFree:         3940844 kB
+MemAvailable:    9779692 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876710.775676094
+MemTotal:       15154220 kB
+MemFree:         3940844 kB
+MemAvailable:    9779700 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876711.787647460
+MemTotal:       15154220 kB
+MemFree:         3941096 kB
+MemAvailable:    9779952 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876712.803120446
+MemTotal:       15154220 kB
+MemFree:         3940856 kB
+MemAvailable:    9779720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876713.815578884
+MemTotal:       15154220 kB
+MemFree:         3940856 kB
+MemAvailable:    9779720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876714.827564638
+MemTotal:       15154220 kB
+MemFree:         3940856 kB
+MemAvailable:    9779720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876715.839410500
+MemTotal:       15154220 kB
+MemFree:         3940856 kB
+MemAvailable:    9779720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876716.852074689
+MemTotal:       15154220 kB
+MemFree:         3940856 kB
+MemAvailable:    9779720 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876717.868671557
+MemTotal:       15154220 kB
+MemFree:         3941432 kB
+MemAvailable:    9780296 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876718.880875704
+MemTotal:       15154220 kB
+MemFree:         3941192 kB
+MemAvailable:    9780068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876719.893046187
+MemTotal:       15154220 kB
+MemFree:         3941192 kB
+MemAvailable:    9780068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876720.904692513
+MemTotal:       15154220 kB
+MemFree:         3941192 kB
+MemAvailable:    9780068 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876721.916810895
+MemTotal:       15154220 kB
+MemFree:         3941192 kB
+MemAvailable:    9780072 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876722.933012184
+MemTotal:       15154220 kB
+MemFree:         3941220 kB
+MemAvailable:    9780108 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876723.944662002
+MemTotal:       15154220 kB
+MemFree:         3941220 kB
+MemAvailable:    9780108 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876724.956927399
+MemTotal:       15154220 kB
+MemFree:         3940968 kB
+MemAvailable:    9779856 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876725.968478462
+MemTotal:       15154220 kB
+MemFree:         3940968 kB
+MemAvailable:    9779856 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876726.980492222
+MemTotal:       15154220 kB
+MemFree:         3940968 kB
+MemAvailable:    9779856 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876727.992107190
+MemTotal:       15154220 kB
+MemFree:         3940968 kB
+MemAvailable:    9779856 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876729.003975960
+MemTotal:       15154220 kB
+MemFree:         3940728 kB
+MemAvailable:    9779616 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876730.016522327
+MemTotal:       15154220 kB
+MemFree:         3940980 kB
+MemAvailable:    9779868 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876731.028847858
+MemTotal:       15154220 kB
+MemFree:         3941232 kB
+MemAvailable:    9780120 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876732.040893814
+MemTotal:       15154220 kB
+MemFree:         3941516 kB
+MemAvailable:    9780404 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876733.057869081
+MemTotal:       15154220 kB
+MemFree:         3941276 kB
+MemAvailable:    9780184 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876734.069691058
+MemTotal:       15154220 kB
+MemFree:         3941024 kB
+MemAvailable:    9779932 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876735.081624011
+MemTotal:       15154220 kB
+MemFree:         3941024 kB
+MemAvailable:    9779932 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876736.093942558
+MemTotal:       15154220 kB
+MemFree:         3941024 kB
+MemAvailable:    9779932 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876737.106049555
+MemTotal:       15154220 kB
+MemFree:         3940784 kB
+MemAvailable:    9779692 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876738.122700829
+MemTotal:       15154220 kB
+MemFree:         3940544 kB
+MemAvailable:    9779452 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876739.134603891
+MemTotal:       15154220 kB
+MemFree:         3940816 kB
+MemAvailable:    9779724 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876740.146618001
+MemTotal:       15154220 kB
+MemFree:         3941068 kB
+MemAvailable:    9779976 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876741.158401425
+MemTotal:       15154220 kB
+MemFree:         3941068 kB
+MemAvailable:    9779976 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685804 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876742.170669127
+MemTotal:       15154220 kB
+MemFree:         3940828 kB
+MemAvailable:    9779748 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876743.182646779
+MemTotal:       15154220 kB
+MemFree:         3940828 kB
+MemAvailable:    9779756 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876744.194246801
+MemTotal:       15154220 kB
+MemFree:         3941080 kB
+MemAvailable:    9780008 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876745.206482725
+MemTotal:       15154220 kB
+MemFree:         3941080 kB
+MemAvailable:    9780008 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876746.218537970
+MemTotal:       15154220 kB
+MemFree:         3941080 kB
+MemAvailable:    9780008 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876747.230219706
+MemTotal:       15154220 kB
+MemFree:         3941080 kB
+MemAvailable:    9780008 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876748.245885314
+MemTotal:       15154220 kB
+MemFree:         3940840 kB
+MemAvailable:    9779768 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876749.257579481
+MemTotal:       15154220 kB
+MemFree:         3940840 kB
+MemAvailable:    9779768 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876750.269405369
+MemTotal:       15154220 kB
+MemFree:         3940840 kB
+MemAvailable:    9779768 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876751.281488970
+MemTotal:       15154220 kB
+MemFree:         3940840 kB
+MemAvailable:    9779768 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876752.293672094
+MemTotal:       15154220 kB
+MemFree:         3940840 kB
+MemAvailable:    9779776 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876753.309553022
+MemTotal:       15154220 kB
+MemFree:         3940600 kB
+MemAvailable:    9779544 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876754.321486185
+MemTotal:       15154220 kB
+MemFree:         3940348 kB
+MemAvailable:    9779292 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876755.333110651
+MemTotal:       15154220 kB
+MemFree:         3940348 kB
+MemAvailable:    9779292 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876756.345167573
+MemTotal:       15154220 kB
+MemFree:         3940348 kB
+MemAvailable:    9779292 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876757.356216898
+MemTotal:       15154220 kB
+MemFree:         3940108 kB
+MemAvailable:    9779056 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876758.371857712
+MemTotal:       15154220 kB
+MemFree:         3940108 kB
+MemAvailable:    9779064 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876759.383845002
+MemTotal:       15154220 kB
+MemFree:         3940124 kB
+MemAvailable:    9779080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876760.395783124
+MemTotal:       15154220 kB
+MemFree:         3940124 kB
+MemAvailable:    9779080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876761.407576466
+MemTotal:       15154220 kB
+MemFree:         3940124 kB
+MemAvailable:    9779080 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876762.419291306
+MemTotal:       15154220 kB
+MemFree:         3939884 kB
+MemAvailable:    9778840 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876763.434925765
+MemTotal:       15154220 kB
+MemFree:         3939884 kB
+MemAvailable:    9778848 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876764.446815068
+MemTotal:       15154220 kB
+MemFree:         3939884 kB
+MemAvailable:    9778848 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4685812 kB
+Name:	llama-server
+VmSize:	 4853136 kB
+VmRSS:	  446844 kB
+RssAnon:	  366004 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876765.458289725
+MemTotal:       15154220 kB
+MemFree:         3939884 kB
+MemAvailable:    9778848 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4686196 kB
+Name:	llama-server
+VmSize:	 4918672 kB
+VmRSS:	  447216 kB
+RssAnon:	  366376 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876766.466353765
+MemTotal:       15154220 kB
+MemFree:         3939644 kB
+MemAvailable:    9778608 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4686196 kB
+Name:	llama-server
+VmSize:	 4918672 kB
+VmRSS:	  447216 kB
+RssAnon:	  366376 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876767.475428824
+MemTotal:       15154220 kB
+MemFree:         3939644 kB
+MemAvailable:    9778612 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4686196 kB
+Name:	llama-server
+VmSize:	 4918672 kB
+VmRSS:	  447216 kB
+RssAnon:	  366376 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876768.490159121
+MemTotal:       15154220 kB
+MemFree:         3939656 kB
+MemAvailable:    9778624 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4686196 kB
+Name:	llama-server
+VmSize:	 4918672 kB
+VmRSS:	  447216 kB
+RssAnon:	  366376 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876769.498354462
+MemTotal:       15154220 kB
+MemFree:         3939656 kB
+MemAvailable:    9778624 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4686196 kB
+Name:	llama-server
+VmSize:	 4918672 kB
+VmRSS:	  447216 kB
+RssAnon:	  366376 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---
+1789876770.506837758
+MemTotal:       15154220 kB
+MemFree:         3938684 kB
+MemAvailable:    9777652 kB
+SwapCached:            0 kB
+SwapTotal:      19347956 kB
+SwapFree:       19347956 kB
+Committed_AS:    4689164 kB
+Name:	llama-server
+VmSize:	 4918672 kB
+VmRSS:	  447216 kB
+RssAnon:	  366376 kB
+RssFile:	   80840 kB
+VmSwap:	       0 kB
+Threads:	22
+---

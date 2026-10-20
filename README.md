@@ -46,3 +46,7 @@ Inference used Q4_K_M GGUF weights on a ThinkPad T14 Gen 2a (Ryzen 7 PRO 5850U; 
 - Run `python -m unittest discover -s tests -v` to check the repository's deterministic tests. See [analysis](analysis/) for result derivations; no model run is required to inspect the frozen record.
 
 See [NOTICE.md](NOTICE.md) for model terms and attribution. Cite this work as “Small-Model Operational Benchmark, canonical V2,” with public artifact commit `d4fc747` and the model manifest revisions.
+
+Tier 1 evidence added after the tagged release (2026-10-20): [source, protocols, historical audits and small run records](supplements/tier1-20261020/README.md).
+
+Plans, handoffs and drafts live in _private/ and are never published.

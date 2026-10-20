@@ -1,0 +1,114 @@
+{
+  "version": "v2-repair-2026-09-19",
+  "v2_reference_commit": "ba5ae8fedbf7fe9907dd8ebe985451c04cbf5e1a",
+  "canonical_status": "incomplete_unresolved",
+  "replacement_count": 3,
+  "replacement_results": [
+    {
+      "replacement_id": "N-REPAIR-R1-Q01",
+      "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R1/Q01",
+      "status": "transport_invalid",
+      "provenance": "V2_REPLACEMENT_MEASUREMENT",
+      "v2_score": null,
+      "resolution": "UNRESOLVED_INSUFFICIENT_EVIDENCE",
+      "errors": [
+        "model_malformed_arguments",
+        "server_transport_error"
+      ],
+      "turns": 1,
+      "raw_response_count": 2,
+      "elapsed_s": 124.971098542,
+      "artifact": "runs/raw/v2-repair/thinkpad/N-REPAIR-R1-Q01"
+    },
+    {
+      "replacement_id": "N-REPAIR-R2-Q01",
+      "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R2/Q01",
+      "status": "transport_invalid",
+      "provenance": "V2_REPLACEMENT_MEASUREMENT",
+      "v2_score": null,
+      "resolution": "UNRESOLVED_INSUFFICIENT_EVIDENCE",
+      "errors": [
+        "model_malformed_arguments",
+        "server_transport_error"
+      ],
+      "turns": 1,
+      "raw_response_count": 2,
+      "elapsed_s": 112.404764625,
+      "artifact": "runs/raw/v2-repair/thinkpad/N-REPAIR-R2-Q01"
+    },
+    {
+      "replacement_id": "N-REPAIR-R3-Q01",
+      "historical_id": "nemotron-configuration-resolution-v1.0.0/thinkpad/R3/Q01",
+      "status": "transport_invalid",
+      "provenance": "V2_REPLACEMENT_MEASUREMENT",
+      "v2_score": null,
+      "resolution": "UNRESOLVED_INSUFFICIENT_EVIDENCE",
+      "errors": [
+        "model_malformed_arguments",
+        "server_transport_error"
+      ],
+      "turns": 1,
+      "raw_response_count": 2,
+      "elapsed_s": 112.616735125,
+      "artifact": "runs/raw/v2-repair/thinkpad/N-REPAIR-R3-Q01"
+    }
+  ],
+  "resource": {
+    "host": "ThinkPad T14 Gen 2a / pop-os",
+    "model_sha256": "be5d9a656a51922f24f1f09a759cebb694e1f5d9728bf0ef9f8c972c5a0b5ef2",
+    "llama_cpp_commit": "972d2313bc0bf0a45f634f77d95c9fb03aeab12",
+    "backend": "Vulkan/RADV",
+    "slots": 1,
+    "context_tokens": 16384,
+    "initial_swap_bytes": 0,
+    "final_swap_bytes": 0,
+    "maximum_swap_bytes": 0,
+    "minimum_mem_available_bytes": 10012366848,
+    "peak_server_rss_bytes": 457949184,
+    "telemetry_artifact": "runs/raw/v2-repair/thinkpad/host-telemetry/resource-monitor.log",
+    "resource_eligibility": "behavior_unresolved; telemetry itself passed observed RAM/swap checks"
+  },
+  "canonical_non_nemotron": "Reuse immutable V2 rescore artifact processed_results/v2-rescored-results.json",
+  "canonical_nemotron": {
+    "R1": {
+      "Q01": null,
+      "Q02": 0,
+      "Q03": 0,
+      "Q04": 0,
+      "Q05": 0,
+      "Q06": 0,
+      "Q07": 0,
+      "range": [
+        0,
+        10
+      ]
+    },
+    "R2": {
+      "Q01": null,
+      "Q02": 0,
+      "Q03": 0,
+      "Q04": 0,
+      "Q05": 0,
+      "Q06": 0,
+      "Q07": 0,
+      "range": [
+        0,
+        10
+      ]
+    },
+    "R3": {
+      "Q01": null,
+      "Q02": 0,
+      "Q03": 0,
+      "Q04": 0,
+      "Q05": 0,
+      "Q06": 0,
+      "Q07": 0,
+      "range": [
+        0,
+        10
+      ]
+    }
+  },
+  "no_score_imputed": true
+}
